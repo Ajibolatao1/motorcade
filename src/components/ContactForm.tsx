@@ -1,6 +1,11 @@
 import { useState } from 'react';
 import { Mail, User, MessageSquare, Send } from 'lucide-react';
 import { useToast } from "@/hooks/use-toast";
+import emailjs from '@emailjs/browser';
+
+const SERVICE_ID = 'drakesammy0101@gmail.com'; // Replace with your EmailJS Service ID
+const TEMPLATE_ID = 'template_812jhtb'; // Replace with your EmailJS Template ID
+const PUBLIC_KEY = 'QoVu1GxWACIo497UE'; // Replace with your EmailJS Public Key
 
 const ContactForm = () => {
   const { toast } = useToast();
@@ -22,23 +27,18 @@ const ContactForm = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('http://localhost:5000/send-email', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
-      });
+      await emailjs.send(SERVICE_ID, TEMPLATE_ID, {
+        name: formData.name,
+        email: formData.email,
+        subject: formData.subject,
+        message: formData.message
+      }, PUBLIC_KEY);
 
-      const data = await response.json();
-
-      if (response.ok) {
-        toast({ title: "Message Sent", description: "We'll get back to you soon." });
-        setFormData({ name: '', email: '', subject: '', message: '' });
-      } else {
-        toast({ title: "Error", description: data.error || "Something went wrong!", variant: "destructive" });
-      }
+      toast({ title: "Message Sent", description: "We'll get back to you soon." });
+      setFormData({ name: '', email: '', subject: '', message: '' });
     } catch (error) {
+      console.error("EmailJS Error:", error);
       toast({ title: "Error", description: "Failed to send message", variant: "destructive" });
-      console.error("Error sending email:", error);
     }
 
     setIsSubmitting(false);
