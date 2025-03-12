@@ -3,9 +3,9 @@ import { Mail, User, MessageSquare, Send } from 'lucide-react';
 import { useToast } from "@/hooks/use-toast";
 import emailjs from '@emailjs/browser';
 
-const SERVICE_ID = 'drakesammy0101@gmail.com'; // Replace with your EmailJS Service ID
-const TEMPLATE_ID = 'template_812jhtb'; // Replace with your EmailJS Template ID
-const PUBLIC_KEY = 'QoVu1GxWACIo497UE'; // Replace with your EmailJS Public Key
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 const ContactForm = () => {
   const { toast } = useToast();
