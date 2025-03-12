@@ -50,7 +50,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2 text-2xl font-display font-semibold tracking-tight">
           <img src="/logo.png" alt="Logo" className="h-8 w-8 object-contain" />
-          <span>Motorcade Tech</span>
+          <span>Motorcade Technology</span>
         </Link>
 
         {/* Desktop Navigation */}
