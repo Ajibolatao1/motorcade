@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json()); // Replaces bodyParser.json()
 
-// Root route to prevent "Cannot GET /"
+// Root route to check if the server is running
 app.get('/', (req, res) => {
   res.send('🚀 Server is running!');
 });
@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 // Check if environment variables exist
 if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
   console.error('❌ Missing EMAIL_USER or EMAIL_PASS in .env file');
-  process.exit(1); // Stop the server if credentials are missing
+  process.exit(1);
 }
 
 app.post('/send-email', async (req, res) => {
@@ -39,10 +39,9 @@ app.post('/send-email', async (req, res) => {
       },
     });
 
-    // ✅ Send email to YOU (the website owner)
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: process.env.EMAIL_USER, // ✅ Now emails go to the website owner (YOU)
+      to: process.env.EMAIL_USER,
       subject: `New Contact Form Submission: ${subject}`,
       text: `You received a message from:
 

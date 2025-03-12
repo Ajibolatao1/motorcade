@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { Mail, User, MessageSquare, Send } from 'lucide-react';
 import { useToast } from "@/hooks/use-toast";
 
+const API_URL = import.meta.env.VITE_API_URL; // ✅ Use environment variable
+
 const ContactForm = () => {
   const { toast } = useToast();
   const [formData, setFormData] = useState({
@@ -22,7 +24,7 @@ const ContactForm = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('http://localhost:5000/send-email', {
+      const response = await fetch(`${API_URL}/send-email`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
@@ -108,14 +110,7 @@ const ContactForm = () => {
         disabled={isSubmitting}
         className="button-hover w-full flex items-center justify-center gap-2 rounded-md bg-primary text-primary-foreground py-3 font-medium transition-colors disabled:opacity-70"
       >
-        {isSubmitting ? (
-          <>Processing...</>
-        ) : (
-          <>
-            Send Message
-            <Send size={18} />
-          </>
-        )}
+        {isSubmitting ? "Processing..." : <>Send Message <Send size={18} /></>}
       </button>
     </form>
   );
