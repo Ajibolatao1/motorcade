@@ -1,5 +1,4 @@
-
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import NewsCard from '@/components/NewsCard';
@@ -11,59 +10,67 @@ const News = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('newest');
+  const [forceUpdate, setForceUpdate] = useState(0);
 
   // Sample news data
   const allNews = [
     {
       id: '1',
-      title: 'New Fleet of Eco-Friendly Construction Trucks Launched',
-      excerpt: 'Our company introduces a revolutionary line of eco-friendly construction trucks designed to reduce emissions while maintaining performance.',
-      date: '2023-06-15',
-      image: 'https://images.unsplash.com/photo-1626327113655-733c19d09c2d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      title: 'Mini excavators - compact and efficient construction tools1. Small and flexible',
+      excerpt: '1. Small and flexible',
+      date: '2024-12-15',
+      image: '/mini-excavators.jpeg',
       category: 'Product Launch'
     },
     {
       id: '2',
-      title: 'Industry Insights: The Future of Construction Machinery',
-      excerpt: 'Expert analysis on upcoming trends and technological advancements in the construction machinery sector over the next decade.',
-      date: '2023-05-22',
-      image: 'https://images.unsplash.com/photo-1618761232055-3cd99ba58921?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
-      category: 'Industry News'
+      title: 'MOTORCADE-TECHNOLOGY Backhoe loader with powerful functions and excellent performance!',
+      excerpt: 'MOTORCADE-TECHNOLOGY Backhoe loader with powerful functions and excellent performance!',
+      date: '2024-11-13',
+      image: '/backhoe-loader.jpeg',
+      category: 'Product Launch'
     },
     {
       id: '3',
-      title: 'TruckCatalogue Expansion into Asian Markets',
-      excerpt: 'We\'re excited to announce our expansion into key Asian markets with new distribution centers in Singapore and Seoul.',
-      date: '2023-04-10',
-      image: 'https://images.unsplash.com/photo-1589293697715-f50f93553d30?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
-      category: 'Company Updates'
+      title: '4 wheel drive front articulated off-road forklift',
+      excerpt: 'The front-articulated 4×4 off-road forklift is a powerful tool designed for complex terrain and',
+      date: '2024-10-10',
+      image: '/4-wheel-drive-forklift.jpeg',
+      category: 'Product Launch'
     },
     {
       id: '4',
-      title: 'Annual Construction Machinery Expo 2023 Highlights',
-      excerpt: 'Recap of the exciting innovations and networking opportunities from this year\'s leading industry exhibition.',
-      date: '2023-07-05',
-      image: 'https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      title: '🌟 2025, let the dream further! 🌟',
+      excerpt: 'The gears of time are quietly turning, and we have ushered in 2025. Thank you for your company and support. It is your trust and encouragement that keeps us moving forward.',
+      date: '2025-01-05',
+      image: '/edu-friend.jpg',
       category: 'Events'
     },
     {
       id: '5',
-      title: 'Introducing Our Advanced Hydraulic System Technology',
-      excerpt: 'Our engineers have developed a breakthrough hydraulic system that significantly improves efficiency and reduces maintenance costs.',
-      date: '2023-03-18',
-      image: 'https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      title: '"Self-loading flat mouth mixer truck"---small and flexible concrete mixer truck',
+      excerpt: 'This type of mixer truck is easier to operate in narrow construction sites. They are also suitable',
+      date: '2024-08-18',
+      image: '/concrete-Cement-Mixer-Truck.jpeg',
       category: 'Product Launch'
     },
     {
       id: '6',
-      title: 'Sustainability in Construction: Reducing Carbon Footprint',
-      excerpt: 'How the construction machinery industry is adapting to environmental challenges and implementing sustainable practices.',
-      date: '2023-08-12',
-      image: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      title: 'MOTORCADE TECHNOLOGY—Leads the new era of intelligent building materials',
+      excerpt: 'Recently, mixing trucks have been exported to Southeast Asia, South America, the Middle East and Africa and other countries, widely used in road construction, residential development, bridge engineering and other fields. We firmly believe that quality products and perfect services will create greater value for global customers.',
+      date: '2025-02-13',
+      image: '/concrete-mixer.jpg',
       category: 'Industry News'
     }
   ];
 
+  // Handle category change
+  const handleCategoryChange = (category: string) => {
+    setSelectedCategory(() => category);
+    setForceUpdate((prev) => prev + 1); // Force re-render
+  };
+
+  
   // Filter and sort news
   const filteredNews = allNews
     .filter(news => 
@@ -131,7 +138,7 @@ const News = () => {
                 {categories.map((category) => (
                   <button
                     key={category}
-                    onClick={() => setSelectedCategory(category)}
+                    onClick={() => handleCategoryChange(category)}
                     className={`px-4 py-1.5 rounded-full text-sm transition-colors ${
                       selectedCategory === category
                         ? 'bg-primary text-primary-foreground'
@@ -163,52 +170,19 @@ const News = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredNews.length > 0 ? (
               filteredNews.map((news, index) => (
-                <AnimatedSection key={news.id} staggerIndex={Math.min(index % 3 + 1, 5)}>
+                <AnimatedSection key={`${news.id}-${forceUpdate}`} staggerIndex={Math.min(index % 3 + 1, 5)}>
                   <NewsCard {...news} />
                 </AnimatedSection>
               ))
             ) : (
               <div className="col-span-full py-12 text-center">
-                <p className="text-xl text-muted-foreground">
-                  No news found matching your criteria. Please try a different search or filter.
-                </p>
+                <p className="text-xl text-muted-foreground">No news found.</p>
               </div>
             )}
           </div>
         </div>
       </section>
-      
-      {/* Newsletter Section */}
-      <section className="py-20 px-6 bg-secondary/30">
-        <div className="container mx-auto max-w-7xl">
-          <div className="max-w-3xl mx-auto text-center">
-            <AnimatedSection>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Stay Updated</h2>
-              <p className="text-lg text-muted-foreground mb-8">
-                Subscribe to our newsletter to receive the latest news, product updates, and industry insights.
-              </p>
-              
-              <div className="flex flex-col sm:flex-row gap-3 max-w-xl mx-auto">
-                <input
-                  type="email"
-                  placeholder="Your email address"
-                  className="flex-grow px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-ring"
-                />
-                <button
-                  type="button"
-                  className="button-hover bg-primary text-primary-foreground px-6 py-3 rounded-md font-medium"
-                >
-                  Subscribe
-                </button>
-              </div>
-              <p className="text-xs text-muted-foreground mt-4">
-                By subscribing, you agree to receive marketing emails from us. You can unsubscribe at any time.
-              </p>
-            </AnimatedSection>
-          </div>
-        </div>
-      </section>
-      
+
       <Footer />
     </div>
   );

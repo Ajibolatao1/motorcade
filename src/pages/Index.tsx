@@ -38,19 +38,19 @@ const Index = () => {
   const latestNews = [
     {
       id: '1',
-      title: 'New Fleet of Eco-Friendly Construction Trucks Launched',
-      excerpt: 'Our company introduces a revolutionary line of eco-friendly construction trucks designed to reduce emissions while maintaining performance.',
-      date: '2023-06-15',
-      image: 'https://images.unsplash.com/photo-1626327113655-733c19d09c2d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      title: 'Mini excavators - compact and efficient construction tools1. Small and flexible',
+      excerpt: '1. Small and flexible',
+      date: '2024-12-15',
+      image: '/mini-excavators.jpeg',
       category: 'Product Launch'
     },
     {
       id: '2',
-      title: 'Industry Insights: The Future of Construction Machinery',
-      excerpt: 'Expert analysis on upcoming trends and technological advancements in the construction machinery sector over the next decade.',
-      date: '2023-05-22',
-      image: 'https://images.unsplash.com/photo-1618761232055-3cd99ba58921?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
-      category: 'Industry News'
+      title: 'MOTORCADE-TECHNOLOGY Backhoe loader with powerful functions and excellent performance!',
+      excerpt: 'MOTORCADE-TECHNOLOGY Backhoe loader with powerful functions and excellent performance!',
+      date: '2024-11-13',
+      image: '/backhoe-loader.jpeg',
+      category: 'Product Launch'
     }
   ];
 
