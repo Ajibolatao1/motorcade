@@ -3,34 +3,37 @@ import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ProductCard from '@/components/ProductCard';
+import { useTranslation } from 'react-i18next'; // Import translation hook
 import NewsCard from '@/components/NewsCard';
 import AnimatedSection from '@/components/AnimatedSection';
 import { Truck, Settings, BarChart3, Users, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Index = () => {
+  const { t } = useTranslation();
+
   // Sample data for featured products
   const featuredProducts = [
     {
       id: '1',
-      name: 'Underground mining truck',
-      description: 'A powerful and compact truck designed for efficient hauling in underground mining operations.',
+      name: t('products.1.name'),
+      description: t('products.1.description'),
       image: '/Underground mining truck.jpeg',
-      category: 'Underground machines'
+      category: t('category.underground_machines')
     },
     {
       id: '2',
-      name: 'Rubber Wheel Roller',
-      description: 'Versatile and maneuverable loader perfect for tight spaces and urban construction sites.',
+      name: t('products.2.name'),
+      description: t('products.2.description'),
       image: '/2 tire roller.jpg',
-      category: 'Roller'
+      category: t('category.roller')
     },
     {
       id: '3',
-      name: 'Hydraulic Drum Roller',
-      description: 'High-capacity lifting solution for major construction and infrastructure projects.',
+      name: t('products.3.name'),
+      description: t('products.3.description'),
       image: '/hydraulic drum-1.jpg',
-      category: 'Roller'
+      category: t('category.roller')
     }
   ];
 
@@ -38,19 +41,19 @@ const Index = () => {
   const latestNews = [
     {
       id: '1',
-      title: 'Mini excavators - compact and efficient construction tools1. Small and flexible',
-      excerpt: '1. Small and flexible',
-      date: '2024-12-15',
+      title: t('news_1_title'),
+      excerpt: t('news_1_excerpt'),
+      date: t('category.date_1'),
       image: '/mini-excavators.jpeg',
-      category: 'Product Launch'
+      category: t('category.product launch'),
     },
     {
       id: '2',
-      title: 'MOTORCADE-TECHNOLOGY Backhoe loader with powerful functions and excellent performance!',
-      excerpt: 'MOTORCADE-TECHNOLOGY Backhoe loader with powerful functions and excellent performance!',
-      date: '2024-11-13',
+      title: t('news_2_title'),
+      excerpt: t('news_2_excerpt'),
+      date: t('category.date_2'),
       image: '/backhoe-loader.jpeg',
-      category: 'Product Launch'
+      category: t('category.product launch'),
     }
   ];
 
@@ -60,12 +63,12 @@ const Index = () => {
       
       {/* Hero Section */}
       <Hero 
-        title="Premium Truck Machinery for Every Project"
-        subtitle="Discover our extensive catalogue of high-performance construction and industrial vehicles."
+        title= {t('premium_truck_machinery_for_every_project')}
+        subtitle={t('discover_our_extensive_catalogue')}
         image="https://images.unsplash.com/photo-1597347063661-36b597ae5de3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
-        primaryButtonText="Explore Products"
+        primaryButtonText={t('explore_products')}
         primaryButtonLink="/products"
-        secondaryButtonText="Contact Us"
+        secondaryButtonText={t('contact_us')}
         secondaryButtonLink="/contact"
       />
       
@@ -74,11 +77,11 @@ const Index = () => {
         <div className="container mx-auto max-w-7xl">
           <AnimatedSection className="text-center mb-16">
             <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-sm font-medium rounded-full mb-3">
-              Why Choose Us
+            {t('why_choose_us')}
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Industry-Leading Truck Solutions</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('industry_Leading_Truck_Solutions')}</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              We provide top-quality machinery backed by years of industry expertise and exceptional customer service.
+            {t('we_provide')}
             </p>
           </AnimatedSection>
           
@@ -89,9 +92,9 @@ const Index = () => {
                   <Truck className="h-8 w-8 text-primary" />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Premium Quality</h3>
+              <h3 className="text-xl font-semibold mb-2">{t('premium_quality')}</h3>
               <p className="text-muted-foreground">
-                All our machines are built with the highest quality materials and strict quality control.
+              {t('all_our_machines')}
               </p>
             </AnimatedSection>
             
@@ -101,9 +104,9 @@ const Index = () => {
                   <Settings className="h-8 w-8 text-primary" />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Expert Maintenance</h3>
+              <h3 className="text-xl font-semibold mb-2">{t('expert_maintenance')}</h3>
               <p className="text-muted-foreground">
-                Our team of specialists provides ongoing maintenance and service support.
+              {t('our_team_of_specialists')}
               </p>
             </AnimatedSection>
             
@@ -113,9 +116,9 @@ const Index = () => {
                   <BarChart3 className="h-8 w-8 text-primary" />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Performance</h3>
+              <h3 className="text-xl font-semibold mb-2">{t('performance')}</h3>
               <p className="text-muted-foreground">
-                Our machinery is designed for maximum efficiency and productivity on every job.
+              {t('our_machine_is_designed')}
               </p>
             </AnimatedSection>
             
@@ -125,9 +128,9 @@ const Index = () => {
                   <Users className="h-8 w-8 text-primary" />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Customer Support</h3>
+              <h3 className="text-xl font-semibold mb-2">{t('customer_support')}</h3>
               <p className="text-muted-foreground">
-                We pride ourselves on responsive and helpful customer service.
+              {t('we_pride_ourselves')}
               </p>
             </AnimatedSection>
           </div>
@@ -140,15 +143,15 @@ const Index = () => {
           <AnimatedSection className="flex flex-col md:flex-row md:items-end justify-between mb-12">
             <div>
               <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-sm font-medium rounded-full mb-3">
-                Featured Products
+              {t('featured_products')}
               </span>
-              <h2 className="text-3xl md:text-4xl font-bold">Our Premium Machinery</h2>
+              <h2 className="text-3xl md:text-4xl font-bold">{t('our_premium_machinery')}</h2>
             </div>
             <Link 
               to="/products" 
               className="inline-flex items-center text-primary mt-4 md:mt-0 group"
             >
-              View all products 
+              {t('view_all_products')} 
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Link>
           </AnimatedSection>
@@ -177,16 +180,16 @@ const Index = () => {
         <div className="container mx-auto max-w-5xl relative z-10 text-center">
           <AnimatedSection>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-              Ready to Upgrade Your Fleet?
+            {t('ready_to_upgrade_your_fleet')}
             </h2>
             <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
-              Contact our team today to discuss your specific requirements and find the perfect machinery for your projects.
+            {t('contact_our_team')}
             </p>
             <Link 
               to="/contact"
               className="button-hover inline-flex items-center justify-center rounded-md bg-white text-primary px-8 py-4 text-lg font-medium shadow-lg"
             >
-              Get in Touch
+              {t('get_in_touch')}
             </Link>
           </AnimatedSection>
         </div>
@@ -198,15 +201,15 @@ const Index = () => {
           <AnimatedSection className="flex flex-col md:flex-row md:items-end justify-between mb-12">
             <div>
               <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-sm font-medium rounded-full mb-3">
-                Latest Updates
+              {t('latest_updates')}
               </span>
-              <h2 className="text-3xl md:text-4xl font-bold">News & Insights</h2>
+              <h2 className="text-3xl md:text-4xl font-bold">{t('news_insight')}</h2>
             </div>
             <Link 
               to="/news" 
               className="inline-flex items-center text-primary mt-4 md:mt-0 group"
             >
-              View all news 
+              {t('view_all_news')} 
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Link>
           </AnimatedSection>

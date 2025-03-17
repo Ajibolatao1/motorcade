@@ -1,7 +1,7 @@
-
 import { useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 interface ProductCardProps {
   id: string;
@@ -12,6 +12,7 @@ interface ProductCardProps {
 }
 
 const ProductCard = ({ id, name, description, image, category }: ProductCardProps) => {
+  const { t } = useTranslation(); // Translation Hook
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -23,7 +24,7 @@ const ProductCard = ({ id, name, description, image, category }: ProductCardProp
       {/* Category Tag */}
       <div className="absolute top-4 left-4 z-10">
         <span className="bg-primary/90 text-primary-foreground text-xs font-medium px-3 py-1 rounded-full">
-          {category}
+          {t(category)}
         </span>
       </div>
       
@@ -31,7 +32,7 @@ const ProductCard = ({ id, name, description, image, category }: ProductCardProp
       <div className="relative overflow-hidden aspect-[4/3]">
         <img 
           src={image} 
-          alt={name}
+          alt={t(name)}
           className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
           loading="lazy"
         />
@@ -40,14 +41,14 @@ const ProductCard = ({ id, name, description, image, category }: ProductCardProp
       
       {/* Content */}
       <div className="p-6">
-        <h3 className="text-xl font-semibold mb-2 transition-colors">{name}</h3>
-        <p className="text-muted-foreground line-clamp-2 mb-4">{description}</p>
+        <h3 className="text-xl font-semibold mb-2 transition-colors">{t(name)}</h3>
+        <p className="text-muted-foreground line-clamp-2 mb-4">{t(description)}</p>
         
         <Link 
           to={`/products/${id}`}
           className="inline-flex items-center text-primary transition-all duration-300 relative hover:translate-x-1"
         >
-          <span>View details</span>
+          <span>{t('view_details')}</span>
           <ArrowRight 
             className={`ml-1 h-4 w-4 transition-transform duration-300 ${
               isHovered ? 'transform translate-x-1' : ''

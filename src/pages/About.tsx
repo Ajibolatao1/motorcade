@@ -3,30 +3,31 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import AnimatedSection from '@/components/AnimatedSection';
 import { Check, TrendingUp, Award, Users } from 'lucide-react';
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation(); // Translation Hook
   const stats = [
-    { label: 'Years of Experience', value: '25+' },
-    { label: 'Satisfied Clients', value: '500+' },
-    { label: 'Projects Completed', value: '1000+' },
-    { label: 'Countries Served', value: '30+' }
+    { label: t('about.stats.experience'), value: '25+' },
+    { label: t('about.stats.clients'), value: '500+' },
+    { label: t('about.stats.projects'), value: '1000+' },
+    { label: t('about.stats.countries'), value: '30+' }
   ];
-
   const values = [
     { 
       icon: <Award className="h-6 w-6" />,
-      title: 'Excellence', 
-      description: 'We strive for excellence in every aspect of our business, from the quality of our machinery to our customer service.'
+      title: t('core.value.1'), 
+      description:  t('core.value.1.description')
     },
     { 
       icon: <Users className="h-6 w-6" />,
-      title: 'Collaboration', 
-      description: 'We believe in working closely with our clients to understand their unique needs and provide tailored solutions.'
+      title: t('core.value.2'), 
+      description: t('core.value.2.description')
     },
     { 
       icon: <TrendingUp className="h-6 w-6" />,
-      title: 'Innovation', 
-      description: 'We continuously seek new technologies and approaches to improve our products and services.'
+      title: t('core.value.3'), 
+      description: t('core.value.3.description')
     }
   ];
 
@@ -40,15 +41,15 @@ const About = () => {
           <div className="max-w-3xl">
             <AnimatedSection staggerIndex={1}>
               <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-sm font-medium rounded-full mb-3">
-                About Us
+              {t("about_us")}
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                Our Story & Mission
+              {t("story_mission")}
               </h1>
             </AnimatedSection>
             <AnimatedSection staggerIndex={2}>
               <p className="text-xl text-muted-foreground">
-                Learn about our journey to becoming a leading provider of premium truck machinery solutions.
+              {t("learn_about_us")}
               </p>
             </AnimatedSection>
           </div>
@@ -70,52 +71,15 @@ const About = () => {
             </AnimatedSection>
             
             <AnimatedSection className="space-y-6">
-              <h2 className="text-3xl md:text-4xl font-bold">Our Story</h2>
+              <h2 className="text-3xl md:text-4xl font-bold">{t("our_story")}</h2>
               <p className="text-lg text-muted-foreground">
-              Qingdao Auto Motorcade Technology Company Limited is a dynamic and diversified company that
-operates at the intersection of innovation, engineering excellence, and industrial growth. Comprising
-four distinct manufacturing companies, our organization is a powerhouse in the production of
-construction equipment, heavy machinery, and large automotive equipment. Each of our factories bring
-unique expertise and capabilities, collectively positioning our company as a leader in the global
-industrial and manufacturing sectors.
-Our company specializes in designing and manufacturing state-of-the-art construction equipment, such
-as excavators, bulldozers, cranes, and loaders. These machines are built to withstand the toughest
-environments, enabling infrastructure development across the globe. Our equipment is known for its
-durability, efficiency, and advanced technology, making it a preferred choice for construction firms and
-contractors.
-Our company focuses on heavy machinery used in industries like mining, agriculture, and logistics. This
-includes equipment such as drilling rigs, harvesters, and material handling systems. Our machinery is
-engineered to maximize productivity while minimizing environmental impact, aligning with global
-sustainability goals.
-Our company is a key player in the automotive sector, producing large-scale automotive equipment such
-as commercial vehicles, industrial trucks, and specialized transport solutions. These vehicles are
-designed for heavy-duty applications, ensuring reliability and performance in demanding conditions.
-Our company also specializes in manufacturing critical components and systems that support the
-broader industrial ecosystem. This includes engines, hydraulic systems, and automation technologies
-that are integral to the functionality of construction and automotive equipment. We invest heavily in
-research and development, driving innovation in automation, electrification, and smart technologies.
-This ensures that our products remain at the cutting edge of the industry. With a robust supply chain
-and a presence in multiple markets, our company serves clients across the globe, from emerging
-economies to developed nations.
-Our company is committed to reducing their carbon footprint by developing energy-efficient machinery
-and adopting eco-friendly manufacturing practices. By offering tailored solutions and exceptional after-
-sales support, we have built long-lasting relationships with clients.
-Our company’s vision is to revolutionize the manufacturing industry by delivering high-quality,
-innovative, and sustainable solutions that empower businesses and communities worldwide. The
-mission is to drive industrial progress through cutting-edge technology, operational excellence, and a
-commitment to environmental stewardship.
-As the world moves toward smarter and greener technologies, Qingdao Auto Motorcade Technology
-Company Limited is well-positioned to lead the charge in the next generation of manufacturing. By
-embracing digital transformation, expanding into emerging markets, and fostering strategic
-partnerships, we are poised for sustained growth and success in the years to come.
-Qingdao Auto Motorcade Technology Company Limited is not just a manufacturer; it is a catalyst for
-progress, shaping the future of construction, machinery, and automotive industries.
+              {t("story_information")}
               </p>
               <p className="text-lg text-muted-foreground">
-                Over the decades, we've expanded our product range, embraced technological innovations, and built lasting relationships with clients across the world. Our commitment to quality and customer satisfaction has remained unchanged throughout our journey.
+              {t("cont_abouta_us")}
               </p>
               <p className="text-lg text-muted-foreground">
-                Today, we continue to push the boundaries of what's possible in truck machinery, always striving to deliver products that exceed expectations and help our clients achieve success in their projects.
+              {t("cont_abouta_us_par")}
               </p>
             </AnimatedSection>
           </div>
@@ -126,9 +90,9 @@ progress, shaping the future of construction, machinery, and automotive industri
       <section className="py-20 px-6 bg-secondary/30">
         <div className="container mx-auto max-w-7xl">
           <AnimatedSection className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Impact in Numbers</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4"> {t("our_impact_in_numbers")}</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Over the years, we've achieved significant milestones through our dedication to excellence.
+            {t("our_impact_in_numbers_1")}
             </p>
           </AnimatedSection>
           
@@ -152,14 +116,14 @@ progress, shaping the future of construction, machinery, and automotive industri
         <div className="container mx-auto max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <AnimatedSection className="order-2 lg:order-1 space-y-6">
-              <h2 className="text-3xl md:text-4xl font-bold">Our Mission & Vision</h2>
+              <h2 className="text-3xl md:text-4xl font-bold">{t("our_mission")}</h2>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <div className="mt-1 p-1 bg-primary/10 rounded-full">
                     <Check className="h-5 w-5 text-primary" />
                   </div>
                   <p className="text-lg text-muted-foreground">
-                    To provide innovative, reliable, and efficient truck machinery solutions that empower our clients to excel in their industries.
+                  {t("mission_1")}
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
@@ -167,7 +131,7 @@ progress, shaping the future of construction, machinery, and automotive industri
                     <Check className="h-5 w-5 text-primary" />
                   </div>
                   <p className="text-lg text-muted-foreground">
-                    To lead the industry in product quality, technical innovation, and customer satisfaction.
+                  {t("mission_2")}
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
@@ -175,7 +139,7 @@ progress, shaping the future of construction, machinery, and automotive industri
                     <Check className="h-5 w-5 text-primary" />
                   </div>
                   <p className="text-lg text-muted-foreground">
-                    To maintain ethical business practices and sustainable operations throughout our global supply chain.
+                  {t("mission_3")}
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
@@ -183,7 +147,7 @@ progress, shaping the future of construction, machinery, and automotive industri
                     <Check className="h-5 w-5 text-primary" />
                   </div>
                   <p className="text-lg text-muted-foreground">
-                    To be recognized as the trusted partner for construction and industrial machinery worldwide.
+                  {t("mission_4")}
                   </p>
                 </div>
               </div>
@@ -206,9 +170,9 @@ progress, shaping the future of construction, machinery, and automotive industri
       <section className="py-20 px-6 bg-secondary/30">
         <div className="container mx-auto max-w-7xl">
           <AnimatedSection className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Core Values</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">{t("our_core_values")}</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              These principles guide our decisions and actions every day.
+            {t("our_core_description")}
             </p>
           </AnimatedSection>
           
@@ -234,9 +198,9 @@ progress, shaping the future of construction, machinery, and automotive industri
       <section className="py-20 px-6">
         <div className="container mx-auto max-w-7xl">
           <AnimatedSection className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Leadership Team</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">{t("our_leadership_team")}</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Meet the experts who drive our vision forward.
+            {t("our_leadership_team_description")}
             </p>
           </AnimatedSection>
           
@@ -251,10 +215,10 @@ progress, shaping the future of construction, machinery, and automotive industri
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-1">Chinedu Okolo</h3>
-                  <p className="text-primary mb-3">Chief Executive Officer</p>
+                  <h3 className="text-xl font-semibold mb-1">{t("ceo_name")}</h3>
+                  <p className="text-primary mb-3">{t("chief_executive_officer")}</p>
                   <p className="text-muted-foreground">
-                    With over 25 years of industry experience, Chinedu leads our company with vision and expertise.
+                  {t("chief_executive_officer_experience")}
                   </p>
                 </div>
               </div>
@@ -270,10 +234,10 @@ progress, shaping the future of construction, machinery, and automotive industri
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-1">Sarah Chen</h3>
-                  <p className="text-primary mb-3">Chief Technology Officer</p>
+                  <h3 className="text-xl font-semibold mb-1">{t("cto_name")}</h3>
+                  <p className="text-primary mb-3">{t("chief_technology_officer")}</p>
                   <p className="text-muted-foreground">
-                    Sarah drives our technological innovations and ensures our products remain at the cutting edge.
+                  {t("chief_technology_officer.experience")}
                   </p>
                 </div>
               </div>
@@ -289,10 +253,10 @@ progress, shaping the future of construction, machinery, and automotive industri
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-1">Michael Rodriguez</h3>
-                  <p className="text-primary mb-3">Chief Operations Officer</p>
+                  <h3 className="text-xl font-semibold mb-1">{t("cpo_name")}</h3>
+                  <p className="text-primary mb-3">{t("chief_operations_officer")}</p>
                   <p className="text-muted-foreground">
-                    Michael ensures smooth operations across our global manufacturing and distribution network.
+                  {t("chief_operations_officer_experience")}
                   </p>
                 </div>
               </div>

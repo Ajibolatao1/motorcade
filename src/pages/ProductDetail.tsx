@@ -1,8 +1,8 @@
-
 import { useParams, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { useTranslation } from 'react-i18next'; // Import translation hook
 import AnimatedSection from '@/components/AnimatedSection';
 import { ArrowLeft, Truck, Tag, Calendar, Shield } from 'lucide-react';
 
@@ -256,6 +256,7 @@ const productsData = [
 ];
 
 const ProductDetail = () => {
+  const { t } = useTranslation(); // Initialize the translation hook
   const { id } = useParams<{ id: string }>();
   const [product, setProduct] = useState<any>(null);
   const [loading, setLoading] = useState(true);
@@ -284,7 +285,7 @@ const ProductDetail = () => {
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <div className="flex-1 flex items-center justify-center">
-          <div className="animate-pulse">Loading product details...</div>
+          <div className="animate-pulse">{t('loading')}</div>
         </div>
         <Footer />
       </div>
@@ -296,14 +297,14 @@ const ProductDetail = () => {
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <div className="flex-1 flex items-center justify-center flex-col p-6">
-          <h1 className="text-3xl font-bold mb-4">Product Not Found</h1>
-          <p className="text-muted-foreground mb-6">The product you're looking for doesn't exist or has been removed.</p>
+          <h1 className="text-3xl font-bold mb-4">{t('productNotFound')}</h1>
+          <p className="text-muted-foreground mb-6">{t('productNotFoundDescription')}</p>
           <Link 
             to="/products"
             className="inline-flex items-center bg-primary text-primary-foreground px-6 py-3 rounded-md hover:bg-primary/90 transition-colors"
           >
             <ArrowLeft className="mr-2 h-5 w-5" />
-            Back to Products
+            {t('backToProducts')}
           </Link>
         </div>
         <Footer />
@@ -319,11 +320,11 @@ const ProductDetail = () => {
         {/* Breadcrumb */}
         <div className="container mx-auto max-w-7xl px-6 py-6">
           <div className="flex items-center text-sm text-muted-foreground mb-8">
-            <Link to="/" className="hover:text-foreground transition-colors">Home</Link>
+            <Link to="/" className="hover:text-foreground transition-colors">{t('home')}</Link>
             <span className="mx-2">/</span>
-            <Link to="/products" className="hover:text-foreground transition-colors">Products</Link>
+            <Link to="/products" className="hover:text-foreground transition-colors">{t('products')}</Link>
             <span className="mx-2">/</span>
-            <span className="text-foreground font-medium">{product.name}</span>
+            <span className="text-foreground font-medium">{t(product.name)}</span>
           </div>
           
           {/* Product Content */}
@@ -334,7 +335,7 @@ const ProductDetail = () => {
                 <div className="aspect-[4/3] rounded-xl overflow-hidden bg-secondary/30">
                   <img 
                     src={selectedImage} 
-                    alt={product.name}
+                    alt={t(product.name)}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -345,7 +346,7 @@ const ProductDetail = () => {
                   >
                     <img 
                       src={product.image} 
-                      alt={`${product.name} - Main`}
+                      alt={`${t(product.name)} - Main`}
                       className="w-full h-full object-cover"
                     />
                   </button>
@@ -358,7 +359,7 @@ const ProductDetail = () => {
                     >
                       <img 
                         src={img} 
-                        alt={`${product.name} - View ${index + 1}`}
+                        alt={`${t(product.name)} - View ${index + 1}`}
                         className="w-full h-full object-cover"
                       />
                     </button>
@@ -373,20 +374,20 @@ const ProductDetail = () => {
                 {/* Category Tag */}
                 <div className="inline-block">
                   <span className="bg-primary/90 text-primary-foreground text-xs font-medium px-3 py-1 rounded-full">
-                    {product.category}
+                    {t(product.category)}
                   </span>
                 </div>
                 
-                <h1 className="text-3xl md:text-4xl font-bold">{product.name}</h1>
+                <h1 className="text-3xl md:text-4xl font-bold">{t(product.name)}</h1>
                 
                 <p className="text-lg text-muted-foreground">
-                  {product.fullDescription || product.description}
+                  {t(product.fullDescription || product.description)}
                 </p>
                 
                 {/* Features */}
                 <div className="border-t pt-6">
                   <h3 className="text-xl font-semibold mb-4 flex items-center">
-                    <Shield className="h-5 w-5 mr-2 text-primary" /> Key Features
+                    <Shield className="h-5 w-5 mr-2 text-primary" /> {t('keyFeatures')}
                   </h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {product.features && product.features.map((feature: string, index: number) => (
@@ -394,7 +395,7 @@ const ProductDetail = () => {
                         <span className="h-5 w-5 rounded-full bg-primary/10 text-primary flex items-center justify-center mr-2 mt-0.5 flex-shrink-0">
                           ✓
                         </span>
-                        <span>{feature}</span>
+                        <span>{t(feature)}</span>
                       </li>
                     ))}
                   </ul>
@@ -404,13 +405,13 @@ const ProductDetail = () => {
                 {product.specifications && (
                   <div className="border-t pt-6">
                     <h3 className="text-xl font-semibold mb-4 flex items-center">
-                      <Truck className="h-5 w-5 mr-2 text-primary" /> Technical Specifications
+                      <Truck className="h-5 w-5 mr-2 text-primary" /> {t('technicalSpecifications')}
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       {Object.entries(product.specifications).map(([key, value]: [string, any], index: number) => (
                         <div key={index} className="bg-secondary/30 p-3 rounded-lg">
-                          <span className="text-sm font-medium block capitalize">{key}</span>
-                          <span className="text-muted-foreground">{value}</span>
+                          <span className="text-sm font-medium block capitalize">{t(key)}</span>
+                          <span className="text-muted-foreground">{t(value)}</span>
                         </div>
                       ))}
                     </div>
@@ -423,13 +424,13 @@ const ProductDetail = () => {
                     to="/contact"
                     className="bg-primary text-primary-foreground px-8 py-3 rounded-md font-medium hover:bg-primary/90 transition-colors"
                   >
-                    Request a Quote
+                    {t('requestQuote')}
                   </Link>
                   <Link
                     to="/contact"
                     className="bg-secondary text-foreground px-8 py-3 rounded-md font-medium hover:bg-secondary/80 transition-colors"
                   >
-                    Ask a Question
+                    {t('askQuestion')}
                   </Link>
                 </div>
               </div>
@@ -439,7 +440,7 @@ const ProductDetail = () => {
           {/* Related Products Section */}
           <div className="border-t pt-12">
             <AnimatedSection>
-              <h2 className="text-2xl md:text-3xl font-bold mb-8">Related Products</h2>
+              <h2 className="text-2xl md:text-3xl font-bold mb-8">{t('relatedProducts')}</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {productsData
                   .filter(item => item.id !== id && item.category === product.category)
@@ -453,18 +454,18 @@ const ProductDetail = () => {
                       <div className="aspect-[4/3] relative overflow-hidden">
                         <img 
                           src={relatedProduct.image} 
-                          alt={relatedProduct.name}
+                          alt={t(relatedProduct.name)}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />
                         <div className="absolute top-4 left-4">
                           <span className="bg-primary/90 text-primary-foreground text-xs font-medium px-3 py-1 rounded-full">
-                            {relatedProduct.category}
+                            {t(relatedProduct.category)}
                           </span>
                         </div>
                       </div>
                       <div className="p-6">
-                        <h3 className="text-lg font-semibold mb-2">{relatedProduct.name}</h3>
-                        <p className="text-muted-foreground line-clamp-2">{relatedProduct.description}</p>
+                        <h3 className="text-lg font-semibold mb-2">{t(relatedProduct.name)}</h3>
+                        <p className="text-muted-foreground line-clamp-2">{t(relatedProduct.description)}</p>
                       </div>
                     </Link>
                   ))}

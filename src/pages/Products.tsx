@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next'; // Import translation hook
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ProductCard from '@/components/ProductCard';
@@ -6,23 +7,41 @@ import AnimatedSection from '@/components/AnimatedSection';
 import { Search, Filter, ArrowUpDown } from 'lucide-react';
 
 const Products = () => {
-  const categories = ['All', 'Excavator', 'Loader', 'Roller', 'Truck', 'Bulldozer', 'Underground machines'];
-  const [selectedCategory, setSelectedCategory] = useState('All');
+  const { t } = useTranslation(); // Initialize translation hook
+
+  // Define categories with translations
+  const categories = [
+    t('category.all'),
+    t('category.excavator'),
+    t('category.loader'),
+    t('category.roller'),
+    t('category.truck'),
+    t('category.bulldozer'),
+    t('category.underground_machines')
+  ];
+
+  const [selectedCategory, setSelectedCategory] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('newest');
   const [filteredProducts, setFilteredProducts] = useState([]);
-  const [isClient, setIsClient] = useState(false); // Fixes Next.js hydration issue
+  const [isClient, setIsClient] = useState(false);
 
+  // Ensure selectedCategory is set based on current translation
+  useEffect(() => {
+    setSelectedCategory(t('category.all')); // Set translated "All" as default
+  }, [t]);
+
+  // Product data with translated names and descriptions
   const allProducts = [
-    { id: '1', name: 'Underground mining truck', description: 'A powerful and compact truck designed for efficient hauling in underground mining operations.', image: 'Underground mining truck.jpeg', category: 'Underground machines', date: '2023-06-15' },
-    { id: '2', name: 'Rubber Wheel Roller', description: 'Versatile and maneuverable loader perfect for tight spaces and urban construction sites.', image: '/2 tire roller.jpg', category: 'Roller', date: '2023-04-22' },
-    { id: '3', name: 'Hydraulic Drum Roller', description: 'High-capacity lifting solution for major construction and infrastructure projects.', image: '/hydraulic drum-1.jpg', category: 'Roller', date: '2023-05-10' },
-    { id: '4', name: 'Underground mining loader', description: 'A compact and powerful machine designed for efficient material handling in underground mining operations.', image: '/underground mining loader.jpg', category: 'Underground machines', date: '2023-07-05' },
-    { id: '5', name: 'Excavator', description: 'Versatile mid-sized excavator suitable for a wide range of digging and trenching applications.', image: '/excavator-1.jpeg', category: 'Excavator', date: '2023-03-18' },
-    { id: '6', name: 'Underground utility vehicle', description: 'The Underground Utility Vehicle ensures efficient transport of personnel and materials in mining operations.', image: '/underground Utility vehicle.jpg', category: 'Underground machines', date: '2023-08-12' },
-    { id: '7', name: 'Tracked Bulldozer', description: 'Powerful earth-moving machine for large construction and mining projects.', image: '/bulldozer-1.png', category: 'Bulldozer', date: '2023-09-28' },
-    { id: '8', name: 'Wheeled Loader', description: 'Efficient material handling equipment for loading, transporting, and unloading operations.', image: '/wheeled-1.png', category: 'Loader', date: '2023-02-05' },
-    { id: '9', name: 'Double Drum Rollers', description: 'The Double Drum Roller ensures efficient compaction for roads and paving.', image: '/double drum rollers.jpg', category: 'Roller', date: '2023-10-15' }
+    { id: '1', name: t('products.1.name'), description: t('products.1.description'), image: '/Underground mining truck.jpeg', category: t('category.underground_machines'), date: '2023-06-15' },
+    { id: '2', name: t('products.2.name'), description: t('products.2.description'), image: '/2 tire roller.jpg', category: t('category.roller'), date: '2023-04-22' },
+    { id: '3', name: t('products.3.name'), description: t('products.3.description'), image: '/hydraulic drum-1.jpg', category: t('category.roller'), date: '2023-05-10' },
+    { id: '4', name: t('products.4.name'), description: t('products.4.description'), image: '/underground mining loader.jpg', category: t('category.underground_machines'), date: '2023-07-05' },
+    { id: '5', name: t('products.5.name'), description: t('products.5.description'), image: '/excavator-1.jpeg', category: t('category.excavator'), date: '2023-03-18' },
+    { id: '6', name: t('products.6.name'), description: t('products.6.description'), image: '/underground Utility vehicle.jpg', category: t('category.underground_machines'), date: '2023-08-12' },
+    { id: '7', name: t('products.7.name'), description: t('products.7.description'), image: '/bulldozer-1.png', category: t('category.bulldozer'), date: '2023-09-28' },
+    { id: '8', name: t('products.8.name'), description: t('products.8.description'), image: '/wheeled-1.png', category: t('category.loader'), date: '2023-02-05' },
+    { id: '9', name: t('products.9.name'), description: t('products.9.description'), image: '/double drum rollers.jpg', category: t('category.roller'), date: '2023-10-15' }
   ];
 
   // Fix Next.js hydration issue
@@ -32,22 +51,29 @@ const Products = () => {
 
   // Update filtered products when category, search, or sorting changes
   useEffect(() => {
+    const translatedAll = t('category.all'); // Get translated "All"
+    const isAllCategory = selectedCategory === translatedAll;
+
     const updatedProducts = allProducts
       .filter(product =>
-        (selectedCategory === 'All' || product.category === selectedCategory) &&
+        (isAllCategory || product.category === selectedCategory) &&
         (product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
          product.description.toLowerCase().includes(searchQuery.toLowerCase()))
       )
       .sort((a, b) => {
-        if (sortBy === 'newest') return new Date(b.date) - new Date(a.date);
-        if (sortBy === 'oldest') return new Date(a.date) - new Date(b.date);
+        const dateA = new Date(a.date).getTime();
+        const dateB = new Date(b.date).getTime();
+      
+        if (sortBy === 'newest') return dateB - dateA;
+        if (sortBy === 'oldest') return dateA - dateB;
         if (sortBy === 'name-asc') return a.name.localeCompare(b.name);
         if (sortBy === 'name-desc') return b.name.localeCompare(a.name);
         return 0;
       });
+      
 
     setFilteredProducts(updatedProducts);
-  }, [selectedCategory, searchQuery, sortBy]);
+  }, [selectedCategory, searchQuery, sortBy, t]);
 
   if (!isClient) return null; // Prevent rendering until client is ready
 
@@ -60,13 +86,13 @@ const Products = () => {
           <div className="max-w-3xl">
             <AnimatedSection>
               <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-sm font-medium rounded-full mb-3">
-                Our Catalogue
+                {t('our_catalogue')}
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                Premium Truck Machinery
+                {t('premium_truck_machinery')}
               </h1>
               <p className="text-xl text-muted-foreground">
-                Explore our extensive range of high-quality construction and industrial vehicles.
+                {t('explore_range')}
               </p>
             </AnimatedSection>
           </div>
@@ -82,7 +108,7 @@ const Products = () => {
               </div>
               <input
                 type="text"
-                placeholder="Search products..."
+                placeholder={t('search_products')}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-10 pr-4 py-3 rounded-lg border border-input bg-background focus:outline-none focus:ring-2 focus:ring-ring"
@@ -92,17 +118,13 @@ const Products = () => {
             <div className="flex flex-col sm:flex-row justify-between gap-4">
               <div className="flex flex-wrap gap-2">
                 <span className="flex items-center text-sm font-medium mr-2">
-                  <Filter size={16} className="mr-1" /> Filter:
+                  <Filter size={16} className="mr-1" /> {t('filter')}:
                 </span>
                 {categories.map((category) => (
                   <button
                     key={category}
                     onClick={() => setSelectedCategory(category)}
-                    className={`px-4 py-1.5 rounded-full text-sm transition-colors ${
-                      selectedCategory === category
-                        ? 'bg-primary text-primary-foreground'
-                        : 'bg-secondary hover:bg-secondary/80 text-muted-foreground'
-                    }`}
+                    className={`px-4 py-1.5 rounded-full text-sm transition-colors ${selectedCategory === category ? 'bg-primary text-primary-foreground' : 'bg-secondary hover:bg-secondary/80 text-muted-foreground'}`}
                   >
                     {category}
                   </button>
@@ -111,17 +133,17 @@ const Products = () => {
 
               <div className="flex items-center">
                 <span className="flex items-center text-sm font-medium mr-2">
-                  <ArrowUpDown size={16} className="mr-1" /> Sort:
+                  <ArrowUpDown size={16} className="mr-1" /> {t('sort')}:
                 </span>
                 <select
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
                   className="rounded-md border border-input bg-background px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-ring"
                 >
-                  <option value="newest">Newest First</option>
-                  <option value="oldest">Oldest First</option>
-                  <option value="name-asc">Name (A-Z)</option>
-                  <option value="name-desc">Name (Z-A)</option>
+                  <option value="newest">{t('newest_first')}</option>
+                  <option value="oldest">{t('oldest_first')}</option>
+                  <option value="name-asc">{t('name_asc')}</option>
+                  <option value="name-desc">{t('name_desc')}</option>
                 </select>
               </div>
             </div>
@@ -136,9 +158,7 @@ const Products = () => {
               ))
             ) : (
               <div className="col-span-full py-12 text-center">
-                <p className="text-xl text-muted-foreground">
-                  No products found matching your criteria.
-                </p>
+                <p className="text-xl text-muted-foreground">{t('no_products_found')}</p>
               </div>
             )}
           </div>

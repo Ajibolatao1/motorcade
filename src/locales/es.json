@@ -1,0 +1,421 @@
+{
+  "company_name": "Motorcade Technology",
+  "company_description": "Proporcionando soluciones de maquinaria para camiones de alta calidad para sus necesidades industriales.",
+  "quick_links": "Enlaces Rápidos",
+  "home": "Inicio",
+  "about": "Sobre Nosotros",
+  "products": "Productos",
+  "news": "Noticias",
+  "contact": "Contacto",
+  "contact_us": "Contáctanos",
+  "get_in_touch": "Ponte en Contacto",
+  "contact_description": "¿Tienes preguntas o necesitas ayuda? Contáctanos y estaremos encantados de ayudarte.",
+
+  "contact_info": "Información de Contacto",
+  "contact_info_description": "No dudes en comunicarte con nosotros a través de cualquiera de los siguientes canales. Estamos aquí para ayudarte.",
+
+  "visit_us": "Visítanos",
+  "address": "Unidad 1207, Edificio 1, No. 288, Zhuhai East Road, Ciudad de Jiaonan, Qingdao",
+
+  "call_us": "Llámanos",
+  "phone1": "+8617864268032",
+  "phone2": "+8617852160455",
+
+  "whatsapp": "WhatsApp",
+  "chat_now": "Chatea Ahora",
+
+  "email_us": "Envíanos un Correo",
+  "email": "13061287760@163.com",
+
+  "operating_hours": "Horario de Atención",
+  "monday_friday": "Lunes - Viernes",
+  "saturday": "Sábado",
+  "sunday": "Domingo",
+  "closed": "Cerrado",
+
+  "follow_us": "Síguenos",
+  "all_rights_reserved": "Todos los derechos reservados.",
+
+  "your_name": "Tu Nombre",
+  "email_address": "Correo Electrónico",
+  "subject": "Asunto",
+  "your_message": "Tu Mensaje",
+  "send_message": "Enviar Mensaje",
+  "send_message_description": "Completa el formulario a continuación y nuestro equipo se pondrá en contacto contigo lo antes posible.",
+  "message_sent": "Mensaje Enviado",
+  "message_sent_description": "Te responderemos pronto.",
+  "message_error": "Error",
+  "message_error_description": "No se pudo enviar el mensaje",
+  "processing": "Procesando...",
+
+  "locale": "es-ES",
+  "read_more": "Leer más",
+  "published_on": "Publicado el",
+  "category": "Categoría",
+  "latest_news": "Últimas noticias",
+
+  "view_details": "Ver detalles",
+  "latest_products": "Últimos productos",
+
+  "story_information": "Qingdao Auto Motorcade Technology Company Limited es una empresa dinámica y diversificada que opera en la intersección de la innovación, la excelencia en ingeniería y el crecimiento industrial. Compuesta por cuatro empresas manufactureras distintas, nuestra organización es una potencia en la producción de equipos de construcción, maquinaria pesada y equipos automotrices de gran tamaño. Cada una de nuestras fábricas aporta experiencia y capacidades únicas, posicionando colectivamente a nuestra empresa como líder en los sectores industrial y manufacturero a nivel global. Nuestra empresa se especializa en el diseño y fabricación de equipos de construcción de última generación, como excavadoras, bulldozers, grúas y cargadores. Estas máquinas están diseñadas para resistir los entornos más exigentes, permitiendo el desarrollo de infraestructuras en todo el mundo. Nuestro equipo es reconocido por su durabilidad, eficiencia y tecnología avanzada, lo que lo convierte en la opción preferida por las empresas constructoras y contratistas. Nuestra empresa se enfoca en maquinaria pesada utilizada en industrias como la minería, la agricultura y la logística. Esto incluye equipos como perforadoras, cosechadoras y sistemas de manipulación de materiales. Nuestra maquinaria está diseñada para maximizar la productividad y minimizar el impacto ambiental, alineándose con los objetivos de sostenibilidad global. Nuestra empresa es un actor clave en el sector automotriz, produciendo equipos automotrices a gran escala, como vehículos comerciales, camiones industriales y soluciones de transporte especializadas. Estos vehículos están diseñados para aplicaciones de trabajo pesado, garantizando confiabilidad y rendimiento en condiciones exigentes. Nuestra empresa también se especializa en la fabricación de componentes y sistemas críticos que respaldan el ecosistema industrial en general. Esto incluye motores, sistemas hidráulicos y tecnologías de automatización esenciales para la funcionalidad de los equipos de construcción y automoción. Invertimos significativamente en investigación y desarrollo, impulsando la innovación en automatización, electrificación y tecnologías inteligentes. Esto garantiza que nuestros productos sigan estando a la vanguardia de la industria. Con una cadena de suministro sólida y presencia en múltiples mercados, nuestra empresa atiende a clientes en todo el mundo, desde economías emergentes hasta naciones desarrolladas. Nuestra empresa está comprometida con la reducción de su huella de carbono mediante el desarrollo de maquinaria energéticamente eficiente y la adopción de prácticas de fabricación ecológicas. Al ofrecer soluciones personalizadas y un excepcional servicio postventa, hemos construido relaciones duraderas con los clientes. La visión de nuestra empresa es revolucionar la industria manufacturera proporcionando soluciones de alta calidad, innovadoras y sostenibles que impulsen a empresas y comunidades en todo el mundo. Nuestra misión es promover el progreso industrial a través de tecnología de vanguardia, excelencia operativa y un firme compromiso con la sostenibilidad ambiental. A medida que el mundo avanza hacia tecnologías más inteligentes y ecológicas, Qingdao Auto Motorcade Technology Company Limited está bien posicionada para liderar la próxima generación de manufactura. Al adoptar la transformación digital, expandirse a mercados emergentes y fomentar asociaciones estratégicas, estamos preparados para un crecimiento sostenido y el éxito en los próximos años. Qingdao Auto Motorcade Technology Company Limited no es solo un fabricante; es un catalizador del progreso, dando forma al futuro de las industrias de construcción, maquinaria y automoción.",
+  "our_story": "Nuestra Historia",
+  "about_us": "Sobre nosotros",
+  "story_mission": "Nuestra historia y misión",
+  "learn_about_us": "Aprende sobre nuestro viaje para convertirnos en un proveedor líder de soluciones premium en maquinaria para camiones.",
+  "cont_abouta_us": "A lo largo de las décadas, hemos ampliado nuestra gama de productos, adoptado innovaciones tecnológicas y construido relaciones duraderas con clientes de todo el mundo. Nuestro compromiso con la calidad y la satisfacción del cliente ha permanecido sin cambios durante todo nuestro viaje.",
+  "cont_abouta_us_par": "Hoy en día, seguimos empujando los límites de lo que es posible en maquinaria para camiones, siempre esforzándonos por ofrecer productos que superen las expectativas y ayuden a nuestros clientes a lograr el éxito en sus proyectos.",
+  "our_impact_in_numbers": "Nuestro impacto en números",
+  "our_impact_in_numbers_1": "A lo largo de los años, hemos alcanzado hitos importantes gracias a nuestra dedicación a la excelencia.",
+  "about.stats.experience": "Años de experiencia",
+  "about.stats.clients": "Clientes satisfechos",
+  "about.stats.projects": "Proyectos completados",
+  "about.stats.countries": "Países atendidos",
+  "our_mission": "Nuestra misión y visión",
+  "mission_1": "Proveer soluciones innovadoras, confiables y eficientes en maquinaria para camiones que empoderen a nuestros clientes para sobresalir en sus industrias.",
+  "mission_2": "Liderar la industria en calidad de producto, innovación técnica y satisfacción del cliente.",
+  "mission_3": "Mantener prácticas comerciales éticas y operaciones sostenibles a lo largo de nuestra cadena de suministro global.",
+  "mission_4": "Ser reconocidos como el socio confiable para la maquinaria de construcción e industrial a nivel mundial.",
+  "our_core_values": "Nuestros valores fundamentales",
+  "our_core_description": "Estos principios guían nuestras decisiones y acciones cada día.",
+  "core.value.1": "Excelencia",
+  "core.value.1.description": "Nos esforzamos por la excelencia en cada aspecto de nuestro negocio, desde la calidad de nuestra maquinaria hasta nuestro servicio al cliente.",
+  "core.value.2": "Colaboración",
+  "core.value.2.description": "Creemos en trabajar estrechamente con nuestros clientes para comprender sus necesidades únicas y proporcionar soluciones personalizadas.",
+  "core.value.3": "Innovación",
+  "core.value.3.description": "Buscamos continuamente nuevas tecnologías y enfoques para mejorar nuestros productos y servicios.",
+  "our_leadership_team": "Nuestro equipo de liderazgo",
+  "our_leadership_team_description": "Conoce a los expertos que impulsan nuestra visión.",
+
+  "ceo_name": "Chinedu Okolo",
+  "chief_executive_officer": "Director Ejecutivo",
+  "chief_executive_officer_experience": "Con más de 12 años de experiencia en la industria, Chinedu lidera nuestra empresa con visión y experiencia.",
+  "cto_name": "Sarah Chen",
+  "chief_technology_officer": "Directora de Tecnología",
+  "chief_technology_officer.experience": "Sarah impulsa nuestras innovaciones tecnológicas y asegura que nuestros productos permanezcan a la vanguardia.",
+  "cpo_name": "Michael Rodriguez",
+  "chief_operations_officer": "Director de Operaciones",
+  "chief_operations_officer_experience": "Michael asegura el buen funcionamiento de nuestra red global de manufactura y distribución.",
+  "category.all": "Todos",
+  "category.excavator": "Excavadora",
+  "category.loader": "Cargadora",
+  "category.roller": "Rodillo",
+  "category.truck": "Camión",
+  "category.bulldozer": "Bulldozer",
+  "category.underground_machines": "Máquinas subterráneas",
+  "products.1.name": "Camión de minería subterránea",
+  "products.1.description": "Un camión potente y compacto diseñado para el transporte eficiente en operaciones de minería subterránea.",
+  "products.2.name": "Rodillo de rueda de goma",
+  "products.2.description": "Cargadora versátil y maniobrable, perfecta para espacios reducidos y sitios de construcción urbanos.",
+  "products.3.name": "Rodillo hidráulico de tambor",
+  "products.3.description": "Solución de elevación de alta capacidad para grandes proyectos de construcción e infraestructura.",
+  "products.4.name": "Cargadora subterránea",
+  "products.4.description": "Máquina compacta y potente diseñada para un manejo eficiente de materiales en operaciones mineras subterráneas.",
+  "products.5.name": "Excavadora",
+  "products.5.description": "Excavadora versátil de tamaño medio adecuada para una amplia gama de aplicaciones de excavación y zanjeo.",
+  "products.6.name": "Vehículo utilitario subterráneo",
+  "products.6.description": "El vehículo utilitario subterráneo asegura un transporte eficiente de personal y materiales en operaciones mineras.",
+  "products.7.name": "Bulldozer de orugas",
+  "products.7.description": "Máquina poderosa para movimiento de tierras en grandes proyectos de construcción y minería.",
+  "products.8.name": "Cargadora sobre ruedas",
+  "products.8.description": "Equipo eficiente para manejo de materiales, carga, transporte y descarga.",
+  "products.9.name": "Rodillos de doble tambor",
+  "products.9.description": "El rodillo de doble tambor asegura una compactación eficiente para carreteras y pavimentación.",
+  "our_catalogue": "Nuestro Catálogo",
+  "premium_truck_machinery": "Maquinaria de camión premium",
+  "explore_range": "Explora nuestra amplia gama de vehículos de construcción e industriales de alta calidad.",
+  "search_products": "Buscar productos...",
+
+  
+    "latest_updates": "Últimas actualizaciones",
+    "news_insight": "Noticias y perspectivas",
+    "stay_informed": "Manténgase informado sobre nuestras actualizaciones, tendencias de la industria y lanzamientos de productos.",
+    "search_news": "Buscar noticias...",
+    "category.product launch": "Lanzamiento de producto",
+    "category.industry news": "Noticias de la industria",
+    "category.company updates": "Actualizaciones de la empresa",
+    "category.events": "Eventos",
+    "newest_first": "Más recientes primero",
+    "oldest_first": "Más antiguos primero",
+    "category.date_1": "14 de diciembre de 2024",
+    "category.date_2": "12 de noviembre de 2024",
+    "category.date_3": "9 de octubre de 2024",
+    "category.date_4": "4 de enero de 2025",
+    "category.date_5": "17 de agosto de 2024",
+    "category.date_6": "12 de febrero de 2025",
+    "news_1_title": "Miniexcavadoras: herramientas de construcción compactas y eficientes",
+    "news_2_title": "MOTORCADE-TECHNOLOGY Cargadora retroexcavadora con funciones potentes y excelente rendimiento!",
+    "news_3_title": "Carretilla elevadora todoterreno articulada de 4 ruedas motrices",
+    "news_4_title": "🌟 2025, ¡que el sueño siga adelante! 🌟",
+    "news_5_title": "Camión mezclador de boca plana autoadescargable—pequeño y flexible",
+    "news_6_title": "MOTORCADE TECHNOLOGY—Lidera la nueva era de materiales de construcción inteligentes",
+    "news_1_excerpt": "1. Pequeño y flexible",
+    "news_2_excerpt": "MOTORCADE-TECHNOLOGY Cargadora retroexcavadora con funciones potentes y excelente rendimiento!",
+    "news_3_excerpt": "El montacargas todoterreno articulado 4×4 es una herramienta potente diseñada para terrenos complejos y",
+    "news_4_excerpt": "Los engranajes del tiempo giran silenciosamente y hemos dado la bienvenida a 2025. Gracias por su compañía y apoyo. Su confianza y aliento nos mantienen avanzando.",
+    "news_5_excerpt": "Este tipo de camión mezclador es más fácil de operar en sitios de construcción estrechos. También son adecuados",
+    "news_6_excerpt": "Recientemente, los camiones mezcladores se han exportado a Asia, Sudamérica, Medio Oriente y África, y se utilizan ampliamente en la construcción de carreteras, el desarrollo residencial, la ingeniería de puentes y otros campos. Creemos firmemente que productos de calidad y servicios perfectos crearán un mayor valor para los clientes globales.",
+    "name_asc": "Nombre (A-Z)",
+    "name_desc": "Nombre (Z-A)",
+    "no_products_found": "No se encontraron productos",
+    "no_news_found": "No se encontraron noticias",
+    "category.label": "Categoría",
+
+    
+      "premium_truck_machinery_for_every_project": "Maquinaria de camiones premium para cada proyecto",
+      "discover_our_extensive_catalogue": "Descubre nuestro extenso catálogo de vehículos de construcción e industriales de alto rendimiento.",
+      "explore_products": "Explorar productos",
+      "why_choose_us": "¿Por qué elegirnos?",
+      "industry_Leading_Truck_Solutions": "Soluciones líderes en camiones para la industria",
+      "we_provide": "Proporcionamos maquinaria de alta calidad respaldada por años de experiencia y un servicio excepcional.",
+      "premium_quality": "Calidad premium",
+      "all_our_machines": "Todas nuestras máquinas están construidas con materiales de la más alta calidad y estrictos controles de calidad.",
+      "expert_maintenance": "Mantenimiento experto",
+      "our_team_of_specialists": "Nuestro equipo de especialistas brinda mantenimiento continuo y soporte técnico.",
+      "performance": "Rendimiento",
+      "our_machine_is_designed": "Nuestra maquinaria está diseñada para la máxima eficiencia y productividad en cada trabajo.",
+      "customer_support": "Atención al cliente",
+      "we_pride_ourselves": "Nos enorgullecemos de ofrecer un servicio al cliente receptivo y útil.",
+      "featured_products": "Productos Destacados",
+      "our_premium_machinery": "Nuestra Maquinaria Premium",
+      "view_all_products": "Ver todos los productos",
+      "ready_to_upgrade_your_fleet": "¿Listo para mejorar tu flota?",
+      "contact_our_team": "Contacta con nuestro equipo hoy para discutir tus requisitos específicos y encontrar la maquinaria perfecta para tus proyectos.",
+      "view_all_news": "Ver todas las noticias",
+
+      
+        "Underground mining truck": "Camión de minería subterránea",
+        "Underground machines": "Máquinas subterráneas",
+        "Powerful excavator designed for the toughest construction projects with enhanced digging capabilities.": "Excavadora potente diseñada para los proyectos de construcción más exigentes con capacidades de excavación mejoradas.",
+        "High payload capacity for underground hauling": "Alta capacidad de carga para transporte subterráneo",
+        "Compact design for tight tunnel navigation": "Diseño compacto para navegación en túneles estrechos",
+        "Heavy-duty frame for extreme conditions": "Estructura resistente para condiciones extremas",
+        "Advanced suspension for stability": "Suspensión avanzada para estabilidad",
+        "Ergonomic operator cabin with safety systems": "Cabina ergonómica para el operador con sistemas de seguridad",
+        "Efficient cooling system for underground environments": "Sistema de refrigeración eficiente para ambientes subterráneos",
+        "The Underground Mining Truck is built for high-capacity hauling in confined mining tunnels. Its powerful engine, rugged frame, and advanced suspension system ensure efficient material transport in tough underground conditions. With excellent maneuverability, operator safety features, and a durable design, it maximizes productivity in deep mining operations.": "El camión de minería subterránea está diseñado para transporte de alta capacidad en túneles mineros confinados. Su motor potente, estructura resistente y sistema de suspensión avanzada garantizan un transporte eficiente de materiales en condiciones subterráneas difíciles. Con excelente maniobrabilidad, características de seguridad para el operador y un diseño duradero, maximiza la productividad en operaciones mineras profundas.",
+        "engine: 'Diesel, 300–500 HP'": "motor: 'Diésel, 300–500 HP'",
+        "weight: ' 25,000–60,000 kg'": "peso: '25,000–60,000 kg'",
+        "payloadCapacity: '30–80 tons'": "capacidadDeCarga: '30–80 toneladas'",
+        "height: '2.5–3.5 meters'": "altura: '2.5–3.5 metros'",
+        " dimensions: '9m × 3m × 3m'": "dimensiones: '9m × 3m × 3m'",
+        "loading": "Cargando...",
+        "productNotFound": "Producto no encontrado",
+        "productNotFoundDescription": "El producto que buscas no existe.",
+        "backToProducts": "Volver a los productos",
+        "keyFeatures": "Características principales",
+        "technicalSpecifications": "Especificaciones técnicas",
+        "requestQuote": "Solicitar una cotización",
+        "askQuestion": "Hacer una pregunta",
+        "relatedProducts": "Productos relacionados",
+
+        
+          "Rubber Wheel Roller": "Rodillo de ruedas de goma",
+          "Versatile and maneuverable loader perfect for tight spaces and urban construction sites.": "Cargadora versátil y maniobrable, perfecta para espacios reducidos y sitios de construcción urbanos.",
+          "The Rubber Wheel Roller is designed for high-performance compaction across various terrains. It is ideal for road construction, asphalt paving, and soil compaction, providing excellent ground coverage and uniform pressure distribution. The pneumatic tires enhance grip and adaptability, making it suitable for both urban and heavy-duty infrastructure projects.": "El rodillo de ruedas de goma está diseñado para compactación de alto rendimiento en diversos terrenos. Es ideal para la construcción de carreteras, pavimentación de asfalto y compactación de suelos, proporcionando una excelente cobertura del terreno y distribución uniforme de la presión. Los neumáticos neumáticos mejoran la tracción y la adaptabilidad, lo que lo hace adecuado tanto para proyectos urbanos como de infraestructura pesada.",
+          "Roller": "Rodillo",
+          "Pneumatic rubber tires": "Neumáticos de goma neumáticos",
+          "Variable ballast system": "Sistema de lastre variable",
+          "Hydrostatic drive": "Tracción hidrostática",
+          "Multi-speed transmission": "Transmisión de múltiples velocidades",
+          "Operator-friendly controls": "Controles fáciles de usar para el operador",
+          "Spacious & ergonomic cabin": "Cabina espaciosa y ergonómica",
+
+          
+            "Hydraulic Drum Roller": "Rodillo de tambor hidráulico",
+            "High-capacity lifting solution for major construction and infrastructure projects.": "Solución de elevación de alta capacidad para proyectos de construcción e infraestructura importantes.",
+            "The Hydraulic Drum Roller is a powerful and efficient compaction machine designed for road construction, foundation work, and large-scale infrastructure projects. With its hydraulic drive system, it delivers superior performance, enhanced maneuverability, and precise control, ensuring even and consistent soil and asphalt compaction. Built for durability and efficiency, this roller is an essential asset for contractors and construction professionals.": "El rodillo de tambor hidráulico es una máquina de compactación potente y eficiente diseñada para la construcción de carreteras, trabajos de cimentación y proyectos de infraestructura a gran escala. Con su sistema de transmisión hidráulica, ofrece un rendimiento superior, mayor maniobrabilidad y control preciso, asegurando una compactación uniforme y consistente del suelo y el asfalto. Diseñado para la durabilidad y eficiencia, este rodillo es un activo esencial para contratistas y profesionales de la construcción.",
+            "Hydraulic Drive System": "Sistema de transmisión hidráulica",
+            "High-Impact Vibration Mechanism": "Mecanismo de vibración de alto impacto",
+            "Variable Frequency Control": "Control de frecuencia variable",
+            "Heavy-Duty Steel Drum": "Tambor de acero de alta resistencia",
+            "Ergonomic Operator Cabin": "Cabina ergonómica para el operador",
+            "Advanced Safety Features": "Características avanzadas de seguridad",
+
+            
+              "Underground mining loader": "Cargador de minería subterránea",
+              "A compact and powerful machine designed for efficient material handling in underground mining operations.": "Una máquina compacta y poderosa diseñada para el manejo eficiente de materiales en operaciones de minería subterránea.",
+              "The Underground Mining Loader is a powerful and compact machine designed for efficient material handling in confined mining environments. Built for durability and high productivity, it features a low-profile design, advanced hydraulics, and excellent maneuverability. Its reinforced structure and safety systems ensure reliable performance in harsh underground conditions.": "El cargador de minería subterránea es una máquina potente y compacta diseñada para el manejo eficiente de materiales en entornos mineros confinados. Construido para la durabilidad y la alta productividad, cuenta con un diseño de bajo perfil, hidráulica avanzada y excelente maniobrabilidad. Su estructura reforzada y los sistemas de seguridad garantizan un rendimiento confiable en condiciones subterráneas difíciles.",
+              "Compact, low-profile design": "Diseño compacto de bajo perfil",
+              "High-capacity bucket for efficient loading": "Cubo de alta capacidad para carga eficiente",
+              "Powerful hydraulics for smooth operation": "Hidráulica potente para una operación suave",
+              "Heavy-duty frame for durability": "Estructura de servicio pesado para durabilidad",
+              "Advanced ventilation and cooling system": "Sistema de ventilación y refrigeración avanzado",
+              "Ergonomic operator cabin for comfort": "Cabina ergonómica para el operador para mayor confort",
+
+              
+                "Excavator": "Excavadora",
+                "Versatile mid-sized excavator suitable for a wide range of digging and trenching applications.": "Excavadora versátil de tamaño medio adecuada para una amplia gama de aplicaciones de excavación y zanjeo.",
+                "The Excavator offers an excellent balance of power, mobility, and versatility for a wide range of construction applications. Its optimized hydraulic system delivers precise control and efficient operation, while the comfortable cabin reduces operator fatigue during extended work periods. With multiple attachment options and a compact turning radius, this excavator excels in urban construction sites and medium-scale earthmoving projects.": "La excavadora ofrece un excelente equilibrio de potencia, movilidad y versatilidad para una amplia gama de aplicaciones de construcción. Su sistema hidráulico optimizado proporciona un control preciso y una operación eficiente, mientras que la cabina cómoda reduce la fatiga del operador durante largos períodos de trabajo. Con múltiples opciones de accesorios y un radio de giro compacto, esta excavadora destaca en sitios de construcción urbanos y proyectos de movimiento de tierras de escala media.",
+                "Optimized hydraulic system": "Sistema hidráulico optimizado",
+                "Multiple attachment options": "Múltiples opciones de accesorios",
+                "Compact turning radius": "Radio de giro compacto",
+                "Fuel-efficient operation": "Operación eficiente en combustible",
+                "Enhanced operator comfort": "Mayor confort del operador",
+                "Low maintenance requirements": "Requisitos de mantenimiento bajos",
+
+                
+                  "Underground utility vehicle": "Vehículo de utilidad subterráneo",
+                  "The Underground Utility Vehicle ensures efficient transport of personnel and materials in mining operations.": "El vehículo de utilidad subterráneo asegura el transporte eficiente de personal y materiales en las operaciones mineras.",
+                  "The Underground Utility Vehicle is an essential support machine for mining operations, designed to transport personnel, tools, and materials efficiently in underground environments. Built for durability and reliability, it features a rugged chassis, high ground clearance, and a compact design to navigate narrow tunnels and rough terrains. With its powerful engine and all-wheel drive, it ensures optimal performance even in challenging underground conditions. The vehicle is equipped with advanced safety features, including reinforced cabins, fire suppression systems, and emergency braking, ensuring operator safety in hazardous environments. Its modular design allows for multiple configurations, making it adaptable for various mining applications such as maintenance, logistics, and material handling.": "El vehículo de utilidad subterráneo es una máquina de apoyo esencial para las operaciones mineras, diseñada para transportar personal, herramientas y materiales de manera eficiente en entornos subterráneos. Construido para la durabilidad y fiabilidad, cuenta con un chasis robusto, alta distancia al suelo y un diseño compacto para navegar por túneles estrechos y terrenos accidentados. Con su motor potente y tracción en las cuatro ruedas, garantiza un rendimiento óptimo incluso en condiciones subterráneas desafiantes. El vehículo está equipado con características de seguridad avanzadas, incluyendo cabinas reforzadas, sistemas de supresión de incendios y frenos de emergencia, garantizando la seguridad del operador en entornos peligrosos. Su diseño modular permite múltiples configuraciones, lo que lo hace adaptable a diversas aplicaciones mineras como mantenimiento, logística y manejo de materiales.",
+                  "Compact and durable design for underground use": "Diseño compacto y duradero para uso subterráneo",
+                  "High ground clearance for rough terrain": "Alta distancia al suelo para terrenos accidentados",
+                  "All-wheel drive for enhanced traction": "Tracción en las cuatro ruedas para mayor tracción",
+                  "Reinforced cabin with safety features": "Cabina reforzada con características de seguridad",
+                  "Configurable for multiple applications": "Configurable para múltiples aplicaciones",
+                  "Easy maintenance access": "Acceso fácil para mantenimiento",
+
+                  
+                    "Tracked Bulldozer": "Bulldozer sobre orugas",
+                    "Powerful earth-moving machine for large construction and mining projects.": "Potente máquina de movimiento de tierras para grandes proyectos de construcción y minería.",
+                    "The Tracked Bulldozer delivers exceptional pushing power and traction for challenging earthmoving operations. Its heavy-duty tracks provide stability and low ground pressure across various soil conditions, while the hydraulically-controlled blade offers precise material handling. The pressurized cabin features advanced noise reduction and climate control, creating a comfortable environment for extended operation. With its robust construction and reliable performance, this bulldozer is ideal for land clearing, grading, and material spreading applications.": "El bulldozer sobre orugas ofrece una excepcional potencia de empuje y tracción para operaciones desafiantes de movimiento de tierras. Sus orugas de alta resistencia proporcionan estabilidad y baja presión sobre el terreno en diversas condiciones del suelo, mientras que la cuchilla controlada hidráulicamente ofrece un manejo preciso del material. La cabina presurizada cuenta con avanzada reducción de ruido y control climático, creando un ambiente cómodo para operaciones prolongadas. Con su construcción robusta y rendimiento confiable, este bulldozer es ideal para desbroce de tierras, nivelación y esparcimiento de materiales.",
+                    "Bulldozer": "Bulldozer",
+                    "Heavy-duty track system": "Sistema de orugas de alta resistencia",
+                    "Hydraulic blade control": "Control hidráulico de la cuchilla",
+                    "Pressurized operator cabin": "Cabina del operador presurizada",
+                    "Advanced noise reduction": "Reducción avanzada de ruido",
+                    "Powerful pushing capacity": "Gran capacidad de empuje",
+                    "Low ground pressure design": "Diseño de baja presión sobre el terreno",
+
+                    
+                      "Wheeled Loader": "Cargadora sobre ruedas",
+                      "Efficient material handling equipment for loading, transporting, and unloading operations.": "Equipo eficiente para manipulación de materiales en operaciones de carga, transporte y descarga.",
+                      "The Wheeled Loader combines versatility, mobility, and power for efficient material handling in construction and industrial settings. Its articulated steering and four-wheel drive system enable excellent maneuverability in confined spaces, while the quick-attach system allows for rapid switching between various attachments. The panoramic cabin provides outstanding visibility in all directions, enhancing operational safety and productivity. With its balanced power-to-weight ratio and fuel-efficient engine, this loader delivers optimal performance with reduced operating costs.": "La cargadora sobre ruedas combina versatilidad, movilidad y potencia para una manipulación eficiente de materiales en entornos de construcción e industriales. Su sistema de dirección articulada y tracción en las cuatro ruedas permite una excelente maniobrabilidad en espacios reducidos, mientras que el sistema de acoplamiento rápido permite cambiar rápidamente entre varios accesorios. La cabina panorámica ofrece una visibilidad excepcional en todas las direcciones, mejorando la seguridad operativa y la productividad. Con su relación equilibrada de potencia a peso y motor de bajo consumo, esta cargadora ofrece un rendimiento óptimo con costos operativos reducidos.",
+                      "Loader": "Cargadora",
+                      "Articulated steering system": "Sistema de dirección articulada",
+                      "Quick-attach bucket system": "Sistema de acoplamiento rápido de cubo",
+                      "Panoramic operator cabin": "Cabina panorámica del operador",
+                      "Four-wheel drive": "Tracción en las cuatro ruedas",
+                      "Ride control technology": "Tecnología de control de conducción",
+                      "Multiple work modes": "Múltiples modos de trabajo",
+
+                      
+                        "Double Drum Rollers": "Rodillos de doble tambor",
+                        "Double drum rollers solution for urban construction projects with limited space.": "Solución de rodillos de doble tambor para proyectos de construcción urbana con espacio limitado.",
+                        "The Double Drum Roller is a powerful and efficient compaction machine designed for road construction, asphalt paving, and soil stabilization. Featuring two heavy-duty steel drums, this roller delivers uniform compression, ensuring a smooth and durable surface. Its hydrostatic drive system provides excellent maneuverability, while the vibration control technology enhances compaction efficiency. The ergonomic operator station offers superior visibility and comfort, allowing for precise control in various job site conditions. With its fuel-efficient engine and easy maintenance access, the Double Drum Roller is an essential machine for high-performance compaction tasks.": "El rodillo de doble tambor es una máquina de compactación potente y eficiente diseñada para la construcción de carreteras, pavimentación de asfalto y estabilización del suelo. Con dos tambores de acero de alta resistencia, este rodillo ofrece una compresión uniforme, asegurando una superficie lisa y duradera. Su sistema de transmisión hidroestática proporciona excelente maniobrabilidad, mientras que la tecnología de control de vibración mejora la eficiencia de compactación. La estación ergonómica del operador ofrece una visibilidad y comodidad superiores, permitiendo un control preciso en diversas condiciones de obra. Con su motor eficiente en combustible y fácil acceso para mantenimiento, el rodillo de doble tambor es una máquina esencial para tareas de compactación de alto rendimiento.",
+                        "Dual steel drum design": "Diseño de doble tambor de acero",
+                        "Hydrostatic drive system": "Sistema de transmisión hidroestática",
+                        "Vibration control technology": "Tecnología de control de vibraciones",
+                        "Adjustable water spray system": "Sistema de rociado de agua ajustable",
+                        "Ergonomic operator station": "Estación ergonómica del operador",
+
+                        
+                          "newsNotFound": "Noticia no encontrada",
+                          "newsNotFoundDescription": "El artículo de noticias que busca no existe o ha sido eliminado.",
+                          "backToNews": "Volver a Noticias",
+                          "backToAllNews": "Volver a todas las noticias",
+                          "Product Launch": "Lanzamiento de producto",
+                          "Events": "Eventos",
+                          "Industry News": "Noticias de la industria",
+
+                          
+                            "Mini excavators - compact and efficient construction tools": "Miniexcavadoras - herramientas de construcción compactas y eficientes",
+                            "1. Small and flexible": "1. Pequeña y flexible",
+                            "Small size: suitable for small Spaces and complex environments, such as urban streets, indoor": "Tamaño reducido: adecuado para espacios pequeños y entornos complejos, como calles urbanas e interiores.",
+                            "construction and landscaping.": "construcción y paisajismo.",
+                            "Easy operation: small turning radius, flexible movement, suitable for fine construction tasks.": "Fácil operación: radio de giro pequeño, movimiento flexible, adecuado para tareas de construcción de precisión.",
+                            "2. Versatility": "2. Versatilidad",
+                            "Equipped with a variety of accessories: such as crushing hammer, clamp, drilling machine,": "Equipado con una variedad de accesorios: como martillo hidráulico, pinza, taladro,",
+                            "dozer shovel, etc., to meet the digging, crushing, cleaning, drilling and other construction needs.": "pala topadora, etc., para satisfacer las necesidades de excavación, demolición, limpieza, perforación y otras tareas de construcción.",
+                            "Multi-purpose: It can replace a variety of equipment to complete a variety of work and improve the use value.": "Multiusos: Puede reemplazar varios equipos para realizar diferentes trabajos y mejorar su valor de uso.",
+                            "3. Work efficiently": "3. Trabajar eficientemente",
+                            "Sufficient power: Despite its small size, the engine and hydraulic system are powerful and can complete excavation tasks quickly and efficiently.": "Potencia suficiente: A pesar de su tamaño reducido, el motor y el sistema hidráulico son potentes y pueden completar tareas de excavación de manera rápida y eficiente.",
+                            "Precise operation: The precise control of the hydraulic system makes it excellent in fine operation.": "Operación precisa: El control preciso del sistema hidráulico lo hace excelente para trabajos de precisión.",
+                            "2024-12-15": "15 de diciembre de 2024",
+
+                            
+                              "MOTORCADE-TECHNOLOGY Backhoe loader with powerful functions and excellent performance!": "Retroexcavadora MOTORCADE-TECHNOLOGY con funciones potentes y excelente rendimiento!",
+                              "Has the following product features and advantages:": "Tiene las siguientes características y ventajas del producto:",
+                              "Versatility: It can be used for both excavation and loading operations. One machine can be used for multiple purposes, saving costs.": "Versatilidad: Se puede utilizar tanto para operaciones de excavación como de carga. Una máquina para múltiples propósitos, ahorrando costos.",
+                              "High efficiency and energy saving: Using advanced power system and hydraulic system, it has low power consumption, high efficiency, energy saving and environmental protection.": "Alta eficiencia y ahorro de energía: Utilizando un sistema de energía y un sistema hidráulico avanzados, tiene bajo consumo de energía, alta eficiencia, ahorro energético y protección ambiental.",
+                              "Strong stability: Equipped with a stable chassis and high-quality suspension system, the operation is smooth, safe and reliable.": "Gran estabilidad: Equipado con un chasis estable y un sistema de suspensión de alta calidad, la operación es fluida, segura y confiable.",
+                              "Durable and wear-resistant: Using high-quality materials and precision manufacturing": "Duradero y resistente al desgaste: Utilizando materiales de alta calidad y fabricación de precisión",
+                              "technology, it is wear-resistant and durable, and will not be easily damaged after long-term use.": "tecnología, es resistente al desgaste y duradero, y no se dañará fácilmente después de un uso prolongado.",
+                              "Backhoe loaders help you easily cope with various construction tasks and are an indispensable": "Las retroexcavadoras le ayudan a afrontar fácilmente diversas tareas de construcción y son una herramienta indispensable",
+                              "tool for your construction projects!": "para sus proyectos de construcción!",
+                              
+                                "4 wheel drive front articulated off-road forklift": "Carretilla todoterreno articulada frontal con tracción en las cuatro ruedas",
+                                "The front-articulated 4×4 off-road forklift is a powerful tool designed for complex terrain and": "La carretilla todoterreno 4×4 articulada frontal es una herramienta potente diseñada para terrenos complejos y",
+                                "harsh environments. Its unique front hinge design enables the vehicle to have better handling": "entornos difíciles. Su exclusivo diseño de bisagra frontal permite que el vehículo tenga mejor maniobrabilidad",
+                                "and passing performance, and can easily cope with various complex terrains and obstacles.": "y rendimiento de paso, y puede hacer frente fácilmente a diversos terrenos complejos y obstáculos.",
+                                "This off-road forklift is equipped with a powerful power system and stable chassis structure,": "Esta carretilla todoterreno está equipada con un potente sistema de propulsión y una estructura de chasis estable,",
+                                "which can drive stably on steep hillsides, muddy roads and rugged terrains. At the same time,": "lo que le permite conducir de manera estable en colinas empinadas, caminos embarrados y terrenos accidentados. Al mismo tiempo,",
+                                "the precise steering system and flexible suspension system allow the driver to easily cope with": "el sistema de dirección precisa y la suspensión flexible permiten al conductor afrontar fácilmente",
+                                "various challenges and improve work efficiency and safety.": "diversos desafíos y mejorar la eficiencia y seguridad en el trabajo.",
+                                "Whether working in the field, on a construction site, or in the farmland, front-articulated": "Ya sea trabajando en el campo, en un sitio de construcción o en una finca, las carretillas todoterreno articuladas frontales",
+                                "rough-terrain forklifts deliver outstanding performance, helping users complete tasks quickly.": "ofrecen un rendimiento excepcional, ayudando a los usuarios a completar tareas rápidamente.",
+                                "Its durability and reliability have also been well received by users, making it your best choice in": "Su durabilidad y fiabilidad también han sido bien recibidas por los usuarios, convirtiéndola en la mejor opción para",
+                                "harsh environments. Choose a front-articulated rough-terrain forklift to make your work more": "entornos difíciles. Elija una carretilla todoterreno articulada frontal para hacer su trabajo más",
+                                "efficient, safer and smoother!": "eficiente, seguro y fluido.",
+                                
+                                  "🌟 2025, let the dream further! 🌟": "🌟 2025, ¡lleva el sueño más lejos! 🌟",
+                                  "The gears of time are quietly turning, and we have ushered in 2025. Thank you for your company and support. It is your trust and encouragement that keeps us moving forward.": "Los engranajes del tiempo giran silenciosamente y hemos dado la bienvenida a 2025. Gracias por tu compañía y apoyo. Tu confianza y ánimo nos mantienen avanzando.",
+                                  "🎉 The New Year bell rings, a new story is about to begin!": "🎉 Suenan las campanas del Año Nuevo, ¡una nueva historia está por comenzar!",
+                                  "✨ By 2025, we commit to:": "✨ Para 2025, nos comprometemos a:",
+                                  "Adhere to quality: to bring you better service and products;": "Mantener la calidad: brindarte mejores servicios y productos;",
+                                  "Service with heart: Every feedback is the driving force for our growth;": "Servicio con corazón: cada opinión es el motor de nuestro crecimiento;",
+                                  "Progress together: Work together to create a better future!": "Progresar juntos: Trabajemos juntos para un futuro mejor!",
+                                  "In the New Year, may your life be full of love and hope, and may our cooperation be more brilliant!": "En el Año Nuevo, que tu vida esté llena de amor y esperanza, y que nuestra cooperación sea aún más brillante!",
+                                  "Let's make a better 2025 together!": "¡Hagamos juntos un mejor 2025!",
+                                  
+                                    "\"Self-loading flat mouth mixer truck\"---small and flexible concrete mixer truck": "\"Camión mezclador de boca plana autocargable\"---camión mezclador de hormigón pequeño y flexible",
+                                    "This type of mixer truck is easier to operate in narrow construction sites. They are also suitable": "Este tipo de camión mezclador es más fácil de operar en sitios de construcción estrechos. También son adecuados",
+                                    "for projects with frequent movement between different construction sites. It adopts flat mouth": "para proyectos con movimiento frecuente entre diferentes sitios de construcción. Adopta una boca plana",
+                                    "mixing and double-sided hydraulic control for discharging. Its operating efficiency can reach 6-": "de mezcla y control hidráulico de doble cara para la descarga. Su eficiencia operativa puede alcanzar 6-",
+                                    "7 batches per hour, 14 cubic meters per hour. It adopts a domestic supercharged engine with a": "7 lotes por hora, 14 metros cúbicos por hora. Adopta un motor sobrealimentado nacional con una",
+                                    "speed of 2200 rpm, a rated power of 60kw, double high and low speed, and a low speed of 0-20": "velocidad de 2200 rpm, una potencia nominal de 60kw, doble velocidad alta y baja, y una velocidad baja de 0-20",
+                                    "km/h, high speed 0-35 km/h, its water supply system is a self-priming 24v centrifugal pump,": "km/h, velocidad alta de 0-35 km/h, su sistema de suministro de agua es una bomba centrífuga autocebante de 24v,",
+                                    "24v self-adjusting centrifugal pump, its tires use 20.5-16 herringbone tires, the self-loading flat-": "bomba centrífuga autoajustable de 24v, sus neumáticos usan neumáticos de espiga de 20.5-16, el mezclador autocargable de boca plana",
+                                    "mouth mixer can be efficient in concrete mixing and transportation, thus saving time and labor costs.": "puede ser eficiente en la mezcla y transporte de hormigón, ahorrando así tiempo y costos laborales.",
+                                    "All in all, we are very proud to launch the upgraded version of the self-loading flat mouth mixer": "En general, estamos muy orgullosos de lanzar la versión mejorada del mezclador autocargable de boca plana",
+                                    "truck. We believe that this upgraded version of the mixer truck can become a powerful": "camión. Creemos que esta versión mejorada del camión mezclador puede convertirse en un poderoso",
+                                    "assistant for construction workers and create a better and more efficient construction environment.": "asistente para los trabajadores de la construcción y crear un entorno de construcción mejor y más eficiente.",
+                                    
+                                      "MOTORCADE TECHNOLOGY—Leads the new era of intelligent building materials": "TECNOLOGÍA MOTORCADE—Lidera la nueva era de materiales de construcción inteligentes",
+                                      "Recently, mixing trucks have been exported to Southeast Asia, South America, the Middle East and Africa and other countries, widely used in road construction, residential development, bridge engineering and other fields. We firmly believe that quality products and perfect services will create greater value for global customers.": "Recientemente, los camiones mezcladores se han exportado al sudeste asiático, América del Sur, Medio Oriente y África, y otros países, ampliamente utilizados en la construcción de carreteras, desarrollo residencial, ingeniería de puentes y otros campos. Creemos firmemente que productos de calidad y servicios perfectos crearán un mayor valor para los clientes globales.",
+                                      "In today's increasingly stringent environmental regulations, we continue to optimize the product structure, introduce low energy consumption, high efficiency mixing trucks, reduce the carbon emissions in the construction process. At the same time, the introduction of intelligent systems makes the construction more accurate and efficient, and helps the industry to move towards sustainable development.": "En las regulaciones ambientales cada vez más estrictas de hoy, continuamos optimizando la estructura del producto, introduciendo camiones mezcladores de bajo consumo energético y alta eficiencia, reduciendo las emisiones de carbono en el proceso de construcción. Al mismo tiempo, la introducción de sistemas inteligentes hace que la construcción sea más precisa y eficiente, y ayuda a la industria a avanzar hacia un desarrollo sostenible.",
+                                      "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGY siempre se adhiere al concepto de \"innovación científica y tecnológica, el cliente primero\", y proporciona equipos de mezclado de alta calidad y un servicio postventa de alta calidad a clientes de todo el mundo. En el futuro, continuaremos desarrollando maquinaria de construcción más avanzada y contribuiremos con el poder de fabricación inteligente de China a la industria de la construcción global."
+
+
+                                    
+                                    
+                                  
+                                  
+                                
+                                
+                              
+                              
+                            
+                            
+                          
+                          
+
+
+                          
+                          
+                        
+                        
+                      
+                      
+                    
+                    
+                  
+                  
+                
+                
+              
+              
+            
+            
+          
+          
+        
+        
+    
+    
+    
+    
+
+
+  
+  
+}
