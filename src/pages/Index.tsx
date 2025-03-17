@@ -43,7 +43,7 @@ const Index = () => {
       id: '1',
       title: t('news_1_title'),
       excerpt: t('news_1_excerpt'),
-      date: t('category.date_1'),
+      date: t('December 14, 2024'),
       image: '/mini-excavators.jpeg',
       category: t('category.product launch'),
     },
@@ -51,7 +51,7 @@ const Index = () => {
       id: '2',
       title: t('news_2_title'),
       excerpt: t('news_2_excerpt'),
-      date: t('category.date_2'),
+      date: t('November 12, 2024'),
       image: '/backhoe-loader.jpeg',
       category: t('category.product launch'),
     }
