@@ -117,7 +117,7 @@ const Footer = () => {
             <h4 className="text-lg font-medium">{t("follow_us")}</h4>
             <div className="flex space-x-4">
               <a
-                href="https://www.facebook.com/your-facebook-profile"
+                href="https://www.facebook.com/profile.php?id=61571195877825"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
