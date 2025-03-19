@@ -24,6 +24,12 @@
   "whatsapp": "WhatsApp",
   "chat_now": "Chatea Ahora",
 
+  
+    "wechat": "Wechat",
+    "scan_qr_to_chat": "Escanea el QR para chatear",
+  
+  
+
   "email_us": "Envíanos un Correo",
   "email": "13061287760@163.com",
 
@@ -86,9 +92,15 @@
   "our_leadership_team": "Nuestro equipo de liderazgo",
   "our_leadership_team_description": "Conoce a los expertos que impulsan nuestra visión.",
 
-  "ceo_name": "Chinedu Okolo",
-  "chief_executive_officer": "Director Ejecutivo",
-  "chief_executive_officer_experience": "Con más de 12 años de experiencia en la industria, Chinedu lidera nuestra empresa con visión y experiencia.",
+  
+  
+    "ceo_name": "Leo Miao",
+    "chief_executive_officer": "Director Ejecutivo",
+    "chief_executive_officer_experience": "Con más de 25 años de experiencia en la industria, Leo Miao lidera nuestra empresa con visión y experiencia."
+  
+  
+  
+  ,
   "cto_name": "Sarah Chen",
   "chief_technology_officer": "Directora de Tecnología",
   "chief_technology_officer.experience": "Sarah impulsa nuestras innovaciones tecnológicas y asegura que nuestros productos permanezcan a la vanguardia.",
@@ -120,6 +132,11 @@
   "products.8.description": "Equipo eficiente para manejo de materiales, carga, transporte y descarga.",
   "products.9.name": "Rodillos de doble tambor",
   "products.9.description": "El rodillo de doble tambor asegura una compactación eficiente para carreteras y pavimentación.",
+  
+    "products.10.name": "Camión Hormigonera Autocargable",
+    "products.10.description": "Un camión versátil y eficiente equipado con un sistema de autocarga para mezclar y transportar hormigón en el sitio.",
+  
+  
   "our_catalogue": "Nuestro Catálogo",
   "premium_truck_machinery": "Maquinaria de camión premium",
   "explore_range": "Explora nuestra amplia gama de vehículos de construcción e industriales de alta calidad.",
@@ -373,7 +390,23 @@
                                       "MOTORCADE TECHNOLOGY—Leads the new era of intelligent building materials": "TECNOLOGÍA MOTORCADE—Lidera la nueva era de materiales de construcción inteligentes",
                                       "Recently, mixing trucks have been exported to Southeast Asia, South America, the Middle East and Africa and other countries, widely used in road construction, residential development, bridge engineering and other fields. We firmly believe that quality products and perfect services will create greater value for global customers.": "Recientemente, los camiones mezcladores se han exportado al sudeste asiático, América del Sur, Medio Oriente y África, y otros países, ampliamente utilizados en la construcción de carreteras, desarrollo residencial, ingeniería de puentes y otros campos. Creemos firmemente que productos de calidad y servicios perfectos crearán un mayor valor para los clientes globales.",
                                       "In today's increasingly stringent environmental regulations, we continue to optimize the product structure, introduce low energy consumption, high efficiency mixing trucks, reduce the carbon emissions in the construction process. At the same time, the introduction of intelligent systems makes the construction more accurate and efficient, and helps the industry to move towards sustainable development.": "En las regulaciones ambientales cada vez más estrictas de hoy, continuamos optimizando la estructura del producto, introduciendo camiones mezcladores de bajo consumo energético y alta eficiencia, reduciendo las emisiones de carbono en el proceso de construcción. Al mismo tiempo, la introducción de sistemas inteligentes hace que la construcción sea más precisa y eficiente, y ayuda a la industria a avanzar hacia un desarrollo sostenible.",
-                                      "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGY siempre se adhiere al concepto de \"innovación científica y tecnológica, el cliente primero\", y proporciona equipos de mezclado de alta calidad y un servicio postventa de alta calidad a clientes de todo el mundo. En el futuro, continuaremos desarrollando maquinaria de construcción más avanzada y contribuiremos con el poder de fabricación inteligente de China a la industria de la construcción global."
+                                      "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGY siempre se adhiere al concepto de \"innovación científica y tecnológica, el cliente primero\", y proporciona equipos de mezclado de alta calidad y un servicio postventa de alta calidad a clientes de todo el mundo. En el futuro, continuaremos desarrollando maquinaria de construcción más avanzada y contribuiremos con el poder de fabricación inteligente de China a la industria de la construcción global.",
+
+                                      
+                                        "Self-Loading Concrete Mixer Truck": "Camión hormigonera autocargable",
+                                        
+                                          "Truck": "Camión",
+                                          "The Self-Loading Concrete Mixer Truck is an advanced and mobile concrete mixing solution designed for construction projects requiring on-site concrete production. Equipped with an automatic loading system, this truck eliminates the need for manual material handling, improving efficiency and reducing labor costs. Its powerful rotating drum ensures consistent and homogeneous mixing, while the 360-degree rotating cabin provides excellent maneuverability. Designed for rough terrains, the mixer truck is built with a robust chassis, all-terrain tires, and a high-performance engine. With precise water dosing and weighing systems, it guarantees optimal concrete quality for every batch.": "El camión hormigonera autocargable es una solución avanzada y móvil para la mezcla de concreto, diseñada para proyectos de construcción que requieren producción de concreto en el sitio. Equipado con un sistema de carga automática, este camión elimina la necesidad de manipulación manual de materiales, mejorando la eficiencia y reduciendo los costos laborales. Su potente tambor giratorio asegura una mezcla uniforme y homogénea, mientras que la cabina giratoria de 360 grados proporciona una excelente maniobrabilidad. Diseñado para terrenos difíciles, el camión mezclador cuenta con un chasis robusto, neumáticos todo terreno y un motor de alto rendimiento. Con sistemas precisos de dosificación de agua y pesaje, garantiza una calidad óptima del concreto en cada lote.",
+                                          "Self-loading system for automatic material handling": "Sistema de autocarga para la manipulación automática de materiales",
+                                          "360-degree rotating cabin for enhanced maneuverability": "Cabina giratoria de 360 grados para mayor maniobrabilidad",
+                                          "Heavy-duty rotating drum for uniform concrete mixing": "Tambor giratorio de alta resistencia para una mezcla uniforme de concreto",
+                                          "High-performance engine for rough terrain operations": "Motor de alto rendimiento para operaciones en terrenos difíciles",
+                                          "Integrated weighing and water dosing system": "Sistema integrado de pesaje y dosificación de agua",
+                                          "Ergonomic control panel for easy operation": "Panel de control ergonómico para una operación sencilla"
+                                        
+                                        
+                                      
+                                      
 
 
                                     

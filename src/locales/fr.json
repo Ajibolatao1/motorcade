@@ -23,6 +23,11 @@
 
   "whatsapp": "WhatsApp",
   "chat_now": "Discuter maintenant",
+  
+    "wechat": "Wechat",
+    "scan_qr_to_chat": "Scannez le QR pour discuter",
+  
+  
 
   "email_us": "Envoyez-nous un e-mail",
   "email": "13061287760@163.com",
@@ -85,9 +90,15 @@
   "core.value.3.description": "Nous cherchons continuellement de nouvelles technologies et approches pour améliorer nos produits et services.",
   "our_leadership_team": "Notre équipe de direction",
   "our_leadership_team_description": "Rencontrez les experts qui font avancer notre vision.",
-  "ceo_name": "Chinedu Okolo",
-  "chief_executive_officer": "Directeur général",
-  "chief_executive_officer_experience": "Avec plus de 12 ans d'expérience dans l'industrie, Chinedu dirige notre entreprise avec vision et expertise.",
+  
+  
+    "ceo_name": "Leo Miao",
+    "chief_executive_officer": "Directeur Général",
+    "chief_executive_officer_experience": "Avec plus de 25 ans d'expérience dans l'industrie, Leo Miao dirige notre entreprise avec vision et expertise."
+  
+  
+  
+  ,
   "cto_name": "Sarah Chen",
   "chief_technology_officer": "Directrice technique",
   "chief_technology_officer.experience": "Sarah dirige nos innovations technologiques et veille à ce que nos produits restent à la pointe.",
@@ -121,6 +132,11 @@
     "products.8.description": "Équipement de manutention des matériaux efficace pour le chargement, le transport et le déchargement.",
     "products.9.name": "Rouleaux à double tambour",
     "products.9.description": "Le rouleau à double tambour garantit une compaction efficace pour les routes et les revêtements.",
+    
+      "products.10.name": "Camion Malaxeur à Béton Autochargeur",
+      "products.10.description": "Un camion polyvalent et efficace équipé d'un système d'autocharge pour mélanger et transporter le béton sur site.",
+    
+    
     "our_catalogue": "Notre catalogue",
     "premium_truck_machinery": "Machines de camions premium",
     "explore_range": "Découvrez notre large gamme de véhicules industriels et de construction de haute qualité.",
@@ -375,7 +391,23 @@
                                         "MOTORCADE TECHNOLOGY—Leads the new era of intelligent building materials": "MOTORCADE TECHNOLOGY—Dirige la nouvelle ère des matériaux de construction intelligents",
                                         "Recently, mixing trucks have been exported to Southeast Asia, South America, the Middle East and Africa and other countries, widely used in road construction, residential development, bridge engineering and other fields. We firmly believe that quality products and perfect services will create greater value for global customers.": "Récemment, des camions malaxeurs ont été exportés vers l’Asie du Sud-Est, l’Amérique du Sud, le Moyen-Orient et l’Afrique, et d’autres pays, largement utilisés dans la construction routière, le développement résidentiel, l’ingénierie des ponts et d’autres domaines. Nous croyons fermement que des produits de qualité et des services parfaits créeront une plus grande valeur pour les clients du monde entier.",
                                         "In today's increasingly stringent environmental regulations, we continue to optimize the product structure, introduce low energy consumption, high efficiency mixing trucks, reduce the carbon emissions in the construction process. At the same time, the introduction of intelligent systems makes the construction more accurate and efficient, and helps the industry to move towards sustainable development.": "Dans un contexte de réglementations environnementales de plus en plus strictes, nous continuons à optimiser la structure des produits, à introduire des camions malaxeurs à faible consommation d'énergie et à haute efficacité, et à réduire les émissions de carbone dans le processus de construction. Parallèlement, l’introduction de systèmes intelligents rend la construction plus précise et plus efficace et aide l’industrie à progresser vers un développement durable.",
-                                        "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGY adhère toujours au concept d'\"innovation scientifique et technologique, le client d'abord\", et fournit des équipements de mélange de haute qualité ainsi qu'un service après-vente de premier ordre aux clients du monde entier. À l'avenir, nous continuerons à développer des machines de construction plus avancées et à contribuer à la puissance de fabrication intelligente de la Chine dans l'industrie mondiale de la construction."
+                                        "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGY adhère toujours au concept d'\"innovation scientifique et technologique, le client d'abord\", et fournit des équipements de mélange de haute qualité ainsi qu'un service après-vente de premier ordre aux clients du monde entier. À l'avenir, nous continuerons à développer des machines de construction plus avancées et à contribuer à la puissance de fabrication intelligente de la Chine dans l'industrie mondiale de la construction.",
+
+                                        
+                                          "Self-Loading Concrete Mixer Truck": "Camion malaxeur à béton autochargeant",
+                                          
+                                            "Truck": "Camion",
+                                            "The Self-Loading Concrete Mixer Truck is an advanced and mobile concrete mixing solution designed for construction projects requiring on-site concrete production. Equipped with an automatic loading system, this truck eliminates the need for manual material handling, improving efficiency and reducing labor costs. Its powerful rotating drum ensures consistent and homogeneous mixing, while the 360-degree rotating cabin provides excellent maneuverability. Designed for rough terrains, the mixer truck is built with a robust chassis, all-terrain tires, and a high-performance engine. With precise water dosing and weighing systems, it guarantees optimal concrete quality for every batch.": "Le camion malaxeur à béton autochargeant est une solution avancée et mobile de mélange de béton, conçue pour les projets de construction nécessitant une production de béton sur site. Équipé d'un système de chargement automatique, ce camion élimine le besoin de manipulation manuelle des matériaux, améliorant l'efficacité et réduisant les coûts de main-d'œuvre. Son tambour rotatif puissant assure un mélange homogène et uniforme, tandis que la cabine rotative à 360 degrés offre une excellente maniabilité. Conçu pour les terrains difficiles, le camion malaxeur est doté d'un châssis robuste, de pneus tout-terrain et d'un moteur haute performance. Avec des systèmes précis de dosage d'eau et de pesée, il garantit une qualité optimale du béton à chaque lot.",
+                                            "Self-loading system for automatic material handling": "Système autochargeant pour la manutention automatique des matériaux",
+                                            "360-degree rotating cabin for enhanced maneuverability": "Cabine rotative à 360 degrés pour une meilleure maniabilité",
+                                            "Heavy-duty rotating drum for uniform concrete mixing": "Tambour rotatif robuste pour un mélange homogène du béton",
+                                            "High-performance engine for rough terrain operations": "Moteur haute performance pour les opérations sur terrains accidentés",
+                                            "Integrated weighing and water dosing system": "Système intégré de pesée et de dosage de l'eau",
+                                            "Ergonomic control panel for easy operation": "Panneau de contrôle ergonomique pour une utilisation facile"
+                                          
+                                          
+                                        
+                                        
 
 
                                       

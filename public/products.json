@@ -1,0 +1,12 @@
+[
+    { "id": "1", "name": "products.1.name", "description": "products.1.description", "image": "/Underground mining truck.jpeg", "category": "category.underground_machines", "date": "2023-06-15" },
+    { "id": "2", "name": "products.2.name", "description": "products.2.description", "image": "/2 tire roller.jpg", "category": "category.roller", "date": "2023-04-22" },
+    { "id": "3", "name": "products.3.name", "description": "products.3.description", "image": "/hydraulic drum-1.jpg", "category": "category.roller", "date": "2023-05-10" },
+    { "id": "4", "name": "products.4.name", "description": "products.4.description", "image": "/underground mining loader.jpg", "category": "category.underground_machines", "date": "2023-07-05" },
+    { "id": "5", "name": "products.5.name", "description": "products.5.description", "image": "/excavator-1.jpeg", "category": "category.excavator", "date": "2023-03-18" },
+    { "id": "6", "name": "products.6.name", "description": "products.6.description", "image": "/underground Utility vehicle.jpg", "category": "category.underground_machines", "date": "2023-08-12" },
+    { "id": "7", "name": "products.7.name", "description": "products.7.description", "image": "/bulldozer-1.png", "category": "category.bulldozer", "date": "2023-09-28" },
+    { "id": "8", "name": "products.8.name", "description": "products.8.description", "image": "/wheeled-1.png", "category": "category.loader", "date": "2023-02-05" },
+    { "id": "9", "name": "products.9.name", "description": "products.9.description", "image": "/double drum rollers.jpg", "category": "category.roller", "date": "2023-10-15" },
+    { "id": "10", "name": "products.10.name", "description": "products.10.description", "image": "/self-loading-concrete-mixer.jpg", "category": "category.truck", "date": "2023-04-15" }
+]

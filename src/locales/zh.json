@@ -23,6 +23,11 @@
 
   "whatsapp": "WhatsApp",
   "chat_now": "立即聊天",
+  
+    "wechat": "微信",
+    "scan_qr_to_chat": "扫描二维码聊天",
+  
+  
 
   "email_us": "发送电子邮件",
   "email": "13061287760@163.com",
@@ -85,9 +90,15 @@
   "core.value.3.description": "我们始终寻求新的技术和方法，不断改进我们的产品和服务。",
   "our_leadership_team": "我们的领导团队",
   "our_leadership_team_description": "认识那些推动我们愿景的专家。",
-  "ceo_name": "Chinedu Okolo",
-  "chief_executive_officer": "首席执行官（CEO）",
-  "chief_executive_officer_experience": "Chinedu 拥有超过12年的行业经验，领导着我们的公司。",
+  
+  
+    "ceo_name": "廖淼",
+    "chief_executive_officer": "首席执行官",
+    "chief_executive_officer_experience": "拥有超过25年的行业经验，廖淼以远见卓识和专业知识领导我们的公司。"
+  
+  
+  
+  ,
   "cto_name": "Sarah Chen",
   "chief_technology_officer": "首席技术官（CTO）",
   "chief_technology_officer.experience": "Sarah 领导我们的技术创新，确保我们的产品始终走在行业前沿。",
@@ -121,6 +132,11 @@
     "products.8.description": "高效的物料处理设备，用于装载、运输和卸载作业。",
     "products.9.name": "双滚筒压路机",
     "products.9.description": "双滚筒压路机确保道路和铺路的高效压实。",
+    
+      "products.10.name": "自装载混凝土搅拌车",
+      "products.10.description": "一款多功能高效卡车，配备自装载系统，可在现场搅拌和运输混凝土。",
+    
+    
     "our_catalogue": "我们的目录",
     "premium_truck_machinery": "高端卡车机械",
     "explore_range": "探索我们丰富的高质量建筑和工业车辆系列。",
@@ -372,7 +388,22 @@
                                           "MOTORCADE TECHNOLOGY—Leads the new era of intelligent building materials": "MOTORCADE TECHNOLOGY—引领智能建筑材料新时代",
                                           "Recently, mixing trucks have been exported to Southeast Asia, South America, the Middle East and Africa and other countries, widely used in road construction, residential development, bridge engineering and other fields. We firmly believe that quality products and perfect services will create greater value for global customers.": "最近，搅拌车已出口到东南亚、南美、中东和非洲等国家，广泛应用于道路施工、住宅开发、桥梁工程等领域。我们坚信，优质的产品和完善的服务将为全球客户创造更大的价值。",
                                           "In today's increasingly stringent environmental regulations, we continue to optimize the product structure, introduce low energy consumption, high efficiency mixing trucks, reduce the carbon emissions in the construction process. At the same time, the introduction of intelligent systems makes the construction more accurate and efficient, and helps the industry to move towards sustainable development.": "在当今日益严格的环保法规下，我们不断优化产品结构，推出低能耗、高效率的搅拌车，减少施工过程中的碳排放。同时，智能系统的引入使施工更加精准高效，助力行业向可持续发展迈进。",
-                                         "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGY始终坚持\"科技创新，客户至上\"的理念，为全球客户提供高质量的搅拌设备和优质的售后服务。未来，我们将继续研发更先进的建筑机械，为全球建筑行业贡献中国智能制造的力量。"
+                                         "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGY始终坚持\"科技创新，客户至上\"的理念，为全球客户提供高质量的搅拌设备和优质的售后服务。未来，我们将继续研发更先进的建筑机械，为全球建筑行业贡献中国智能制造的力量。",
+                                         
+                                          "Self-Loading Concrete Mixer Truck": "自上料混凝土搅拌车",
+                                          
+                                            "Truck": "卡车",
+                                            "The Self-Loading Concrete Mixer Truck is an advanced and mobile concrete mixing solution designed for construction projects requiring on-site concrete production. Equipped with an automatic loading system, this truck eliminates the need for manual material handling, improving efficiency and reducing labor costs. Its powerful rotating drum ensures consistent and homogeneous mixing, while the 360-degree rotating cabin provides excellent maneuverability. Designed for rough terrains, the mixer truck is built with a robust chassis, all-terrain tires, and a high-performance engine. With precise water dosing and weighing systems, it guarantees optimal concrete quality for every batch.": "自上料混凝土搅拌车是一种先进的移动式混凝土搅拌解决方案，专为需要现场生产混凝土的建筑项目而设计。 该卡车配备自动上料系统，消除了人工搬运材料的需要，提高了效率并降低了人工成本。 其强大的旋转搅拌桶确保混合均匀一致，而 360 度旋转驾驶室提供出色的操控性。 该搅拌车专为恶劣地形设计，配备坚固的底盘、全地形轮胎和高性能发动机。 通过精确的加水和称重系统，它确保每批混凝土的最佳质量。",
+                                            "Self-loading system for automatic material handling": "自动上料系统用于自动处理材料",
+                                            "360-degree rotating cabin for enhanced maneuverability": "360 度旋转驾驶室提高机动性",
+                                            "Heavy-duty rotating drum for uniform concrete mixing": "重型旋转搅拌桶可实现均匀混合",
+                                            "High-performance engine for rough terrain operations": "高性能发动机适用于恶劣地形作业",
+                                            "Integrated weighing and water dosing system": "集成称重和加水系统",
+                                            "Ergonomic control panel for easy operation": "符合人体工程学的控制面板，操作方便"
+                                          
+                                          
+                                        
+                                        
 
 
                                         

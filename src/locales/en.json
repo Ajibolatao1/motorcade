@@ -23,6 +23,8 @@
 
   "whatsapp": "WhatsApp",
   "chat_now": "Chat Now",
+  "wechat": "Wechat",
+  "scan_qr_to_chat": "Scan QR to chat",
 
   "email_us": "Email Us",
   "email": "13061287760@163.com",
@@ -87,9 +89,9 @@
   "our_leadership_team": "Our Leadership Team",
   "our_leadership_team_description": "Meet the experts who drive our vision forward.",
 
-  "ceo_name": "Chinedu Okolo",
+  "ceo_name": "Leo Miao",
   "chief_executive_officer": "Chief Executive Officer",
-  "chief_executive_officer_experience": "With over 12 years of industry experience, Chinedu leads our company with vision and expertise.",
+  "chief_executive_officer_experience": "With over 25 years of industry experience, Leo Miao leads our company with vision and expertise.",
   "cto_name": "Sarah Chen",
   "chief_technology_officer": "Chief Technology Officer",
   "chief_technology_officer.experience": "Sarah drives our technological innovations and ensures our products remain at the cutting edge.",
@@ -121,6 +123,12 @@
   "products.8.description": "Efficient material handling equipment for loading, transporting, and unloading operations.",
   "products.9.name": "Double Drum Rollers",
   "products.9.description": "The Double Drum Roller ensures efficient compaction for roads and paving.",
+  "products.10.name": "Self-Loading Concrete Mixer Truck",
+  "products.10.description": "A versatile and efficient truck equipped with a self-loading system for mixing and transporting concrete on-site.",
+  "sort_by": "Sort by",
+  "a_to_z": "A to Z",
+  "z_to_a": "Z to A",
+
   "our_catalogue": "Our Catalogue",
   "premium_truck_machinery": "Premium Truck Machinery",
   "explore_range": "Explore our extensive range of high-quality construction and industrial vehicles.",
@@ -366,7 +374,17 @@
                     "MOTORCADE TECHNOLOGY—Leads the new era of intelligent building materials": "MOTORCADE TECHNOLOGY—Leads the new era of intelligent building materials",
                     "Recently, mixing trucks have been exported to Southeast Asia, South America, the Middle East and Africa and other countries, widely used in road construction, residential development, bridge engineering and other fields. We firmly believe that quality products and perfect services will create greater value for global customers.": "Recently, mixing trucks have been exported to Southeast Asia, South America, the Middle East and Africa and other countries, widely used in road construction, residential development, bridge engineering and other fields. We firmly believe that quality products and perfect services will create greater value for global customers.",
                     "In today's increasingly stringent environmental regulations, we continue to optimize the product structure, introduce low energy consumption, high efficiency mixing trucks, reduce the carbon emissions in the construction process. At the same time, the introduction of intelligent systems makes the construction more accurate and efficient, and helps the industry to move towards sustainable development.": "In today's increasingly stringent environmental regulations, we continue to optimize the product structure, introduce low energy consumption, high efficiency mixing trucks, reduce the carbon emissions in the construction process. At the same time, the introduction of intelligent systems makes the construction more accurate and efficient, and helps the industry to move towards sustainable development.",
-                    "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!"
+                    "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!",
+                    
+                    "Self-Loading Concrete Mixer Truck": "Self-Loading Concrete Mixer Truck",
+                    "Truck": "Truck",
+                    "The Self-Loading Concrete Mixer Truck is an advanced and mobile concrete mixing solution designed for construction projects requiring on-site concrete production. Equipped with an automatic loading system, this truck eliminates the need for manual material handling, improving efficiency and reducing labor costs. Its powerful rotating drum ensures consistent and homogeneous mixing, while the 360-degree rotating cabin provides excellent maneuverability. Designed for rough terrains, the mixer truck is built with a robust chassis, all-terrain tires, and a high-performance engine. With precise water dosing and weighing systems, it guarantees optimal concrete quality for every batch.": "The Self-Loading Concrete Mixer Truck is an advanced and mobile concrete mixing solution designed for construction projects requiring on-site concrete production. Equipped with an automatic loading system, this truck eliminates the need for manual material handling, improving efficiency and reducing labor costs. Its powerful rotating drum ensures consistent and homogeneous mixing, while the 360-degree rotating cabin provides excellent maneuverability. Designed for rough terrains, the mixer truck is built with a robust chassis, all-terrain tires, and a high-performance engine. With precise water dosing and weighing systems, it guarantees optimal concrete quality for every batch.",
+                    "Self-loading system for automatic material handling": "Self-loading system for automatic material handling",
+        "360-degree rotating cabin for enhanced maneuverability": "360-degree rotating cabin for enhanced maneuverability",
+        "Heavy-duty rotating drum for uniform concrete mixing": "Heavy-duty rotating drum for uniform concrete mixing",
+        "High-performance engine for rough terrain operations": "High-performance engine for rough terrain operations",
+        "Integrated weighing and water dosing system": "Integrated weighing and water dosing system",
+        "Ergonomic control panel for easy operation": "Ergonomic control panel for easy operation"
 
 
                   

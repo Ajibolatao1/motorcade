@@ -23,6 +23,11 @@
 
   "whatsapp": "WhatsApp",
   "chat_now": "今すぐチャット",
+  
+    "wechat": "Wechat",
+    "scan_qr_to_chat": "QRコードをスキャンしてチャット",
+  
+  
 
   "email_us": "メールでお問い合わせ",
   "email": "13061287760@163.com",
@@ -85,9 +90,15 @@
   "core.value.3.description": "私たちは、新しい技術やアプローチを常に探求し、製品やサービスを改善しています。",
   "our_leadership_team": "私たちのリーダーシップチーム",
   "our_leadership_team_description": "私たちのビジョンを前進させる専門家たちを紹介します。",
-  "ceo_name": "チネドゥ・オコロ",
-  "chief_executive_officer": "最高経営責任者（CEO）",
-  "chief_executive_officer_experience": "業界で12年以上の経験を持ち、チネドゥは私たちの企業を率いています。",
+  
+  
+    "ceo_name": "レオ・ミャオ",
+    "chief_executive_officer": "最高経営責任者",
+    "chief_executive_officer_experience": "25年以上の業界経験を持つレオ・ミャオが、ビジョンと専門知識をもって当社をリードしています。"
+  
+  
+  
+  ,
   "cto_name": "サラ・チェン",
   "chief_technology_officer": "最高技術責任者（CTO）",
   "chief_technology_officer.experience": "サラは私たちの技術革新をリードし、製品が業界の先端を行くようにしています。",
@@ -121,6 +132,11 @@
     "products.8.description": "材料の取り扱い、積み込み、輸送、および荷降ろしのための効率的な機器。",
     "products.9.name": "ダブルドラムローラー",
     "products.9.description": "ダブルドラムローラーは、道路や舗装の効率的な圧縮を保証します。",
+    
+      "products.10.name": "セルフローディング コンクリート ミキサー トラック",
+      "products.10.description": "現場でのコンクリートの混合と輸送を可能にするセルフローディングシステムを備えた、多用途で効率的なトラックです。",
+    
+    
     "our_catalogue": "カタログ",
     "premium_truck_machinery": "プレミアムトラック機械",
     "explore_range": "高品質な建設および産業車両の広範なラインアップを探索してください。",
@@ -372,7 +388,23 @@
                                           "MOTORCADE TECHNOLOGY—Leads the new era of intelligent building materials": "MOTORCADE TECHNOLOGY—インテリジェント建築材料の新時代をリード",
                                           "Recently, mixing trucks have been exported to Southeast Asia, South America, the Middle East and Africa and other countries, widely used in road construction, residential development, bridge engineering and other fields. We firmly believe that quality products and perfect services will create greater value for global customers.": "最近、ミキサートラックが東南アジア、南アメリカ、中東、アフリカなどの国々に輸出され、道路建設、住宅開発、橋梁工学などの分野で広く使用されています。私たちは、高品質な製品と完璧なサービスが世界中の顧客により大きな価値を提供すると確信しています。",
                                           "In today's increasingly stringent environmental regulations, we continue to optimize the product structure, introduce low energy consumption, high efficiency mixing trucks, reduce the carbon emissions in the construction process. At the same time, the introduction of intelligent systems makes the construction more accurate and efficient, and helps the industry to move towards sustainable development.": "今日の厳格化する環境規制の中で、私たちは引き続き製品構造を最適化し、低エネルギー消費で高効率のミキサートラックを導入し、建設プロセスでの炭素排出を削減しています。同時に、インテリジェントシステムの導入により、建設の精度と効率が向上し、業界の持続可能な発展を支援します。",
-                                         "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGYは常に「科学技術革新、顧客第一」の理念を堅持し、世界中の顧客に高品質なミキサー機器と高品質なアフターサービスを提供しています。将来的には、より高度な建設機械を開発し、中国のインテリジェントな製造力を世界の建設業界に貢献していきます。"
+                                         "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGYは常に「科学技術革新、顧客第一」の理念を堅持し、世界中の顧客に高品質なミキサー機器と高品質なアフターサービスを提供しています。将来的には、より高度な建設機械を開発し、中国のインテリジェントな製造力を世界の建設業界に貢献していきます。",
+                                         
+
+                                          "Self-Loading Concrete Mixer Truck": "セルフローディングコンクリートミキサートラック",
+                                          
+                                            "Truck": "トラック",
+                                            "The Self-Loading Concrete Mixer Truck is an advanced and mobile concrete mixing solution designed for construction projects requiring on-site concrete production. Equipped with an automatic loading system, this truck eliminates the need for manual material handling, improving efficiency and reducing labor costs. Its powerful rotating drum ensures consistent and homogeneous mixing, while the 360-degree rotating cabin provides excellent maneuverability. Designed for rough terrains, the mixer truck is built with a robust chassis, all-terrain tires, and a high-performance engine. With precise water dosing and weighing systems, it guarantees optimal concrete quality for every batch.": "セルフローディング コンクリートミキサートラックは、現場でのコンクリート生産を必要とする建設プロジェクト向けに設計された、先進的でモバイルなコンクリートミキシング ソリューションです。 自動積載システムを備えたこのトラックは、手動での材料処理の必要性を排除し、効率を向上させ、労働コストを削減します。 強力な回転ドラムは一貫性のある均一な混合を保証し、360度回転するキャビンは優れた操作性を提供します。 過酷な地形向けに設計されたこのミキサートラックは、頑丈なシャーシ、オールテレーン タイヤ、高性能エンジンを備えています。 正確な水量調整および計量システムにより、バッチごとに最適なコンクリート品質が保証されます。",
+                                            "Self-loading system for automatic material handling": "自動材料処理用のセルフローディング システム",
+                                            "360-degree rotating cabin for enhanced maneuverability": "操作性を向上させる 360 度回転キャビン",
+                                            "Heavy-duty rotating drum for uniform concrete mixing": "均一なコンクリート混合のための高耐久回転ドラム",
+                                            "High-performance engine for rough terrain operations": "悪路での操作に適した高性能エンジン",
+                                            "Integrated weighing and water dosing system": "統合された計量および水量調整システム",
+                                            "Ergonomic control panel for easy operation": "簡単操作のための人間工学に基づいたコントロールパネル"
+                                          
+                                          
+                                        
+                                        
 
 
                                         

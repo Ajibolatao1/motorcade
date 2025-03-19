@@ -23,6 +23,11 @@
 
   "whatsapp": "WhatsApp",
   "chat_now": "Conversar agora",
+  
+    "wechat": "Wechat",
+    "scan_qr_to_chat": "Escaneie o QR para conversar",
+  
+  
 
   "email_us": "Envie-nos um e-mail",
   "email": "13061287760@163.com",
@@ -85,9 +90,15 @@
   "core.value.3.description": "Estamos sempre buscando novas tecnologias e abordagens para melhorar nossos produtos e serviços.",
   "our_leadership_team": "Nossa equipe de liderança",
   "our_leadership_team_description": "Conheça os especialistas que impulsionam nossa visão.",
-  "ceo_name": "Chinedu Okolo",
-  "chief_executive_officer": "CEO",
-  "chief_executive_officer_experience": "Com mais de 12 anos de experiência na indústria, Chinedu lidera nossa empresa com visão e expertise.",
+  
+  
+    "ceo_name": "Leo Miao",
+    "chief_executive_officer": "Diretor Executivo",
+    "chief_executive_officer_experience": "Com mais de 25 anos de experiência no setor, Leo Miao lidera nossa empresa com visão e expertise."
+  
+  
+  
+  ,
   "cto_name": "Sarah Chen",
   "chief_technology_officer": "CTO",
   "chief_technology_officer.experience": "Sarah lidera nossas inovações tecnológicas e garante que nossos produtos permaneçam na vanguarda.",
@@ -121,6 +132,11 @@
     "products.8.description": "Equipamento eficiente para manuseio de materiais, carregamento, transporte e descarregamento.",
     "products.9.name": "Rolos de tambor duplo",
     "products.9.description": "O rolo de tambor duplo garante compactação eficiente para estradas e pavimentação.",
+    
+      "products.10.name": "Caminhão Betoneira Autocarregável",
+      "products.10.description": "Um caminhão versátil e eficiente equipado com um sistema de autocarregamento para misturar e transportar concreto no local.",
+    
+    
     "our_catalogue": "Nosso Catálogo",
     "premium_truck_machinery": "Máquinas de caminhão premium",
     "explore_range": "Explore nossa ampla gama de veículos de construção e industriais de alta qualidade.",
@@ -372,7 +388,23 @@
                                           "MOTORCADE TECHNOLOGY—Leads the new era of intelligent building materials": "MOTORCADE TECHNOLOGY—Lidera a nova era dos materiais de construção inteligentes",
                                           "Recently, mixing trucks have been exported to Southeast Asia, South America, the Middle East and Africa and other countries, widely used in road construction, residential development, bridge engineering and other fields. We firmly believe that quality products and perfect services will create greater value for global customers.": "Recentemente, caminhões betoneira foram exportados para o Sudeste Asiático, América do Sul, Oriente Médio e África, entre outros países, sendo amplamente utilizados na construção de estradas, desenvolvimento residencial, engenharia de pontes e outros setores. Acreditamos firmemente que produtos de qualidade e serviços impecáveis criarão maior valor para os clientes globais.",
                                           "In today's increasingly stringent environmental regulations, we continue to optimize the product structure, introduce low energy consumption, high efficiency mixing trucks, reduce the carbon emissions in the construction process. At the same time, the introduction of intelligent systems makes the construction more accurate and efficient, and helps the industry to move towards sustainable development.": "Com regulamentações ambientais cada vez mais rigorosas, continuamos a otimizar a estrutura dos produtos, introduzindo caminhões betoneira de baixo consumo de energia e alta eficiência, reduzindo as emissões de carbono no processo de construção. Ao mesmo tempo, a introdução de sistemas inteligentes torna a construção mais precisa e eficiente, ajudando a indústria a avançar em direção ao desenvolvimento sustentável.",
-                                          "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "A MOTORCADE TECHNOLOGY sempre segue o conceito de \"inovação científica e tecnológica, cliente em primeiro lugar\", fornecendo equipamentos de mistura de alta qualidade e um serviço pós-venda de excelência para clientes em todo o mundo. No futuro, continuaremos a desenvolver máquinas de construção mais avançadas e a contribuir com o poder da fabricação inteligente da China para a indústria global da construção."
+                                          "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "A MOTORCADE TECHNOLOGY sempre segue o conceito de \"inovação científica e tecnológica, cliente em primeiro lugar\", fornecendo equipamentos de mistura de alta qualidade e um serviço pós-venda de excelência para clientes em todo o mundo. No futuro, continuaremos a desenvolver máquinas de construção mais avançadas e a contribuir com o poder da fabricação inteligente da China para a indústria global da construção.",
+                                          
+                                            "Self-Loading Concrete Mixer Truck": "Caminhão betoneira autocarregável",
+                                            
+                                              "Truck": "Caminhão",
+                                              "The Self-Loading Concrete Mixer Truck is an advanced and mobile concrete mixing solution designed for construction projects requiring on-site concrete production. Equipped with an automatic loading system, this truck eliminates the need for manual material handling, improving efficiency and reducing labor costs. Its powerful rotating drum ensures consistent and homogeneous mixing, while the 360-degree rotating cabin provides excellent maneuverability. Designed for rough terrains, the mixer truck is built with a robust chassis, all-terrain tires, and a high-performance engine. With precise water dosing and weighing systems, it guarantees optimal concrete quality for every batch.": "O Caminhão Betoneira Auto Carregável é uma solução avançada e móvel para mistura de concreto, projetada para projetos de construção que exigem produção de concreto no local. Equipado com um sistema de carregamento automático, este caminhão elimina a necessidade de manuseio manual de materiais, melhorando a eficiência e reduzindo os custos com mão de obra. Seu tambor giratório potente garante uma mistura consistente e homogênea, enquanto a cabine giratória de 360 graus proporciona excelente manobrabilidade. Projetado para terrenos acidentados, o caminhão misturador é construído com um chassi robusto, pneus para todos os terrenos e um motor de alto desempenho. Com sistemas precisos de dosagem de água e pesagem, garante a qualidade ideal do concreto para cada lote.",
+                                              "Self-loading system for automatic material handling": "Sistema de auto carregamento para manuseio automático de materiais",
+                                              "360-degree rotating cabin for enhanced maneuverability": "Cabine giratória de 360 graus para melhor manobrabilidade",
+                                              "Heavy-duty rotating drum for uniform concrete mixing": "Tambor rotativo resistente para mistura uniforme de concreto",
+                                              "High-performance engine for rough terrain operations": "Motor de alto desempenho para operações em terrenos acidentados",
+                                              "Integrated weighing and water dosing system": "Sistema integrado de pesagem e dosagem de água",
+                                              "Ergonomic control panel for easy operation": "Painel de controle ergonômico para fácil operação"
+                                            
+                                            
+
+                                          
+                                          
 
 
                                         

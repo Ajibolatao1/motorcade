@@ -23,6 +23,11 @@
 
   "whatsapp": "व्हाट्सएप",
   "chat_now": "अभी चैट करें",
+  
+    "wechat": "Wechat",
+    "scan_qr_to_chat": "चैट करने के लिए QR स्कैन करें",
+  
+  
 
   "email_us": "हमें ईमेल करें",
   "email": "13061287760@163.com",
@@ -85,9 +90,15 @@
   "core.value.3.description": "हम लगातार नए तकनीकी दृष्टिकोण और तरीकों की तलाश करते हैं ताकि हमारे उत्पादों और सेवाओं में सुधार कर सकें।",
   "our_leadership_team": "हमारी नेतृत्व टीम",
   "our_leadership_team_description": "हमारे दृष्टिकोण को आगे बढ़ाने वाले विशेषज्ञों से मिलें।",
-  "ceo_name": "चिनेडु ओकोलो",
-  "chief_executive_officer": "मुख्य कार्यकारी अधिकारी",
-  "chief_executive_officer_experience": "उद्योग में 12 वर्षों से अधिक के अनुभव के साथ, चिनेडु हमारे कंपनी का नेतृत्व करते हैं।",
+  
+  
+    "ceo_name": "लेओ मियाओ",
+    "chief_executive_officer": "मुख्य कार्यकारी अधिकारी",
+    "chief_executive_officer_experience": "25 से अधिक वर्षों के उद्योग अनुभव के साथ, लेओ मियाओ हमारी कंपनी को दृष्टि और विशेषज्ञता के साथ नेतृत्व करते हैं।"
+  
+  
+  
+  ,
   "cto_name": "सारा चेन",
   "chief_technology_officer": "मुख्य प्रौद्योगिकी अधिकारी",
   "chief_technology_officer.experience": "सारा हमारे तकनीकी नवाचारों को चलाती हैं और सुनिश्चित करती हैं कि हमारे उत्पाद उद्योग में अग्रणी बने रहें।",
@@ -121,6 +132,11 @@
     "products.8.description": "सामग्री की हैंडलिंग, लोडिंग, ट्रांसपोर्ट और अनलोडिंग के लिए प्रभावी उपकरण।",
     "products.9.name": "डबल ड्रम रोलर",
     "products.9.description": "डबल ड्रम रोलर सड़कों और डामर के लिए प्रभावी रूप से कम्पैक्शन सुनिश्चित करता है।",
+    
+      "products.10.name": "सेल्फ-लोडिंग कंक्रीट मिक्सर ट्रक",
+      "products.10.description": "एक बहुप्रयोजन और कुशल ट्रक, जो साइट पर कंक्रीट मिश्रण और परिवहन के लिए स्व-लोडिंग प्रणाली से सुसज्जित है।",
+    
+    
     "our_catalogue": "हमारा कैटलॉग",
     "premium_truck_machinery": "प्रीमियम ट्रक मशीनरी",
     "explore_range": "हमारी उच्च गुणवत्ता वाली निर्माण और औद्योगिक वाहनों की विस्तृत रेंज का अन्वेषण करें।",
@@ -372,7 +388,23 @@
                                           "MOTORCADE TECHNOLOGY—Leads the new era of intelligent building materials": "MOTORCADE TECHNOLOGY—बुद्धिमान भवन सामग्री के नए युग का नेतृत्व करता है",
                                           "Recently, mixing trucks have been exported to Southeast Asia, South America, the Middle East and Africa and other countries, widely used in road construction, residential development, bridge engineering and other fields. We firmly believe that quality products and perfect services will create greater value for global customers.": "हाल ही में, मिक्सिंग ट्रकों का निर्यात दक्षिण पूर्व एशिया, दक्षिण अमेरिका, मध्य पूर्व और अफ्रीका सहित अन्य देशों में किया गया है, जहाँ उनका व्यापक उपयोग सड़क निर्माण, आवास विकास, पुल इंजीनियरिंग और अन्य क्षेत्रों में हो रहा है। हमें दृढ़ विश्वास है कि उच्च गुणवत्ता वाले उत्पाद और बेहतरीन सेवाएं वैश्विक ग्राहकों के लिए अधिक मूल्य बनाएंगे।",
                                           "In today's increasingly stringent environmental regulations, we continue to optimize the product structure, introduce low energy consumption, high efficiency mixing trucks, reduce the carbon emissions in the construction process. At the same time, the introduction of intelligent systems makes the construction more accurate and efficient, and helps the industry to move towards sustainable development.": "आज की कठोर पर्यावरणीय विनियमों को ध्यान में रखते हुए, हम उत्पाद संरचना को अनुकूलित करना जारी रखते हैं, कम ऊर्जा खपत वाले उच्च दक्षता वाले मिक्सिंग ट्रक पेश करते हैं और निर्माण प्रक्रिया में कार्बन उत्सर्जन को कम करते हैं। साथ ही, बुद्धिमान प्रणालियों का परिचय निर्माण को अधिक सटीक और कुशल बनाता है और उद्योग को सतत विकास की ओर बढ़ाने में मदद करता है।",
-                                         "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGY हमेशा \"वैज्ञानिक और तकनीकी नवाचार, ग्राहक पहले\" की अवधारणा का पालन करता है और दुनिया भर के ग्राहकों को उच्च गुणवत्ता वाले मिक्सर उपकरण और उच्च गुणवत्ता वाली बिक्री के बाद सेवा प्रदान करता है। भविष्य में, हम और अधिक उन्नत निर्माण मशीनरी का विकास जारी रखेंगे और वैश्विक निर्माण उद्योग में चीन की बुद्धिमान विनिर्माण शक्ति का योगदान देंगे।"
+                                         "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGY हमेशा \"वैज्ञानिक और तकनीकी नवाचार, ग्राहक पहले\" की अवधारणा का पालन करता है और दुनिया भर के ग्राहकों को उच्च गुणवत्ता वाले मिक्सर उपकरण और उच्च गुणवत्ता वाली बिक्री के बाद सेवा प्रदान करता है। भविष्य में, हम और अधिक उन्नत निर्माण मशीनरी का विकास जारी रखेंगे और वैश्विक निर्माण उद्योग में चीन की बुद्धिमान विनिर्माण शक्ति का योगदान देंगे।",
+
+                                         
+                                          "Self-Loading Concrete Mixer Truck": "सेल्फ-लोडिंग कंक्रीट मिक्सर ट्रक",
+                                          
+                                            "Truck": "ट्रक",
+                                            "The Self-Loading Concrete Mixer Truck is an advanced and mobile concrete mixing solution designed for construction projects requiring on-site concrete production. Equipped with an automatic loading system, this truck eliminates the need for manual material handling, improving efficiency and reducing labor costs. Its powerful rotating drum ensures consistent and homogeneous mixing, while the 360-degree rotating cabin provides excellent maneuverability. Designed for rough terrains, the mixer truck is built with a robust chassis, all-terrain tires, and a high-performance engine. With precise water dosing and weighing systems, it guarantees optimal concrete quality for every batch.": "सेल्फ-लोडिंग कंक्रीट मिक्सर ट्रक एक उन्नत और मोबाइल कंक्रीट मिश्रण समाधान है जिसे उन निर्माण परियोजनाओं के लिए डिज़ाइन किया गया है जिनमें साइट पर कंक्रीट उत्पादन की आवश्यकता होती है। स्वचालित लोडिंग प्रणाली से लैस, यह ट्रक मैन्युअल सामग्री हैंडलिंग की आवश्यकता को समाप्त करता है, दक्षता में सुधार करता है और श्रम लागत को कम करता है। इसका शक्तिशाली घूर्णन ड्रम निरंतर और समरूप मिश्रण सुनिश्चित करता है, जबकि 360-डिग्री घूर्णन केबिन उत्कृष्ट संचालन क्षमता प्रदान करता है। खुरदरे इलाकों के लिए डिज़ाइन किया गया, मिक्सर ट्रक में एक मजबूत चेसिस, ऑल-टेरेन टायर और एक उच्च-प्रदर्शन इंजन है। सटीक जल मापन और वजन प्रणाली के साथ, यह हर बैच के लिए इष्टतम कंक्रीट गुणवत्ता सुनिश्चित करता है।",
+                                            "Self-loading system for automatic material handling": "स्वचालित सामग्री संचालन के लिए आत्म-लोडिंग प्रणाली",
+                                            "360-degree rotating cabin for enhanced maneuverability": "बेहतर संचालन क्षमता के लिए 360-डिग्री घूर्णन केबिन",
+                                            "Heavy-duty rotating drum for uniform concrete mixing": "समान कंक्रीट मिश्रण के लिए भारी-श्रेणी का घूर्णन ड्रम",
+                                            "High-performance engine for rough terrain operations": "खुरदरे इलाकों के लिए उच्च प्रदर्शन इंजन",
+                                            "Integrated weighing and water dosing system": "एकीकृत वजन और जल मापन प्रणाली",
+                                            "Ergonomic control panel for easy operation": "आसान संचालन के लिए एर्गोनोमिक नियंत्रण पैनल"
+                                          
+                                          
+                                        
+                                        
 
 
                                         

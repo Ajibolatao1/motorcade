@@ -25,6 +25,11 @@ const Footer = () => {
   const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
 
+  // Scroll to top function
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <footer className="bg-secondary pt-16 pb-6 px-6">
       <div className="max-w-7xl mx-auto">
@@ -40,27 +45,47 @@ const Footer = () => {
             <h4 className="text-lg font-medium">{t("quick_links")}</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  to="/"
+                  onClick={scrollToTop}
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   {t("home")}
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  to="/about"
+                  onClick={scrollToTop}
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   {t("about")}
                 </Link>
               </li>
               <li>
-                <Link to="/products" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  to="/products"
+                  onClick={scrollToTop}
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   {t("products")}
                 </Link>
               </li>
               <li>
-                <Link to="/news" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  to="/news"
+                  onClick={scrollToTop}
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   {t("news")}
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  to="/contact"
+                  onClick={scrollToTop}
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   {t("contact")}
                 </Link>
               </li>
@@ -91,16 +116,40 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-medium">{t("follow_us")}</h4>
             <div className="flex space-x-4">
-              <a href="#" aria-label="Facebook" className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors">
+              <a
+                href="https://www.facebook.com/your-facebook-profile"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors"
+              >
                 <Facebook size={20} />
               </a>
-              <a href="#" aria-label="LinkedIn" className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors">
+              <a
+                href="https://www.linkedin.com/in/your-linkedin-profile"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors"
+              >
                 <Linkedin size={20} />
               </a>
-              <a href="#" aria-label="Instagram" className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors">
+              <a
+                href="https://www.instagram.com/your-instagram-profile"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors"
+              >
                 <Instagram size={20} />
               </a>
-              <a href="#" aria-label="TikTok" className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors">
+              <a
+                href="https://www.tiktok.com/@your-tiktok-username"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="TikTok"
+                className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors"
+              >
                 <TikTokIcon />
               </a>
             </div>

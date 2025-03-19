@@ -36,6 +36,21 @@ const Contact = () => {
       ]
     },
     {
+      icon: <MessageCircle className="h-6 w-6 text-blue-500" />,
+      title: t('wechat'),
+      details: [
+        {
+          text: '+8617864268032 (' + t('scan_qr_to_chat') + ')',
+          link: '/wechat-qr-17864268032.png' // Image in public folder
+        },
+        {
+          text: '+8617852160455 (' + t('scan_qr_to_chat') + ')',
+          link: '/wechat-qr-17852160455.png'
+        }
+      ]
+    },
+    
+    {
       icon: <Mail className="h-6 w-6" />,
       title: t('email_us'),
       details: [

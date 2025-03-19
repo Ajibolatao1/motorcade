@@ -23,6 +23,11 @@
 
   "whatsapp": "WhatsApp",
   "chat_now": "Написать сейчас",
+  
+    "wechat": "Wechat",
+    "scan_qr_to_chat": "Сканируйте QR-код, чтобы начать чат",
+  
+  
 
   "email_us": "Напишите нам",
   "email": "13061287760@163.com",
@@ -85,9 +90,15 @@
   "core.value.3.description": "Мы всегда ищем новые технологии и подходы для улучшения наших продуктов и услуг.",
   "our_leadership_team": "Наша команда руководителей",
   "our_leadership_team_description": "Познакомьтесь с экспертами, которые продвигают нашу стратегию.",
-  "ceo_name": "Чинеду Около",
-  "chief_executive_officer": "Генеральный директор (CEO)",
-  "chief_executive_officer_experience": "Чинеду возглавляет нашу компанию, имея более 12 лет опыта в отрасли.",
+  
+  
+    "ceo_name": "Лео Мяо",
+    "chief_executive_officer": "Генеральный директор",
+    "chief_executive_officer_experience": "Имея более 25 лет опыта в отрасли, Лео Мяо ведет нашу компанию с видением и экспертностью."
+  
+  
+  
+  ,
   "cto_name": "Сара Чен",
   "chief_technology_officer": "Технический директор (CTO)",
   "chief_technology_officer.experience": "Сара руководит нашими техническими инновациями и обеспечивает лидерство наших продуктов на рынке.",
@@ -121,6 +132,11 @@
     "products.8.description": "Эффективное оборудование для обработки материалов, загрузки, транспортировки и разгрузки.",
     "products.9.name": "Двухбарабанный каток",
     "products.9.description": "Двухбарабанный каток обеспечивает эффективное уплотнение для дорог и покрытия.",
+    
+      "products.10.name": "Самозагружающийся бетонный миксер-грузовик",
+      "products.10.description": "Универсальный и эффективный грузовик, оснащенный системой самозагрузки для смешивания и транспортировки бетона на месте.",
+    
+    
     "our_catalogue": "Наш каталог",
     "premium_truck_machinery": "Премиальная техника для грузовиков",
     "explore_range": "Изучите наш обширный ассортимент высококачественных строительных и промышленных автомобилей.",
@@ -370,7 +386,22 @@
                                           "MOTORCADE TECHNOLOGY—Leads the new era of intelligent building materials": "MOTORCADE TECHNOLOGY—Ведёт новую эру интеллектуальных строительных материалов",
                                           "Recently, mixing trucks have been exported to Southeast Asia, South America, the Middle East and Africa and other countries, widely used in road construction, residential development, bridge engineering and other fields. We firmly believe that quality products and perfect services will create greater value for global customers.": "В последнее время бетонные миксеры экспортируются в страны Юго-Восточной Азии, Южной Америки, Ближнего Востока и Африки, широко применяются в дорожном строительстве, жилищном строительстве, мостостроении и других областях. Мы твердо уверены, что качественная продукция и безупречный сервис создадут большую ценность для клиентов по всему миру.",
                                           "In today's increasingly stringent environmental regulations, we continue to optimize the product structure, introduce low energy consumption, high efficiency mixing trucks, reduce the carbon emissions in the construction process. At the same time, the introduction of intelligent systems makes the construction more accurate and efficient, and helps the industry to move towards sustainable development.": "В условиях ужесточающихся экологических норм мы продолжаем оптимизировать структуру продукции, внедрять экономичные и эффективные бетоносмесители, снижать выбросы углерода в процессе строительства. В то же время внедрение интеллектуальных систем делает строительство более точным и эффективным, способствуя устойчивому развитию отрасли.",
-                                          "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGY всегда придерживается концепции \"научных и технологических инноваций, клиент прежде всего\", предоставляя высококачественное оборудование для смешивания и качественное послепродажное обслуживание клиентам по всему миру. В будущем мы продолжим разрабатывать более современные строительные машины и вносить вклад в интеллектуальное производство Китая для глобальной строительной отрасли."
+                                          "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGY всегда придерживается концепции \"научных и технологических инноваций, клиент прежде всего\", предоставляя высококачественное оборудование для смешивания и качественное послепродажное обслуживание клиентам по всему миру. В будущем мы продолжим разрабатывать более современные строительные машины и вносить вклад в интеллектуальное производство Китая для глобальной строительной отрасли.",
+                                          
+                                            "Self-Loading Concrete Mixer Truck": "Самозагружающийся бетономешалка-грузовик",
+                                            
+                                              "Truck": "Грузовик",
+                                              "The Self-Loading Concrete Mixer Truck is an advanced and mobile concrete mixing solution designed for construction projects requiring on-site concrete production. Equipped with an automatic loading system, this truck eliminates the need for manual material handling, improving efficiency and reducing labor costs. Its powerful rotating drum ensures consistent and homogeneous mixing, while the 360-degree rotating cabin provides excellent maneuverability. Designed for rough terrains, the mixer truck is built with a robust chassis, all-terrain tires, and a high-performance engine. With precise water dosing and weighing systems, it guarantees optimal concrete quality for every batch.": "Самозагружающийся бетономешалка-грузовик — это передовое и мобильное решение для смешивания бетона, предназначенное для строительных проектов, требующих производства бетона на месте. Оснащенный автоматической системой загрузки, этот грузовик устраняет необходимость в ручной обработке материалов, повышая эффективность и снижая затраты на рабочую силу. Его мощный вращающийся барабан обеспечивает равномерное и однородное смешивание, а вращающаяся на 360 градусов кабина обеспечивает отличную маневренность. Разработанный для сложных условий, этот бетономешалка оснащен прочным шасси, вседорожными шинами и высокопроизводительным двигателем. Благодаря точной системе дозирования воды и взвешивания он гарантирует оптимальное качество бетона в каждой партии.",
+                                              "Self-loading system for automatic material handling": "Система самозагрузки для автоматической обработки материалов",
+                                              "360-degree rotating cabin for enhanced maneuverability": "Кабина с поворотом на 360 градусов для улучшенной маневренности",
+                                              "Heavy-duty rotating drum for uniform concrete mixing": "Мощный вращающийся барабан для равномерного смешивания бетона",
+                                              "High-performance engine for rough terrain operations": "Высокопроизводительный двигатель для работы в сложных условиях",
+                                              "Integrated weighing and water dosing system": "Интегрированная система взвешивания и дозирования воды",
+                                              "Ergonomic control panel for easy operation": "Эргономичная панель управления для удобства эксплуатации"
+                                            
+                                            
+                                          
+                                          
 
 
                                         

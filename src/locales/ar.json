@@ -23,6 +23,11 @@
 
   "whatsapp": "واتساب",
   "chat_now": "تحدث الآن",
+  
+    "wechat": "Wechat",
+    "scan_qr_to_chat": "امسح رمز QR للدردشة",
+  
+  
 
   "email_us": "راسلنا عبر البريد الإلكتروني",
   "email": "13061287760@163.com",
@@ -85,9 +90,15 @@
   "core.value.3.description": "نسعى باستمرار لاكتشاف تقنيات وأساليب جديدة لتحسين منتجاتنا وخدماتنا.",
   "our_leadership_team": "فريق القيادة لدينا",
   "our_leadership_team_description": "تعرف على الخبراء الذين يدفعون رؤيتنا إلى الأمام.",
-  "ceo_name": "تشينيدو أوكولو",
-  "chief_executive_officer": "الرئيس التنفيذي",
-  "chief_executive_officer_experience": "مع أكثر من 12 عامًا من الخبرة في الصناعة، يقود تشينيدو شركتنا برؤية وخبرة.",
+  
+  
+    "ceo_name": "ليو مياو",
+    "chief_executive_officer": "الرئيس التنفيذي",
+    "chief_executive_officer_experience": "مع أكثر من 25 عامًا من الخبرة في الصناعة، يقود ليو مياو شركتنا برؤية وخبرة."
+  
+  
+  
+  ,
   "cto_name": "سارة تشين",
   "chief_technology_officer": "مدير التكنولوجيا",
   "chief_technology_officer.experience": "تدفع سارة ابتكاراتنا التكنولوجية وتضمن بقاء منتجاتنا في طليعة الصناعة.",
@@ -121,6 +132,11 @@
     "products.8.description": "معدات فعالة لتحميل ونقل وتفريغ المواد.",
     "products.9.name": "مدحلة الأسطوانات المزدوجة",
     "products.9.description": "تضمن المدحلة الأسطوانية المزدوجة ضغطاً فعالاً للطرق والتعبيد.",
+    
+      "products.10.name": "شاحنة خلاطة الخرسانة ذاتية التحميل",
+      "products.10.description": "شاحنة متعددة الاستخدامات وفعالة مزودة بنظام تحميل ذاتي لخلط ونقل الخرسانة في الموقع.",
+    
+    
     "our_catalogue": "كتالوجنا",
     "premium_truck_machinery": "معدات شاحنات مميزة",
     "explore_range": "استكشف مجموعتنا الواسعة من المركبات الصناعية والبناء عالية الجودة.",
@@ -372,7 +388,23 @@
                                           "MOTORCADE TECHNOLOGY—Leads the new era of intelligent building materials": "تكنولوجيا MOTORCADE - تقود العصر الجديد للمواد الذكية للبناء",
                                           "Recently, mixing trucks have been exported to Southeast Asia, South America, the Middle East and Africa and other countries, widely used in road construction, residential development, bridge engineering and other fields. We firmly believe that quality products and perfect services will create greater value for global customers.": "في الآونة الأخيرة، تم تصدير شاحنات الخلط إلى جنوب شرق آسيا وأمريكا الجنوبية والشرق الأوسط وأفريقيا ودول أخرى، وتستخدم على نطاق واسع في بناء الطرق وتطوير المساكن وهندسة الجسور وغيرها من المجالات. نحن نؤمن بشدة بأن المنتجات عالية الجودة والخدمات المثالية ستخلق قيمة أكبر للعملاء العالميين.",
                                           "In today's increasingly stringent environmental regulations, we continue to optimize the product structure, introduce low energy consumption, high efficiency mixing trucks, reduce the carbon emissions in the construction process. At the same time, the introduction of intelligent systems makes the construction more accurate and efficient, and helps the industry to move towards sustainable development.": "في ظل اللوائح البيئية المتزايدة الصرامة اليوم، نواصل تحسين هيكل المنتج، وإدخال شاحنات خلط منخفضة استهلاك الطاقة وعالية الكفاءة، وتقليل انبعاثات الكربون في عملية البناء. في الوقت نفسه، تجعل الأنظمة الذكية البناء أكثر دقة وكفاءة، وتساعد الصناعة على التحرك نحو التنمية المستدامة.",
-                                          "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "تلتزم MOTORCADE TECHNOLOGY دائمًا بمفهوم \"الابتكار العلمي والتكنولوجي، العميل أولاً\"، وتوفر معدات خلط عالية الجودة وخدمة ما بعد البيع عالية الجودة للعملاء في جميع أنحاء العالم. في المستقبل، سنواصل تطوير آلات البناء الأكثر تقدمًا والمساهمة في قوة التصنيع الذكي في الصين لصناعة البناء العالمية."
+                                          "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "تلتزم MOTORCADE TECHNOLOGY دائمًا بمفهوم \"الابتكار العلمي والتكنولوجي، العميل أولاً\"، وتوفر معدات خلط عالية الجودة وخدمة ما بعد البيع عالية الجودة للعملاء في جميع أنحاء العالم. في المستقبل، سنواصل تطوير آلات البناء الأكثر تقدمًا والمساهمة في قوة التصنيع الذكي في الصين لصناعة البناء العالمية.",
+
+                                          
+                                            "Self-Loading Concrete Mixer Truck": "شاحنة خلاطة خرسانة ذاتية التحميل",
+                                            
+                                              "Truck": "شاحنة",
+                                              "The Self-Loading Concrete Mixer Truck is an advanced and mobile concrete mixing solution designed for construction projects requiring on-site concrete production. Equipped with an automatic loading system, this truck eliminates the need for manual material handling, improving efficiency and reducing labor costs. Its powerful rotating drum ensures consistent and homogeneous mixing, while the 360-degree rotating cabin provides excellent maneuverability. Designed for rough terrains, the mixer truck is built with a robust chassis, all-terrain tires, and a high-performance engine. With precise water dosing and weighing systems, it guarantees optimal concrete quality for every batch.": "شاحنة خلاطة الخرسانة ذاتية التحميل هي حل متطور ومتنقل لخلط الخرسانة، مصممة لمشاريع البناء التي تتطلب إنتاج الخرسانة في الموقع. مزودة بنظام تحميل أوتوماتيكي، تلغي هذه الشاحنة الحاجة إلى مناولة المواد يدويًا، مما يحسن الكفاءة ويقلل من تكاليف العمالة. يضمن أسطوانة الدوران القوية مزجًا متجانسًا ومتساويًا، بينما توفر المقصورة الدوارة بزاوية 360 درجة قدرة عالية على المناورة. مصممة للطرق الوعرة، تحتوي شاحنة الخلاط على هيكل قوي، وإطارات لجميع التضاريس، ومحرك عالي الأداء. مع أنظمة دقيقة لقياس الوزن وجرعات المياه، تضمن جودة مثالية للخرسانة في كل دفعة.",
+                                              "Self-loading system for automatic material handling": "نظام تحميل ذاتي لمناولة المواد تلقائيًا",
+                                              "360-degree rotating cabin for enhanced maneuverability": "مقصورة دوارة بزاوية 360 درجة لتعزيز القدرة على المناورة",
+                                              "Heavy-duty rotating drum for uniform concrete mixing": "أسطوانة دوارة شديدة التحمل لخلط الخرسانة بشكل متجانس",
+                                              "High-performance engine for rough terrain operations": "محرك عالي الأداء للعمليات في التضاريس الصعبة",
+                                              "Integrated weighing and water dosing system": "نظام متكامل لقياس الوزن وجرعات المياه",
+                                              "Ergonomic control panel for easy operation": "لوحة تحكم مريحة لتسهيل التشغيل"
+                                            
+                                            
+                                          
+                                          
 
 
                                         

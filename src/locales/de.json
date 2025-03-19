@@ -23,6 +23,11 @@
 
   "whatsapp": "WhatsApp",
   "chat_now": "Jetzt chatten",
+  
+    "wechat": "Wechat",
+    "scan_qr_to_chat": "Scannen Sie den QR-Code, um zu chatten",
+  
+  
 
   "email_us": "Schreiben Sie uns eine E-Mail",
   "email": "13061287760@163.com",
@@ -85,9 +90,15 @@
   "core.value.3.description": "Wir suchen ständig nach neuen Technologien und Ansätzen, um unsere Produkte und Dienstleistungen zu verbessern.",
   "our_leadership_team": "Unser Führungsteam",
   "our_leadership_team_description": "Lernen Sie die Experten kennen, die unsere Vision vorantreiben.",
-  "ceo_name": "Chinedu Okolo",
-  "chief_executive_officer": "Chief Executive Officer",
-  "chief_executive_officer_experience": "Mit über 12 Jahren Branchenerfahrung führt Chinedu unser Unternehmen mit Vision und Expertise.",
+  
+  
+    "ceo_name": "Leo Miao",
+    "chief_executive_officer": "Geschäftsführer",
+    "chief_executive_officer_experience": "Mit über 25 Jahren Branchenerfahrung führt Leo Miao unser Unternehmen mit Vision und Fachwissen."
+  
+  
+  
+  ,
   "cto_name": "Sarah Chen",
   "chief_technology_officer": "Chief Technology Officer",
   "chief_technology_officer.experience": "Sarah treibt unsere technologischen Innovationen voran und stellt sicher, dass unsere Produkte an der Spitze bleiben.",
@@ -121,6 +132,11 @@
     "products.8.description": "Effiziente Materialhandhabungsausrüstung für Lade-, Transport- und Entladeoperationen.",
     "products.9.name": "Doppeltrommelwalzen",
     "products.9.description": "Die Doppeltrommelwalze sorgt für eine effiziente Verdichtung für Straßen und Asphaltierung.",
+    
+      "products.10.name": "Selbstladender Betonmischer-LKW",
+      "products.10.description": "Ein vielseitiger und effizienter LKW mit einem Selbstladesystem zum Mischen und Transportieren von Beton vor Ort.",
+    
+    
     "our_catalogue": "Unser Katalog",
     "premium_truck_machinery": "Premium-Lkw-Maschinen",
     "explore_range": "Entdecken Sie unser umfangreiches Sortiment an hochwertigen Bau- und Industriemaschinen.",
@@ -372,7 +388,23 @@
                                           "MOTORCADE TECHNOLOGY—Leads the new era of intelligent building materials": "MOTORCADE TECHNOLOGY—Führt die neue Ära intelligenter Baumaterialien an",
                                           "Recently, mixing trucks have been exported to Southeast Asia, South America, the Middle East and Africa and other countries, widely used in road construction, residential development, bridge engineering and other fields. We firmly believe that quality products and perfect services will create greater value for global customers.": "Kürzlich wurden Mischlastwagen nach Südostasien, Südamerika, den Nahen Osten, Afrika und andere Länder exportiert und sind weit verbreitet im Straßenbau, Wohnungsbau, Brückenbau und anderen Bereichen. Wir sind fest davon überzeugt, dass qualitativ hochwertige Produkte und perfekter Service einen größeren Wert für globale Kunden schaffen werden.",
                                           "In today's increasingly stringent environmental regulations, we continue to optimize the product structure, introduce low energy consumption, high efficiency mixing trucks, reduce the carbon emissions in the construction process. At the same time, the introduction of intelligent systems makes the construction more accurate and efficient, and helps the industry to move towards sustainable development.": "Angesichts der zunehmend strengeren Umweltvorschriften optimieren wir weiterhin die Produktstruktur, führen energieeffiziente, hocheffiziente Mischlastwagen ein und reduzieren die CO₂-Emissionen im Bauprozess. Gleichzeitig macht die Einführung intelligenter Systeme den Bau präziser und effizienter und hilft der Branche, sich in Richtung nachhaltige Entwicklung zu bewegen.",
-                                         "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGY hält stets an dem Konzept der \"wissenschaftlichen und technologischen Innovation, Kunde zuerst\" fest und bietet weltweit hochwertige Mischgeräte sowie einen erstklassigen After-Sales-Service. In Zukunft werden wir weiterhin fortschrittlichere Baumaschinen entwickeln und Chinas intelligente Fertigungskraft zur globalen Bauindustrie beitragen."
+                                         "MOTORCADE TECHNOLOGY always adheres to the concept of \"scientific and technological innovation, customer first\", and provides high-quality mixer equipment and high-quality after-sales service to customers around the world. In the future, we will continue to develop more advanced construction machinery and contribute China's intelligent manufacturing power to the global construction industry!": "MOTORCADE TECHNOLOGY hält stets an dem Konzept der \"wissenschaftlichen und technologischen Innovation, Kunde zuerst\" fest und bietet weltweit hochwertige Mischgeräte sowie einen erstklassigen After-Sales-Service. In Zukunft werden wir weiterhin fortschrittlichere Baumaschinen entwickeln und Chinas intelligente Fertigungskraft zur globalen Bauindustrie beitragen.",
+
+                                         
+                                          "Self-Loading Concrete Mixer Truck": "Selbstladender Betonmischer-LKW",
+                                          
+                                            "Truck": "LKW",
+                                            "The Self-Loading Concrete Mixer Truck is an advanced and mobile concrete mixing solution designed for construction projects requiring on-site concrete production. Equipped with an automatic loading system, this truck eliminates the need for manual material handling, improving efficiency and reducing labor costs. Its powerful rotating drum ensures consistent and homogeneous mixing, while the 360-degree rotating cabin provides excellent maneuverability. Designed for rough terrains, the mixer truck is built with a robust chassis, all-terrain tires, and a high-performance engine. With precise water dosing and weighing systems, it guarantees optimal concrete quality for every batch.": "Der selbstladende Betonmischer-LKW ist eine fortschrittliche und mobile Lösung zum Mischen von Beton, die für Bauprojekte mit Betonproduktion vor Ort entwickelt wurde. Ausgestattet mit einem automatischen Ladesystem eliminiert dieser LKW die Notwendigkeit der manuellen Materialhandhabung, verbessert die Effizienz und senkt die Arbeitskosten. Seine leistungsstarke rotierende Trommel sorgt für eine gleichmäßige und homogene Mischung, während die um 360 Grad drehbare Kabine eine hervorragende Manövrierfähigkeit bietet. Für schwieriges Gelände konzipiert, verfügt der Mischer-LKW über ein robustes Fahrgestell, Geländereifen und einen Hochleistungsmotor. Mit präzisen Wasser-Dosierungs- und Wiegesystemen garantiert er eine optimale Betonqualität für jede Charge.",
+                                            "Self-loading system for automatic material handling": "Selbstladendes System für automatische Materialhandhabung",
+                                            "360-degree rotating cabin for enhanced maneuverability": "360-Grad drehbare Kabine für verbesserte Manövrierfähigkeit",
+                                            "Heavy-duty rotating drum for uniform concrete mixing": "Schwerlast-Rührtrommel für gleichmäßige Betonmischung",
+                                            "High-performance engine for rough terrain operations": "Hochleistungsmotor für den Einsatz im Gelände",
+                                            "Integrated weighing and water dosing system": "Integriertes Wiege- und Wasserdosiersystem",
+                                            "Ergonomic control panel for easy operation": "Ergonomisches Bedienfeld für einfache Bedienung"
+                                          
+                                          
+                                        
+                                      
 
 
                                         
