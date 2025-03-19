@@ -135,6 +135,13 @@
     
       "products.10.name": "Selbstladender Betonmischer-LKW",
       "products.10.description": "Ein vielseitiger und effizienter LKW mit einem Selbstladesystem zum Mischen und Transportieren von Beton vor Ort.",
+      
+        "products.11.name": "Sattelschlepper",
+        "products.11.description": "Ein leistungsstarker Lkw, der für das Ziehen von Sattelaufliegern entwickelt wurde und einen effizienten und zuverlässigen Transport schwerer Lasten bietet.",
+        "products.12.name": "Kipper",
+        "products.12.description": "Ein schwerer Lkw, der zum Transport und Entladen von Schüttgütern wie Sand, Kies oder Abbruchmaterial verwendet wird.",
+      
+      
     
     
     "our_catalogue": "Unser Katalog",
@@ -400,7 +407,30 @@
                                             "Heavy-duty rotating drum for uniform concrete mixing": "Schwerlast-Rührtrommel für gleichmäßige Betonmischung",
                                             "High-performance engine for rough terrain operations": "Hochleistungsmotor für den Einsatz im Gelände",
                                             "Integrated weighing and water dosing system": "Integriertes Wiege- und Wasserdosiersystem",
-                                            "Ergonomic control panel for easy operation": "Ergonomisches Bedienfeld für einfache Bedienung"
+                                            "Ergonomic control panel for easy operation": "Ergonomisches Bedienfeld für einfache Bedienung",
+                                            
+                                              "Tractor Head": "Sattelzugmaschine",
+                                              "The Tractor Head is a high-performance truck built for transporting heavy cargo over long distances. Designed to tow semi-trailers, it features a robust chassis, a powerful engine, and an advanced suspension system for stability and comfort. Equipped with modern safety features, aerodynamic design, and fuel-efficient technology, this vehicle ensures maximum productivity while minimizing operational costs. The spacious and ergonomic cabin provides comfort for long-haul drivers, making it an ideal choice for logistics and freight transport.": "Die Sattelzugmaschine ist ein leistungsstarker Lkw, der für den Transport schwerer Lasten über lange Strecken ausgelegt ist. Entwickelt zum Ziehen von Sattelanhängern, verfügt er über ein robustes Fahrgestell, einen leistungsstarken Motor und ein fortschrittliches Federungssystem für Stabilität und Komfort. Ausgestattet mit modernen Sicherheitsmerkmalen, aerodynamischem Design und kraftstoffsparender Technologie, sorgt dieses Fahrzeug für maximale Produktivität bei minimalen Betriebskosten. Die geräumige und ergonomische Kabine bietet Komfort für Fernfahrer und macht sie zur idealen Wahl für Logistik und Gütertransport.",
+                                              "Powerful engine for heavy-duty towing": "Leistungsstarker Motor für Schwerlastanhänger",
+                                              "Aerodynamic design for fuel efficiency": "Aerodynamisches Design für Kraftstoffeffizienz",
+                                              "Advanced suspension for smooth handling": "Fortschrittliches Federungssystem für sanftes Handling",
+                                              "Spacious and ergonomic driver cabin": "Geräumige und ergonomische Fahrerkabine",
+                                              "Modern safety features for secure transport": "Moderne Sicherheitsmerkmale für sicheren Transport",
+                                              "High-capacity fuel tank for long-haul journeys": "Hochkapazitätskraftstofftank für Langstreckenfahrten",
+                                              
+                                              
+                                                "Dump Truck": "Kipper",
+                                                "The Dump Truck is a rugged and powerful vehicle designed for hauling bulk materials efficiently. Built with a reinforced steel frame and a hydraulically operated dump bed, it ensures smooth loading and unloading of materials like sand, gravel, rocks, and debris. This truck is widely used in construction, mining, and roadwork projects, offering excellent durability and high load capacity. Its off-road capabilities, enhanced traction system, and powerful diesel engine allow it to navigate rough terrains with ease, making it an essential asset for heavy-duty transport needs.": "Der Kipper ist ein robustes und leistungsstarkes Fahrzeug, das für den effizienten Transport von Schüttgütern konzipiert ist. Mit einem verstärkten Stahlrahmen und einer hydraulisch betriebenen Kippmulde sorgt er für ein reibungsloses Be- und Entladen von Materialien wie Sand, Kies, Steinen und Bauschutt. Dieser Lkw wird häufig in Bau-, Bergbau- und Straßenbauprojekten eingesetzt und bietet eine hervorragende Haltbarkeit sowie eine hohe Ladekapazität. Dank seiner Geländetauglichkeit, des verbesserten Traktionssystems und des leistungsstarken Dieselmotors kann er problemlos auf schwierigem Terrain manövrieren und ist daher ein unverzichtbares Fahrzeug für den Schwerlasttransport.",
+                                                "Hydraulically operated dump bed for easy unloading": "Hydraulisch betriebene Kippmulde für einfaches Entladen",
+                                                "Heavy-duty steel chassis for durability": "Robuster Stahlrahmen für hohe Langlebigkeit",
+                                                "High load capacity for bulk material transport": "Hohe Ladekapazität für den Schüttguttransport",
+                                                "Advanced suspension system for stability": "Fortschrittliches Federungssystem für Stabilität",
+                                                "Off-road capabilities for rough terrain operations": "Geländetauglichkeit für den Einsatz auf schwierigem Terrain",
+                                                "Powerful diesel engine for maximum efficiency": "Leistungsstarker Dieselmotor für maximale Effizienz"
+                                            
+                                            
+                                          
+                                          
                                           
                                           
                                         

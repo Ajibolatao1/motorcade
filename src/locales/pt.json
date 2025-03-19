@@ -135,6 +135,13 @@
     
       "products.10.name": "Caminhão Betoneira Autocarregável",
       "products.10.description": "Um caminhão versátil e eficiente equipado com um sistema de autocarregamento para misturar e transportar concreto no local.",
+      
+        "products.11.name": "Cavalo Mecânico",
+        "products.11.description": "Um caminhão potente projetado para rebocar semirreboques, proporcionando um transporte eficiente e confiável para cargas pesadas.",
+        "products.12.name": "Caminhão Basculante",
+        "products.12.description": "Um caminhão pesado usado para transportar e descarregar materiais a granel, como areia, cascalho ou resíduos de demolição.",
+      
+      
     
     
     "our_catalogue": "Nosso Catálogo",
@@ -399,7 +406,32 @@
                                               "Heavy-duty rotating drum for uniform concrete mixing": "Tambor rotativo resistente para mistura uniforme de concreto",
                                               "High-performance engine for rough terrain operations": "Motor de alto desempenho para operações em terrenos acidentados",
                                               "Integrated weighing and water dosing system": "Sistema integrado de pesagem e dosagem de água",
-                                              "Ergonomic control panel for easy operation": "Painel de controle ergonômico para fácil operação"
+                                              "Ergonomic control panel for easy operation": "Painel de controle ergonômico para fácil operação",
+                                              
+                                                "Tractor Head": "Cavalo Mecânico",
+                                                "The Tractor Head is a high-performance truck built for transporting heavy cargo over long distances. Designed to tow semi-trailers, it features a robust chassis, a powerful engine, and an advanced suspension system for stability and comfort. Equipped with modern safety features, aerodynamic design, and fuel-efficient technology, this vehicle ensures maximum productivity while minimizing operational costs. The spacious and ergonomic cabin provides comfort for long-haul drivers, making it an ideal choice for logistics and freight transport.": "O Cavalo Mecânico é um caminhão de alto desempenho projetado para transportar cargas pesadas a longas distâncias. Desenvolvido para rebocar semi-reboques, possui um chassi robusto, um motor potente e um sistema de suspensão avançado para estabilidade e conforto. Equipado com recursos modernos de segurança, design aerodinâmico e tecnologia eficiente em combustível, este veículo garante máxima produtividade enquanto minimiza os custos operacionais. A cabine espaçosa e ergonômica oferece conforto aos motoristas de longa distância, tornando-o uma escolha ideal para logística e transporte de cargas.",
+                                                "Powerful engine for heavy-duty towing": "Motor potente para reboque de carga pesada",
+                                                "Aerodynamic design for fuel efficiency": "Design aerodinâmico para eficiência de combustível",
+                                                "Advanced suspension for smooth handling": "Suspensão avançada para um manuseio suave",
+                                                "Spacious and ergonomic driver cabin": "Cabine espaçosa e ergonômica para o motorista",
+                                                "Modern safety features for secure transport": "Recursos modernos de segurança para transporte seguro",
+                                                "High-capacity fuel tank for long-haul journeys": "Tanque de combustível de alta capacidade para viagens longas",
+                                                
+                                                
+                                                  "Dump Truck": "Caminhão Basculante",
+                                                  "The Dump Truck is a rugged and powerful vehicle designed for hauling bulk materials efficiently. Built with a reinforced steel frame and a hydraulically operated dump bed, it ensures smooth loading and unloading of materials like sand, gravel, rocks, and debris. This truck is widely used in construction, mining, and roadwork projects, offering excellent durability and high load capacity. Its off-road capabilities, enhanced traction system, and powerful diesel engine allow it to navigate rough terrains with ease, making it an essential asset for heavy-duty transport needs.": "O Caminhão Basculante é um veículo robusto e poderoso projetado para transportar materiais a granel com eficiência. Construído com uma estrutura de aço reforçada e uma caçamba basculante operada hidraulicamente, garante um carregamento e descarregamento suave de materiais como areia, cascalho, pedras e entulhos. Este caminhão é amplamente utilizado em projetos de construção, mineração e obras rodoviárias, oferecendo excelente durabilidade e alta capacidade de carga. Suas capacidades off-road, sistema de tração aprimorado e motor a diesel potente permitem que ele navegue por terrenos difíceis com facilidade, tornando-se um recurso essencial para necessidades de transporte pesado.",
+                                                  "Hydraulically operated dump bed for easy unloading": "Caçamba basculante hidráulica para descarregamento fácil",
+                                                  "Heavy-duty steel chassis for durability": "Chassi de aço reforçado para maior durabilidade",
+                                                  "High load capacity for bulk material transport": "Alta capacidade de carga para transporte de materiais a granel",
+                                                  "Advanced suspension system for stability": "Sistema de suspensão avançado para estabilidade",
+                                                  "Off-road capabilities for rough terrain operations": "Capacidade off-road para operações em terrenos acidentados",
+                                                  "Powerful diesel engine for maximum efficiency": "Motor a diesel potente para máxima eficiência"
+                                              
+                                              
+                                              
+                                              
+                                            
+                                            
                                             
                                             
 

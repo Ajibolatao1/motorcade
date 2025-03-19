@@ -135,6 +135,13 @@
     
       "products.10.name": "Самозагружающийся бетонный миксер-грузовик",
       "products.10.description": "Универсальный и эффективный грузовик, оснащенный системой самозагрузки для смешивания и транспортировки бетона на месте.",
+      
+        "products.11.name": "Тягач",
+        "products.11.description": "Мощный грузовик, предназначенный для буксировки полуприцепов, обеспечивающий эффективную и надежную транспортировку тяжелых грузов.",
+        "products.12.name": "Самосвал",
+        "products.12.description": "Тяжелый грузовик, используемый для перевозки и выгрузки сыпучих материалов, таких как песок, гравий или строительный мусор.",
+      
+      
     
     
     "our_catalogue": "Наш каталог",
@@ -397,7 +404,29 @@
                                               "Heavy-duty rotating drum for uniform concrete mixing": "Мощный вращающийся барабан для равномерного смешивания бетона",
                                               "High-performance engine for rough terrain operations": "Высокопроизводительный двигатель для работы в сложных условиях",
                                               "Integrated weighing and water dosing system": "Интегрированная система взвешивания и дозирования воды",
-                                              "Ergonomic control panel for easy operation": "Эргономичная панель управления для удобства эксплуатации"
+                                              "Ergonomic control panel for easy operation": "Эргономичная панель управления для удобства эксплуатации",
+                                              
+                                                "Tractor Head": "Тягач",
+                                                "The Tractor Head is a high-performance truck built for transporting heavy cargo over long distances. Designed to tow semi-trailers, it features a robust chassis, a powerful engine, and an advanced suspension system for stability and comfort. Equipped with modern safety features, aerodynamic design, and fuel-efficient technology, this vehicle ensures maximum productivity while minimizing operational costs. The spacious and ergonomic cabin provides comfort for long-haul drivers, making it an ideal choice for logistics and freight transport.": "Тягач – это высокопроизводительный грузовик, предназначенный для перевозки тяжелых грузов на большие расстояния. Он разработан для буксировки полуприцепов и оснащен прочной рамой, мощным двигателем и современной подвеской, обеспечивающей стабильность и комфорт. Благодаря современным системам безопасности, аэродинамичному дизайну и топливосберегающим технологиям этот автомобиль гарантирует максимальную производительность при минимальных эксплуатационных затратах. Просторная и эргономичная кабина обеспечивает комфорт водителю на дальних маршрутах, что делает этот тягач отличным выбором для логистики и грузоперевозок.",
+                                                "Powerful engine for heavy-duty towing": "Мощный двигатель для буксировки тяжелых грузов",
+                                                "Aerodynamic design for fuel efficiency": "Аэродинамичный дизайн для экономии топлива",
+                                                "Advanced suspension for smooth handling": "Современная подвеска для плавного управления",
+                                                "Spacious and ergonomic driver cabin": "Просторная и эргономичная кабина водителя",
+                                                "Modern safety features for secure transport": "Современные системы безопасности для надежной перевозки",
+                                                "High-capacity fuel tank for long-haul journeys": "Топливный бак большой ёмкости для дальних поездок",
+                                                
+                                                  "Dump Truck": "Самосвал",
+                                                  "The Dump Truck is a rugged and powerful vehicle designed for hauling bulk materials efficiently. Built with a reinforced steel frame and a hydraulically operated dump bed, it ensures smooth loading and unloading of materials like sand, gravel, rocks, and debris. This truck is widely used in construction, mining, and roadwork projects, offering excellent durability and high load capacity. Its off-road capabilities, enhanced traction system, and powerful diesel engine allow it to navigate rough terrains with ease, making it an essential asset for heavy-duty transport needs.": "Самосвал – это прочный и мощный автомобиль, предназначенный для эффективной перевозки сыпучих материалов. Благодаря усиленной стальной раме и гидравлически управляемому кузову, он обеспечивает удобную загрузку и разгрузку таких материалов, как песок, гравий, камни и строительные отходы. Этот грузовик широко используется в строительстве, горнодобывающей промышленности и дорожных работах, обладая высокой грузоподъемностью и долговечностью. Благодаря внедорожным возможностям, улучшенной системе сцепления и мощному дизельному двигателю, он легко справляется с пересеченной местностью, что делает его незаменимым для тяжелых перевозок.",
+                                                  "Hydraulically operated dump bed for easy unloading": "Гидравлически управляемый кузов для удобной разгрузки",
+                                                  "Heavy-duty steel chassis for durability": "Прочная стальная рама для долговечности",
+                                                  "High load capacity for bulk material transport": "Высокая грузоподъемность для перевозки сыпучих материалов",
+                                                  "Advanced suspension system for stability": "Современная подвеска для стабильности",
+                                                  "Off-road capabilities for rough terrain operations": "Внедорожные возможности для работы на пересеченной местности",
+                                                  "Powerful diesel engine for maximum efficiency": "Мощный дизельный двигатель для максимальной эффективности"
+                                              
+                                              
+                                            
+                                            
                                             
                                             
                                           

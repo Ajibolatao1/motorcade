@@ -254,33 +254,63 @@ const productsData = [
     }
   },
   {
-    "id": "10",
-    "name": "Self-Loading Concrete Mixer Truck",
-    "description": "A versatile and efficient truck equipped with a self-loading system for mixing and transporting concrete on-site.",
-    "fullDescription": "The Self-Loading Concrete Mixer Truck is an advanced and mobile concrete mixing solution designed for construction projects requiring on-site concrete production. Equipped with an automatic loading system, this truck eliminates the need for manual material handling, improving efficiency and reducing labor costs. Its powerful rotating drum ensures consistent and homogeneous mixing, while the 360-degree rotating cabin provides excellent maneuverability. Designed for rough terrains, the mixer truck is built with a robust chassis, all-terrain tires, and a high-performance engine. With precise water dosing and weighing systems, it guarantees optimal concrete quality for every batch.",
-    "image": "/self-loading-concrete-mixer.jpg",
+    "id": "11",
+    "name": "Tractor Head",
+    "description": "A powerful truck designed for towing semi-trailers, providing efficient and reliable transport for heavy loads.",
+    "fullDescription": "The Tractor Head is a high-performance truck built for transporting heavy cargo over long distances. Designed to tow semi-trailers, it features a robust chassis, a powerful engine, and an advanced suspension system for stability and comfort. Equipped with modern safety features, aerodynamic design, and fuel-efficient technology, this vehicle ensures maximum productivity while minimizing operational costs. The spacious and ergonomic cabin provides comfort for long-haul drivers, making it an ideal choice for logistics and freight transport.",
+    "image": "/tractor-head.jpg",
     "additionalImages": [
-        "/self-loading-concrete-mixer2.jpg",
-        "/self-loading-concrete-mixer3.jpg"
+        "/tractor-head2.jpg",
+        "/tractor-head3.jpg"
     ],
     "category": "Truck",
     "features": [
-        "Self-loading system for automatic material handling",
-        "360-degree rotating cabin for enhanced maneuverability",
-        "Heavy-duty rotating drum for uniform concrete mixing",
-        "High-performance engine for rough terrain operations",
-        "Integrated weighing and water dosing system",
-        "Ergonomic control panel for easy operation"
+        "Powerful engine for heavy-duty towing",
+        "Aerodynamic design for fuel efficiency",
+        "Advanced suspension for smooth handling",
+        "Spacious and ergonomic driver cabin",
+        "Modern safety features for secure transport",
+        "High-capacity fuel tank for long-haul journeys"
     ],
     "specifications": {
-        "engine": "Diesel, 80 to 150 HP",
-        "drumCapacity": "1.5 to 5 cubic meters",
-        "mixingSpeed": "15 to 20 RPM",
-        "maxSpeed": "25 to 40 km/h",
-        "fuelCapacity": "100 to 200 liters",
-        "weight": "3,500 to 12,000 kg"
+        "engine": "Diesel, 300 to 600 HP",
+        "maxLoadCapacity": "20 to 50 tons",
+        "fuelCapacity": "300 to 800 liters",
+        "maxSpeed": "90 to 120 km/h",
+        "axleConfiguration": "4x2, 6x4, or 8x4",
+        "weight": "7,000 to 12,000 kg"
     }
+},
+{
+  "id": "12",
+  "name": "Dump Truck",
+  "description": "A heavy-duty truck used for transporting and unloading bulk materials such as sand, gravel, or demolition waste.",
+  "fullDescription": "The Dump Truck is a rugged and powerful vehicle designed for hauling bulk materials efficiently. Built with a reinforced steel frame and a hydraulically operated dump bed, it ensures smooth loading and unloading of materials like sand, gravel, rocks, and debris. This truck is widely used in construction, mining, and roadwork projects, offering excellent durability and high load capacity. Its off-road capabilities, enhanced traction system, and powerful diesel engine allow it to navigate rough terrains with ease, making it an essential asset for heavy-duty transport needs.",
+  "image": "/dump-truck.jpg",
+  "additionalImages": [
+      "/dump-truck2.jpg",
+      "/dump-truck3.jpg"
+  ],
+  "category": "Truck",
+  "features": [
+      "Hydraulically operated dump bed for easy unloading",
+      "Heavy-duty steel chassis for durability",
+      "High load capacity for bulk material transport",
+      "Advanced suspension system for stability",
+      "Off-road capabilities for rough terrain operations",
+      "Powerful diesel engine for maximum efficiency"
+  ],
+  "specifications": {
+      "engine": "Diesel, 250 to 500 HP",
+      "maxLoadCapacity": "15 to 50 tons",
+      "fuelCapacity": "200 to 600 liters",
+      "maxSpeed": "60 to 90 km/h",
+      "dumpBedCapacity": "8 to 30 cubic meters",
+      "weight": "10,000 to 25,000 kg"
+  }
 }
+
+
 
 ];
 

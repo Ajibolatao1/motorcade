@@ -135,6 +135,13 @@
     
       "products.10.name": "Camion Malaxeur à Béton Autochargeur",
       "products.10.description": "Un camion polyvalent et efficace équipé d'un système d'autocharge pour mélanger et transporter le béton sur site.",
+      
+        "products.11.name": "Tracteur Routier",
+        "products.11.description": "Un camion puissant conçu pour tracter des semi-remorques, offrant un transport efficace et fiable pour les charges lourdes.",
+        "products.12.name": "Camion Benne",
+        "products.12.description": "Un camion robuste utilisé pour transporter et décharger des matériaux en vrac tels que le sable, le gravier ou les déchets de démolition.",
+      
+      
     
     
     "our_catalogue": "Notre catalogue",
@@ -403,7 +410,32 @@
                                             "Heavy-duty rotating drum for uniform concrete mixing": "Tambour rotatif robuste pour un mélange homogène du béton",
                                             "High-performance engine for rough terrain operations": "Moteur haute performance pour les opérations sur terrains accidentés",
                                             "Integrated weighing and water dosing system": "Système intégré de pesée et de dosage de l'eau",
-                                            "Ergonomic control panel for easy operation": "Panneau de contrôle ergonomique pour une utilisation facile"
+                                            "Ergonomic control panel for easy operation": "Panneau de contrôle ergonomique pour une utilisation facile",
+                                            
+                                              "Tractor Head": "Tracteur Routier",
+                                              "The Tractor Head is a high-performance truck built for transporting heavy cargo over long distances. Designed to tow semi-trailers, it features a robust chassis, a powerful engine, and an advanced suspension system for stability and comfort. Equipped with modern safety features, aerodynamic design, and fuel-efficient technology, this vehicle ensures maximum productivity while minimizing operational costs. The spacious and ergonomic cabin provides comfort for long-haul drivers, making it an ideal choice for logistics and freight transport.": "Le Tracteur Routier est un camion haute performance conçu pour le transport de charges lourdes sur de longues distances. Conçu pour tracter des semi-remorques, il est doté d’un châssis robuste, d’un moteur puissant et d’un système de suspension avancé assurant stabilité et confort. Équipé de fonctionnalités de sécurité modernes, d’un design aérodynamique et d’une technologie écoénergétique, ce véhicule garantit une productivité maximale tout en réduisant les coûts d’exploitation. La cabine spacieuse et ergonomique offre un confort optimal aux conducteurs longue distance, en faisant un choix idéal pour la logistique et le transport de marchandises.",
+                                              "Powerful engine for heavy-duty towing": "Moteur puissant pour le remorquage de charges lourdes",
+                                              "Aerodynamic design for fuel efficiency": "Conception aérodynamique pour une meilleure efficacité énergétique",
+                                              "Advanced suspension for smooth handling": "Suspension avancée pour une conduite fluide",
+                                              "Spacious and ergonomic driver cabin": "Cabine conducteur spacieuse et ergonomique",
+                                              "Modern safety features for secure transport": "Caractéristiques de sécurité modernes pour un transport sécurisé",
+                                              "High-capacity fuel tank for long-haul journeys": "Réservoir de carburant grande capacité pour longs trajets",
+                                              
+                                              
+                                                "Dump Truck": "Camion Benne",
+                                                "The Dump Truck is a rugged and powerful vehicle designed for hauling bulk materials efficiently. Built with a reinforced steel frame and a hydraulically operated dump bed, it ensures smooth loading and unloading of materials like sand, gravel, rocks, and debris. This truck is widely used in construction, mining, and roadwork projects, offering excellent durability and high load capacity. Its off-road capabilities, enhanced traction system, and powerful diesel engine allow it to navigate rough terrains with ease, making it an essential asset for heavy-duty transport needs.": "Le camion benne est un véhicule robuste et puissant conçu pour le transport efficace de matériaux en vrac. Construit avec un cadre en acier renforcé et une benne à basculement hydraulique, il permet un chargement et un déchargement fluides de matériaux tels que le sable, le gravier, les roches et les débris. Ce camion est largement utilisé dans les projets de construction, d'exploitation minière et de travaux routiers, offrant une excellente durabilité et une grande capacité de charge. Ses capacités tout-terrain, son système de traction amélioré et son puissant moteur diesel lui permettent de naviguer facilement sur des terrains accidentés, en faisant un atout essentiel pour le transport de charges lourdes.",
+                                                "Hydraulically operated dump bed for easy unloading": "Benne hydraulique pour un déchargement facile",
+                                                "Heavy-duty steel chassis for durability": "Châssis en acier robuste pour une durabilité accrue",
+                                                "High load capacity for bulk material transport": "Grande capacité de charge pour le transport de matériaux en vrac",
+                                                "Advanced suspension system for stability": "Système de suspension avancé pour la stabilité",
+                                                "Off-road capabilities for rough terrain operations": "Capacités tout-terrain pour les opérations sur terrains difficiles",
+                                                "Powerful diesel engine for maximum efficiency": "Moteur diesel puissant pour une efficacité maximale"
+                                            
+                                            
+                                            
+                                            
+                                          
+                                          
                                           
                                           
                                         

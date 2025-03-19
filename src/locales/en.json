@@ -125,6 +125,11 @@
   "products.9.description": "The Double Drum Roller ensures efficient compaction for roads and paving.",
   "products.10.name": "Self-Loading Concrete Mixer Truck",
   "products.10.description": "A versatile and efficient truck equipped with a self-loading system for mixing and transporting concrete on-site.",
+  "products.11.name": "Tractor Head",
+"products.11.description": "A powerful truck designed for towing semi-trailers, providing efficient and reliable transport for heavy loads.",
+"products.12.name": "Dump Truck",
+"products.12.description": "A heavy-duty truck used for transporting and unloading bulk materials such as sand, gravel, or demolition waste.",
+
   "sort_by": "Sort by",
   "a_to_z": "A to Z",
   "z_to_a": "Z to A",
@@ -384,7 +389,25 @@
         "Heavy-duty rotating drum for uniform concrete mixing": "Heavy-duty rotating drum for uniform concrete mixing",
         "High-performance engine for rough terrain operations": "High-performance engine for rough terrain operations",
         "Integrated weighing and water dosing system": "Integrated weighing and water dosing system",
-        "Ergonomic control panel for easy operation": "Ergonomic control panel for easy operation"
+        "Ergonomic control panel for easy operation": "Ergonomic control panel for easy operation",
+
+        "Tractor Head": "Tractor Head",
+        "The Tractor Head is a high-performance truck built for transporting heavy cargo over long distances. Designed to tow semi-trailers, it features a robust chassis, a powerful engine, and an advanced suspension system for stability and comfort. Equipped with modern safety features, aerodynamic design, and fuel-efficient technology, this vehicle ensures maximum productivity while minimizing operational costs. The spacious and ergonomic cabin provides comfort for long-haul drivers, making it an ideal choice for logistics and freight transport.": "The Tractor Head is a high-performance truck built for transporting heavy cargo over long distances. Designed to tow semi-trailers, it features a robust chassis, a powerful engine, and an advanced suspension system for stability and comfort. Equipped with modern safety features, aerodynamic design, and fuel-efficient technology, this vehicle ensures maximum productivity while minimizing operational costs. The spacious and ergonomic cabin provides comfort for long-haul drivers, making it an ideal choice for logistics and freight transport.",
+        "Powerful engine for heavy-duty towing": "Powerful engine for heavy-duty towing",
+        "Aerodynamic design for fuel efficiency": "Aerodynamic design for fuel efficiency",
+        "Advanced suspension for smooth handling": "Advanced suspension for smooth handling",
+        "Spacious and ergonomic driver cabin": "Spacious and ergonomic driver cabin",
+        "Modern safety features for secure transport": "Modern safety features for secure transport",
+        "High-capacity fuel tank for long-haul journeys": "High-capacity fuel tank for long-haul journeys",
+
+        "Dump Truck": "Dump Truck",
+        "The Dump Truck is a rugged and powerful vehicle designed for hauling bulk materials efficiently. Built with a reinforced steel frame and a hydraulically operated dump bed, it ensures smooth loading and unloading of materials like sand, gravel, rocks, and debris. This truck is widely used in construction, mining, and roadwork projects, offering excellent durability and high load capacity. Its off-road capabilities, enhanced traction system, and powerful diesel engine allow it to navigate rough terrains with ease, making it an essential asset for heavy-duty transport needs.": "The Dump Truck is a rugged and powerful vehicle designed for hauling bulk materials efficiently. Built with a reinforced steel frame and a hydraulically operated dump bed, it ensures smooth loading and unloading of materials like sand, gravel, rocks, and debris. This truck is widely used in construction, mining, and roadwork projects, offering excellent durability and high load capacity. Its off-road capabilities, enhanced traction system, and powerful diesel engine allow it to navigate rough terrains with ease, making it an essential asset for heavy-duty transport needs.",
+        "Hydraulically operated dump bed for easy unloading": "Hydraulically operated dump bed for easy unloading",
+      "Heavy-duty steel chassis for durability": "Heavy-duty steel chassis for durability",
+      "High load capacity for bulk material transport": "High load capacity for bulk material transport",
+      "Advanced suspension system for stability": "Advanced suspension system for stability",
+      "Off-road capabilities for rough terrain operations": "Off-road capabilities for rough terrain operations",
+      "Powerful diesel engine for maximum efficiency": "Powerful diesel engine for maximum efficiency"
 
 
                   

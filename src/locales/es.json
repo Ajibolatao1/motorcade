@@ -135,6 +135,13 @@
   
     "products.10.name": "Camión Hormigonera Autocargable",
     "products.10.description": "Un camión versátil y eficiente equipado con un sistema de autocarga para mezclar y transportar hormigón en el sitio.",
+    
+      "products.11.name": "Cabeza Tractora",
+      "products.11.description": "Un camión potente diseñado para remolcar semirremolques, proporcionando un transporte eficiente y confiable para cargas pesadas.",
+      "products.12.name": "Camión Volquete",
+      "products.12.description": "Un camión de trabajo pesado utilizado para transportar y descargar materiales a granel como arena, grava o escombros de demolición.",
+    
+    
   
   
   "our_catalogue": "Nuestro Catálogo",
@@ -402,7 +409,29 @@
                                           "Heavy-duty rotating drum for uniform concrete mixing": "Tambor giratorio de alta resistencia para una mezcla uniforme de concreto",
                                           "High-performance engine for rough terrain operations": "Motor de alto rendimiento para operaciones en terrenos difíciles",
                                           "Integrated weighing and water dosing system": "Sistema integrado de pesaje y dosificación de agua",
-                                          "Ergonomic control panel for easy operation": "Panel de control ergonómico para una operación sencilla"
+                                          "Ergonomic control panel for easy operation": "Panel de control ergonómico para una operación sencilla",
+                                          
+                                            "Tractor Head": "Cabeza Tractora",
+                                            "The Tractor Head is a high-performance truck built for transporting heavy cargo over long distances. Designed to tow semi-trailers, it features a robust chassis, a powerful engine, and an advanced suspension system for stability and comfort. Equipped with modern safety features, aerodynamic design, and fuel-efficient technology, this vehicle ensures maximum productivity while minimizing operational costs. The spacious and ergonomic cabin provides comfort for long-haul drivers, making it an ideal choice for logistics and freight transport.": "La Cabeza Tractora es un camión de alto rendimiento diseñado para transportar cargas pesadas a largas distancias. Diseñado para remolcar semirremolques, cuenta con un chasis robusto, un motor potente y un sistema de suspensión avanzado para estabilidad y comodidad. Equipado con características de seguridad modernas, un diseño aerodinámico y tecnología eficiente en combustible, este vehículo garantiza la máxima productividad mientras minimiza los costos operativos. La cabina espaciosa y ergonómica proporciona comodidad para los conductores de larga distancia, lo que la convierte en una opción ideal para el transporte logístico y de carga.",
+                                            "Powerful engine for heavy-duty towing": "Motor potente para remolque de cargas pesadas",
+                                            "Aerodynamic design for fuel efficiency": "Diseño aerodinámico para eficiencia de combustible",
+                                            "Advanced suspension for smooth handling": "Suspensión avanzada para un manejo suave",
+                                            "Spacious and ergonomic driver cabin": "Cabina espaciosa y ergonómica para el conductor",
+                                            "Modern safety features for secure transport": "Características de seguridad modernas para un transporte seguro",
+                                            "High-capacity fuel tank for long-haul journeys": "Depósito de combustible de alta capacidad para viajes largos",
+                                            
+                                              "Dump Truck": "Camión Volquete",
+                                              "The Dump Truck is a rugged and powerful vehicle designed for hauling bulk materials efficiently. Built with a reinforced steel frame and a hydraulically operated dump bed, it ensures smooth loading and unloading of materials like sand, gravel, rocks, and debris. This truck is widely used in construction, mining, and roadwork projects, offering excellent durability and high load capacity. Its off-road capabilities, enhanced traction system, and powerful diesel engine allow it to navigate rough terrains with ease, making it an essential asset for heavy-duty transport needs.": "El camión volquete es un vehículo resistente y potente diseñado para transportar materiales a granel de manera eficiente. Construido con un chasis de acero reforzado y una caja de volcado hidráulica, garantiza una carga y descarga suaves de materiales como arena, grava, rocas y escombros. Este camión se utiliza ampliamente en la construcción, la minería y proyectos viales, ofreciendo una excelente durabilidad y gran capacidad de carga. Sus capacidades todoterreno, su sistema de tracción mejorado y su potente motor diésel le permiten desplazarse con facilidad por terrenos difíciles, convirtiéndolo en un activo esencial para el transporte pesado.",
+                                              "Hydraulically operated dump bed for easy unloading": "Caja de volcado hidráulica para una descarga fácil",
+                                              "Heavy-duty steel chassis for durability": "Chasis de acero reforzado para mayor durabilidad",
+                                              "High load capacity for bulk material transport": "Alta capacidad de carga para el transporte de materiales a granel",
+                                              "Advanced suspension system for stability": "Sistema de suspensión avanzada para estabilidad",
+                                              "Off-road capabilities for rough terrain operations": "Capacidades todoterreno para operaciones en terrenos difíciles",
+                                              "Powerful diesel engine for maximum efficiency": "Potente motor diésel para máxima eficiencia"
+                                          
+                                          
+                                        
+                                        
                                         
                                         
                                       

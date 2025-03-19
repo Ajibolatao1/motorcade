@@ -135,6 +135,13 @@
     
       "products.10.name": "شاحنة خلاطة الخرسانة ذاتية التحميل",
       "products.10.description": "شاحنة متعددة الاستخدامات وفعالة مزودة بنظام تحميل ذاتي لخلط ونقل الخرسانة في الموقع.",
+      
+        "products.11.name": "رأس جرار",
+        "products.11.description": "شاحنة قوية مصممة لسحب نصف المقطورات، مما يوفر نقلًا فعالًا وموثوقًا للأحمال الثقيلة.",
+        "products.12.name": "شاحنة قلابة",
+        "products.12.description": "شاحنة ثقيلة تستخدم لنقل وتفريغ المواد السائبة مثل الرمل أو الحصى أو مخلفات الهدم.",
+      
+      
     
     
     "our_catalogue": "كتالوجنا",
@@ -400,7 +407,29 @@
                                               "Heavy-duty rotating drum for uniform concrete mixing": "أسطوانة دوارة شديدة التحمل لخلط الخرسانة بشكل متجانس",
                                               "High-performance engine for rough terrain operations": "محرك عالي الأداء للعمليات في التضاريس الصعبة",
                                               "Integrated weighing and water dosing system": "نظام متكامل لقياس الوزن وجرعات المياه",
-                                              "Ergonomic control panel for easy operation": "لوحة تحكم مريحة لتسهيل التشغيل"
+                                              "Ergonomic control panel for easy operation": "لوحة تحكم مريحة لتسهيل التشغيل",
+                                              
+                                                "Tractor Head": "رأس الجرار",
+                                                "The Tractor Head is a high-performance truck built for transporting heavy cargo over long distances. Designed to tow semi-trailers, it features a robust chassis, a powerful engine, and an advanced suspension system for stability and comfort. Equipped with modern safety features, aerodynamic design, and fuel-efficient technology, this vehicle ensures maximum productivity while minimizing operational costs. The spacious and ergonomic cabin provides comfort for long-haul drivers, making it an ideal choice for logistics and freight transport.": "رأس الجرار هو شاحنة عالية الأداء مصممة لنقل الأحمال الثقيلة لمسافات طويلة. مصمم لسحب نصف المقطورات، ويتميز بهيكل قوي ومحرك قوي ونظام تعليق متقدم لتحقيق الاستقرار والراحة. مزود بميزات أمان حديثة وتصميم ديناميكي هوائي وتكنولوجيا موفرة للوقود، يضمن هذا المركبة أقصى إنتاجية مع تقليل التكاليف التشغيلية. توفر المقصورة الواسعة والمريحة راحة للسائقين لمسافات طويلة، مما يجعلها خيارًا مثاليًا للنقل اللوجستي ونقل البضائع.",
+                                                "Powerful engine for heavy-duty towing": "محرك قوي لسحب الأحمال الثقيلة",
+                                                "Aerodynamic design for fuel efficiency": "تصميم ديناميكي هوائي لكفاءة استهلاك الوقود",
+                                                "Advanced suspension for smooth handling": "نظام تعليق متقدم لتعامل سلس",
+                                                "Spacious and ergonomic driver cabin": "مقصورة قيادة واسعة ومريحة",
+                                                "Modern safety features for secure transport": "ميزات أمان حديثة لنقل آمن",
+                                                "High-capacity fuel tank for long-haul journeys": "خزان وقود بسعة كبيرة للرحلات الطويلة",
+                                                
+                                                  "Dump Truck": "شاحنة قلابة",
+                                                  "The Dump Truck is a rugged and powerful vehicle designed for hauling bulk materials efficiently. Built with a reinforced steel frame and a hydraulically operated dump bed, it ensures smooth loading and unloading of materials like sand, gravel, rocks, and debris. This truck is widely used in construction, mining, and roadwork projects, offering excellent durability and high load capacity. Its off-road capabilities, enhanced traction system, and powerful diesel engine allow it to navigate rough terrains with ease, making it an essential asset for heavy-duty transport needs.": "الشاحنة القلابة هي مركبة قوية ومتينة مصممة لنقل المواد السائبة بكفاءة. بفضل هيكلها الفولاذي المعزز وصندوق التفريغ الهيدروليكي، تضمن تحميل وتفريغ المواد مثل الرمل والحصى والصخور والحطام بسلاسة. تُستخدم هذه الشاحنة على نطاق واسع في مشاريع البناء والتعدين وأعمال الطرق، حيث توفر متانة ممتازة وقدرة تحميل عالية. تتيح لها إمكانياتها على الطرق الوعرة ونظام الجر المحسن ومحركها الديزل القوي التنقل بسهولة في التضاريس الصعبة، مما يجعلها أداة أساسية لاحتياجات النقل الثقيل.",
+                                                  "Hydraulically operated dump bed for easy unloading": "صندوق تفريغ يعمل هيدروليكيًا لتسهيل التفريغ",
+                                                  "Heavy-duty steel chassis for durability": "هيكل فولاذي قوي لمتانة طويلة الأمد",
+                                                  "High load capacity for bulk material transport": "قدرة تحميل عالية لنقل المواد السائبة",
+                                                  "Advanced suspension system for stability": "نظام تعليق متقدم لتحقيق الاستقرار",
+                                                  "Off-road capabilities for rough terrain operations": "قدرات على الطرق الوعرة للعمليات في التضاريس الصعبة",
+                                                  "Powerful diesel engine for maximum efficiency": "محرك ديزل قوي لتحقيق أقصى كفاءة"
+                                              
+                                              
+                                            
+                                            
                                             
                                             
                                           

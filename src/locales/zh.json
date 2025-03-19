@@ -135,6 +135,13 @@
     
       "products.10.name": "自装载混凝土搅拌车",
       "products.10.description": "一款多功能高效卡车，配备自装载系统，可在现场搅拌和运输混凝土。",
+      
+        "products.11.name": "牵引车",
+        "products.11.description": "一款强大的卡车，专为牵引半挂车设计，提供高效可靠的重载运输。",
+        "products.12.name": "自卸卡车",
+        "products.12.description": "一种重型卡车，用于运输和卸载散装材料，如沙子、砾石或拆除废料。",
+      
+      
     
     
     "our_catalogue": "我们的目录",
@@ -399,7 +406,29 @@
                                             "Heavy-duty rotating drum for uniform concrete mixing": "重型旋转搅拌桶可实现均匀混合",
                                             "High-performance engine for rough terrain operations": "高性能发动机适用于恶劣地形作业",
                                             "Integrated weighing and water dosing system": "集成称重和加水系统",
-                                            "Ergonomic control panel for easy operation": "符合人体工程学的控制面板，操作方便"
+                                            "Ergonomic control panel for easy operation": "符合人体工程学的控制面板，操作方便",
+                                            
+                                              "Tractor Head": "牵引车",
+                                              "The Tractor Head is a high-performance truck built for transporting heavy cargo over long distances. Designed to tow semi-trailers, it features a robust chassis, a powerful engine, and an advanced suspension system for stability and comfort. Equipped with modern safety features, aerodynamic design, and fuel-efficient technology, this vehicle ensures maximum productivity while minimizing operational costs. The spacious and ergonomic cabin provides comfort for long-haul drivers, making it an ideal choice for logistics and freight transport.": "牵引车是一款高性能卡车，专为长途运输重型货物而设计。它用于牵引半挂车，配备坚固的底盘、强劲的发动机和先进的悬挂系统，以确保稳定性和舒适性。该车辆采用现代安全技术、空气动力学设计和节能技术，可在降低运营成本的同时最大化提高生产效率。宽敞的人体工学驾驶舱为长途司机提供舒适体验，使其成为物流和货运运输的理想选择。",
+                                              "Powerful engine for heavy-duty towing": "强劲发动机，适用于重载牵引",
+                                              "Aerodynamic design for fuel efficiency": "空气动力学设计，提高燃油效率",
+                                              "Advanced suspension for smooth handling": "先进的悬挂系统，操控平稳",
+                                              "Spacious and ergonomic driver cabin": "宽敞人体工学驾驶舱",
+                                              "Modern safety features for secure transport": "现代安全技术，确保运输安全",
+                                              "High-capacity fuel tank for long-haul journeys": "大容量燃油箱，适用于长途运输",
+                                              
+                                                "Dump Truck": "自卸卡车",
+                                                "The Dump Truck is a rugged and powerful vehicle designed for hauling bulk materials efficiently. Built with a reinforced steel frame and a hydraulically operated dump bed, it ensures smooth loading and unloading of materials like sand, gravel, rocks, and debris. This truck is widely used in construction, mining, and roadwork projects, offering excellent durability and high load capacity. Its off-road capabilities, enhanced traction system, and powerful diesel engine allow it to navigate rough terrains with ease, making it an essential asset for heavy-duty transport needs.": "自卸卡车是一种坚固耐用的车辆，专为高效运输散装材料而设计。其采用加固钢制车架和液压倾卸车斗，确保沙子、砾石、岩石和建筑垃圾等物料的顺畅装卸。这种卡车广泛应用于建筑、采矿和道路施工项目，具有卓越的耐用性和高载重能力。其越野能力、增强的牵引系统和强大的柴油发动机，使其能够轻松穿越崎岖地形，成为重型运输领域的重要工具。",
+                                                "Hydraulically operated dump bed for easy unloading": "液压控制倾卸车斗，方便卸货",
+                                                "Heavy-duty steel chassis for durability": "重型钢制车架，确保耐用性",
+                                                "High load capacity for bulk material transport": "高载重能力，适用于散装材料运输",
+                                                "Advanced suspension system for stability": "先进悬挂系统，提高稳定性",
+                                                "Off-road capabilities for rough terrain operations": "强大越野性能，适应复杂地形作业",
+                                                "Powerful diesel engine for maximum efficiency": "高效柴油发动机，提供最大动力"
+                                            
+                                            
+                                          
+                                          
                                           
                                           
                                         

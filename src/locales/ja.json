@@ -135,6 +135,13 @@
     
       "products.10.name": "セルフローディング コンクリート ミキサー トラック",
       "products.10.description": "現場でのコンクリートの混合と輸送を可能にするセルフローディングシステムを備えた、多用途で効率的なトラックです。",
+      
+        "products.11.name": "トラクターヘッド",
+        "products.11.description": "セミトレーラーを牽引するために設計された強力なトラックで、重量物の効率的かつ信頼性の高い輸送を提供します。",
+        "products.12.name": "ダンプトラック",
+        "products.12.description": "砂利や砂、解体廃棄物などのバルク材の輸送および荷下ろしに使用される大型トラック。",
+      
+      
     
     
     "our_catalogue": "カタログ",
@@ -400,7 +407,32 @@
                                             "Heavy-duty rotating drum for uniform concrete mixing": "均一なコンクリート混合のための高耐久回転ドラム",
                                             "High-performance engine for rough terrain operations": "悪路での操作に適した高性能エンジン",
                                             "Integrated weighing and water dosing system": "統合された計量および水量調整システム",
-                                            "Ergonomic control panel for easy operation": "簡単操作のための人間工学に基づいたコントロールパネル"
+                                            "Ergonomic control panel for easy operation": "簡単操作のための人間工学に基づいたコントロールパネル",
+                                            
+                                              "Tractor Head": "トラクターヘッド",
+                                              "The Tractor Head is a high-performance truck built for transporting heavy cargo over long distances. Designed to tow semi-trailers, it features a robust chassis, a powerful engine, and an advanced suspension system for stability and comfort. Equipped with modern safety features, aerodynamic design, and fuel-efficient technology, this vehicle ensures maximum productivity while minimizing operational costs. The spacious and ergonomic cabin provides comfort for long-haul drivers, making it an ideal choice for logistics and freight transport.": "トラクターヘッドは、長距離輸送のために設計された高性能トラックです。セミトレーラーを牽引するために設計されており、頑丈なシャーシ、強力なエンジン、高度なサスペンションシステムを備えており、安定性と快適性を提供します。最新の安全機能、空力設計、燃費効率の高い技術を備えたこの車両は、生産性を最大限に高めると同時に運用コストを最小限に抑えます。広々としたエルゴノミックなキャビンは長距離ドライバーに快適さを提供し、物流や貨物輸送に最適な選択肢となります。",
+                                              "Powerful engine for heavy-duty towing": "重量牽引のための強力なエンジン",
+                                              "Aerodynamic design for fuel efficiency": "燃費向上のための空力設計",
+                                              "Advanced suspension for smooth handling": "スムーズな走行のための高度なサスペンション",
+                                              "Spacious and ergonomic driver cabin": "広々としたエルゴノミックな運転席",
+                                              "Modern safety features for secure transport": "安全な輸送のための最新の安全機能",
+                                              "High-capacity fuel tank for long-haul journeys": "長距離移動のための大容量燃料タンク",
+                                              
+                                              
+                                                "Dump Truck": "ダンプトラック",
+                                                "The Dump Truck is a rugged and powerful vehicle designed for hauling bulk materials efficiently. Built with a reinforced steel frame and a hydraulically operated dump bed, it ensures smooth loading and unloading of materials like sand, gravel, rocks, and debris. This truck is widely used in construction, mining, and roadwork projects, offering excellent durability and high load capacity. Its off-road capabilities, enhanced traction system, and powerful diesel engine allow it to navigate rough terrains with ease, making it an essential asset for heavy-duty transport needs.": "ダンプトラックは、バルク材料を効率的に運搬するために設計された頑丈で強力な車両です。補強されたスチールフレームと油圧式ダンプベッドを備え、砂、砂利、岩、瓦礫などのスムーズな積み込みと荷下ろしを実現します。このトラックは、建設、採掘、道路工事プロジェクトで広く使用されており、高い耐久性と大容量の積載能力を誇ります。オフロード性能、強化されたトラクションシステム、強力なディーゼルエンジンにより、険しい地形でもスムーズに移動できるため、重量物輸送に不可欠な資産となっています。",
+                                                "Hydraulically operated dump bed for easy unloading": "油圧式ダンプベッドによる簡単な荷下ろし",
+                                                "Heavy-duty steel chassis for durability": "耐久性に優れた高強度スチールシャーシ",
+                                                "High load capacity for bulk material transport": "バルク材料輸送のための高い積載能力",
+                                                "Advanced suspension system for stability": "安定性を確保する高度なサスペンションシステム",
+                                                "Off-road capabilities for rough terrain operations": "悪路での操作に対応するオフロード性能",
+                                                "Powerful diesel engine for maximum efficiency": "最大効率を実現する強力なディーゼルエンジン"
+                                            
+                                            
+                                            
+                                            
+                                          
+                                          
                                           
                                           
                                         

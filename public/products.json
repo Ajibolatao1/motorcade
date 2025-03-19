@@ -8,5 +8,7 @@
     { "id": "7", "name": "products.7.name", "description": "products.7.description", "image": "/bulldozer-1.png", "category": "category.bulldozer", "date": "2023-09-28" },
     { "id": "8", "name": "products.8.name", "description": "products.8.description", "image": "/wheeled-1.png", "category": "category.loader", "date": "2023-02-05" },
     { "id": "9", "name": "products.9.name", "description": "products.9.description", "image": "/double drum rollers.jpg", "category": "category.roller", "date": "2023-10-15" },
-    { "id": "10", "name": "products.10.name", "description": "products.10.description", "image": "/self-loading-concrete-mixer.jpg", "category": "category.truck", "date": "2023-04-15" }
+    { "id": "10", "name": "products.10.name", "description": "products.10.description", "image": "/self-loading-concrete-mixer.jpg", "category": "category.truck", "date": "2023-04-15" },
+    { "id": "11", "name": "products.11.name", "description": "products.11.description", "image": "/tractor-head.jpg", "category": "category.truck", "date": "2023-04-17" },
+    { "id": "12", "name": "products.12.name", "description": "products.12.description", "image": "/dump-truck.jpg", "category": "category.truck", "date": "2023-04-19" }
 ]
