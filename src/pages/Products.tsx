@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ProductCard from '@/components/ProductCard';
 import AnimatedSection from '@/components/AnimatedSection';
-import { Search, Tag, ArrowUpDown } from 'lucide-react';
+import { Search, Tag, ArrowUpDown, ChevronLeft, ChevronRight } from 'lucide-react'; // Import icons for Next/Previous
 
 const Products = () => {
   const { t } = useTranslation();
@@ -61,6 +61,10 @@ const Products = () => {
           return new Date(b.date).getTime() - new Date(a.date).getTime();
         } else if (sortBy === 'oldest') {
           return new Date(a.date).getTime() - new Date(b.date).getTime();
+        } else if (sortBy === 'name-asc') {
+          return t(a.name).localeCompare(t(b.name));
+        } else if (sortBy === 'name-desc') {
+          return t(b.name).localeCompare(t(a.name));
         }
         return 0;
       });
@@ -74,6 +78,20 @@ const Products = () => {
     (currentPage - 1) * itemsPerPage,
     currentPage * itemsPerPage
   );
+
+  // Handle next page
+  const handleNextPage = () => {
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+
+  // Handle previous page
+  const handlePreviousPage = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -164,36 +182,52 @@ const Products = () => {
           )}
 
           {/* Pagination */}
-          <div className="flex justify-center mt-8 gap-2">
-            <button
-              onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
-              disabled={currentPage === 1}
-              className="px-4 py-2 rounded-lg border bg-gray-200 hover:bg-gray-300 disabled:opacity-50"
-            >
-              {t('previous')}
-            </button>
-
-            {/* Page Numbers */}
-            {Array.from({ length: totalPages }, (_, i) => (
+          {totalPages > 1 && (
+            <div className="flex justify-center mt-12 gap-2">
+              {/* Previous Button */}
               <button
-                key={i + 1}
-                onClick={() => setCurrentPage(i + 1)}
-                className={`px-3 py-2 rounded-lg border ${
-                  currentPage === i + 1 ? 'bg-primary text-white' : 'bg-gray-200 hover:bg-gray-300'
-                }`}
+                onClick={handlePreviousPage}
+                disabled={currentPage === 1}
+                className={`px-4 py-2 text-sm font-medium ${
+                  currentPage === 1
+                    ? 'bg-secondary text-muted-foreground cursor-not-allowed'
+                    : 'bg-primary text-primary-foreground hover:bg-primary/90'
+                } rounded-md flex items-center gap-1`}
               >
-                {i + 1}
+                <ChevronLeft size={16} /> {t('previous')}
               </button>
-            ))}
 
-            <button
-              onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
-              disabled={currentPage === totalPages}
-              className="px-4 py-2 rounded-lg border bg-gray-200 hover:bg-gray-300 disabled:opacity-50"
-            >
-              {t('next')}
-            </button>
-          </div>
+              {/* Page Numbers */}
+              <nav className="inline-flex rounded-md shadow-sm">
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                  <button
+                    key={page}
+                    onClick={() => setCurrentPage(page)}
+                    className={`px-4 py-2 text-sm font-medium ${
+                      currentPage === page
+                        ? 'bg-primary text-primary-foreground'
+                        : 'bg-secondary text-muted-foreground hover:bg-secondary/80'
+                    } rounded-md mx-1`}
+                  >
+                    {page}
+                  </button>
+                ))}
+              </nav>
+
+              {/* Next Button */}
+              <button
+                onClick={handleNextPage}
+                disabled={currentPage === totalPages}
+                className={`px-4 py-2 text-sm font-medium ${
+                  currentPage === totalPages
+                    ? 'bg-secondary text-muted-foreground cursor-not-allowed'
+                    : 'bg-primary text-primary-foreground hover:bg-primary/90'
+                } rounded-md flex items-center gap-1`}
+              >
+                {t('next')} <ChevronRight size={16} />
+              </button>
+            </div>
+          )}
         </div>
       </section>
 

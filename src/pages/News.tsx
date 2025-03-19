@@ -3,13 +3,12 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import NewsCard from '@/components/NewsCard';
 import AnimatedSection from '@/components/AnimatedSection';
-import { Search, Tag, ArrowUpDown } from 'lucide-react';
+import { Search, Tag, ArrowUpDown, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const News = () => {
   const { t } = useTranslation();
 
-  // Categories with translation
   const categories = [
     t('category.all'),
     t('category.product launch'),
@@ -18,90 +17,60 @@ const News = () => {
     t('category.events'),
   ];
 
-  // Set default category to translated "All"
   const [selectedCategory, setSelectedCategory] = useState(categories[0]);
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('newest');
-  const [forceUpdate, setForceUpdate] = useState(0);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [allNews, setAllNews] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const itemsPerPage = 6;
 
-  // Sample news data
-  const allNews = [
-    {
-      id: '1',
-      title: t('news_1_title'),
-      excerpt: t('news_1_excerpt'),
-      date: t('December 14, 2024'),
-      image: '/mini-excavators.jpeg',
-      category: t('category.product launch'),
-    },
-    {
-      id: '2',
-      title: t('news_2_title'),
-      excerpt: t('news_2_excerpt'),
-      date: t('November 12, 2024'),
-      image: '/backhoe-loader.jpeg',
-      category: t('category.product launch'),
-    },
-    {
-      id: '3',
-      title: t('news_3_title'),
-      excerpt: t('news_3_excerpt'),
-      date: t('October 9, 2024'),
-      image: '/4-wheel-drive-forklift.jpeg',
-      category: t('category.product launch'),
-    },
-    {
-      id: '4',
-      title: t('news_4_title'),
-      excerpt: t('news_4_excerpt'),
-      date: t('January 4, 2025'),
-      image: '/edu-friend.jpg',
-      category: t('category.events'),
-    },
-    {
-      id: '5',
-      title: t('news_5_title'),
-      excerpt: t('news_5_excerpt'),
-      date: t('August 17, 2024'),
-      image: '/concrete-Cement-Mixer-Truck.jpeg',
-      category: t('category.product launch'),
-    },
-    {
-      id: '6',
-      title: t('news_6_title'),
-      excerpt: t('news_6_excerpt'),
-      date: t('February 12, 2025'),
-      image: '/concrete-mixer.jpg',
-      category: t('category.industry news'),
-    },
-  ];
-
-  // Update selectedCategory when language changes
+  // Fetch news data from news.json
   useEffect(() => {
-    setSelectedCategory(categories[0]); // Set to translated "All"
+    const fetchNews = async () => {
+      try {
+        const response = await fetch('/news.json');
+        const data = await response.json();
+        setAllNews(data);
+        setLoading(false);
+      } catch (error) {
+        console.error('Error fetching news data:', error);
+        setLoading(false);
+      }
+    };
+
+    fetchNews();
+  }, []);
+
+  useEffect(() => {
+    setSelectedCategory(categories[0]);
   }, [t]);
 
-  // Handle category change
-  const handleCategoryChange = (category: string) => {
+  const handleCategoryChange = (category) => {
     setSelectedCategory(category);
-    setForceUpdate(prev => prev + 1);
+    setCurrentPage(1);
   };
 
-  // Filter and sort news
   const filteredNews = allNews
-    .filter(news =>
-      (selectedCategory === categories[0] || news.category === selectedCategory) &&
-      (news.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        news.excerpt.toLowerCase().includes(searchQuery.toLowerCase()))
-    )
+    .filter((news) => {
+      const isAllCategory = selectedCategory === categories[0];
+      const isCategoryMatch = isAllCategory || news.category === selectedCategory;
+      const isSearchMatch =
+        t(news.title).toLowerCase().includes(searchQuery.toLowerCase()) ||
+        t(news.excerpt).toLowerCase().includes(searchQuery.toLowerCase());
+      return isCategoryMatch && isSearchMatch;
+    })
     .sort((a, b) => {
-      if (sortBy === 'newest') {
-        return new Date(b.date).getTime() - new Date(a.date).getTime();
-      } else if (sortBy === 'oldest') {
-        return new Date(a.date).getTime() - new Date(b.date).getTime();
-      }
-      return 0;
+      const dateA = new Date(a.date).getTime();
+      const dateB = new Date(b.date).getTime();
+      return sortBy === 'newest' ? dateB - dateA : dateA - dateB;
     });
+
+  const totalPages = Math.ceil(filteredNews.length / itemsPerPage);
+  const currentNews = filteredNews.slice(
+    (currentPage - 1) * itemsPerPage,
+    currentPage * itemsPerPage
+  );
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -127,9 +96,8 @@ const News = () => {
       {/* News Section */}
       <section className="py-16 px-6">
         <div className="container mx-auto max-w-7xl">
-          {/* Filters */}
+          {/* Search & Filters */}
           <div className="mb-12 space-y-6">
-            {/* Search Bar */}
             <div className="relative max-w-md">
               <div className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground">
                 <Search size={20} />
@@ -143,13 +111,15 @@ const News = () => {
               />
             </div>
 
-            {/* Filter Controls */}
             <div className="flex flex-col sm:flex-row justify-between gap-4">
               <div className="flex flex-wrap gap-2">
+                {/* Add "Category:" label with an icon */}
                 <span className="flex items-center text-sm font-medium mr-2">
                   <Tag size={16} className="mr-1" /> {t('category.label')}:
                 </span>
-                {categories.map(category => (
+
+                {/* Render the category buttons without icons */}
+                {categories.map((category) => (
                   <button
                     key={category}
                     onClick={() => handleCategoryChange(category)}
@@ -164,13 +134,17 @@ const News = () => {
                 ))}
               </div>
 
+              {/* Add "Sort by" label with an icon */}
               <div className="flex items-center">
                 <span className="flex items-center text-sm font-medium mr-2">
                   <ArrowUpDown size={16} className="mr-1" /> {t('sort_by')}:
                 </span>
                 <select
                   value={sortBy}
-                  onChange={(e) => setSortBy(e.target.value)}
+                  onChange={(e) => {
+                    setSortBy(e.target.value);
+                    setCurrentPage(1);
+                  }}
                   className="rounded-md border border-input bg-background px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-ring"
                 >
                   <option value="newest">{t('newest_first')}</option>
@@ -181,19 +155,68 @@ const News = () => {
           </div>
 
           {/* News Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredNews.length > 0 ? (
-              filteredNews.map((news, index) => (
-                <AnimatedSection key={`${news.id}-${forceUpdate}`} staggerIndex={Math.min(index % 3 + 1, 5)}>
-                  <NewsCard {...news} />
-                </AnimatedSection>
-              ))
-            ) : (
-              <div className="col-span-full py-12 text-center">
-                <p className="text-xl text-muted-foreground">{t('no_news_found')}</p>
-              </div>
-            )}
-          </div>
+          {loading ? (
+            <div className="col-span-full py-12 text-center">
+              <p className="text-xl text-muted-foreground">{t('loading')}</p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {currentNews.length > 0 ? (
+                currentNews.map((news) => (
+                  <AnimatedSection key={news.id}>
+                    <NewsCard {...news} />
+                  </AnimatedSection>
+                ))
+              ) : (
+                <div className="col-span-full py-12 text-center">
+                  <p className="text-xl text-muted-foreground">{t('no_news_found')}</p>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Pagination Controls */}
+          {totalPages > 1 && (
+            <div className="flex justify-center mt-12 gap-2">
+              <button
+                onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
+                disabled={currentPage === 1}
+                className={`px-4 py-2 rounded-md ${
+                  currentPage === 1
+                    ? 'bg-secondary text-muted-foreground'
+                    : 'bg-primary text-primary-foreground'
+                }`}
+              >
+                <ChevronLeft size={16} /> {t('previous')}
+              </button>
+
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                <button
+                  key={page}
+                  onClick={() => setCurrentPage(page)}
+                  className={`px-4 py-2 rounded-md ${
+                    currentPage === page
+                      ? 'bg-primary text-primary-foreground'
+                      : 'bg-secondary text-muted-foreground'
+                  }`}
+                >
+                  {page}
+                </button>
+              ))}
+
+              <button
+                onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
+                disabled={currentPage === totalPages}
+                className={`px-4 py-2 rounded-md ${
+                  currentPage === totalPages
+                    ? 'bg-secondary text-muted-foreground'
+                    : 'bg-primary text-primary-foreground'
+                }`}
+              >
+                {t('next')} <ChevronRight size={16} />
+              </button>
+            </div>
+          )}
         </div>
       </section>
 

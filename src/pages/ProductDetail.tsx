@@ -254,6 +254,34 @@ const productsData = [
     }
   },
   {
+    "id": "10",
+    "name": "Self-Loading Concrete Mixer Truck",
+    "description": "A versatile and efficient truck equipped with a self-loading system for mixing and transporting concrete on-site.",
+    "fullDescription": "The Self-Loading Concrete Mixer Truck is an advanced and mobile concrete mixing solution designed for construction projects requiring on-site concrete production. Equipped with an automatic loading system, this truck eliminates the need for manual material handling, improving efficiency and reducing labor costs. Its powerful rotating drum ensures consistent and homogeneous mixing, while the 360-degree rotating cabin provides excellent maneuverability. Designed for rough terrains, the mixer truck is built with a robust chassis, all-terrain tires, and a high-performance engine. With precise water dosing and weighing systems, it guarantees optimal concrete quality for every batch.",
+    "image": "/self-loading-concrete-mixer.jpg",
+    "additionalImages": [
+        "/self-loading-concrete-mixer2.jpg",
+        "/self-loading-concrete-mixer3.jpg"
+    ],
+    "category": "Truck",
+    "features": [
+        "Self-loading system for automatic material handling",
+        "360-degree rotating cabin for enhanced maneuverability",
+        "Heavy-duty rotating drum for uniform concrete mixing",
+        "High-performance engine for rough terrain operations",
+        "Integrated weighing and water dosing system",
+        "Ergonomic control panel for easy operation"
+    ],
+    "specifications": {
+        "engine": "Diesel, 80 to 150 HP",
+        "drumCapacity": "1.5 to 5 cubic meters",
+        "mixingSpeed": "15 to 20 RPM",
+        "maxSpeed": "25 to 40 km/h",
+        "fuelCapacity": "100 to 200 liters",
+        "weight": "3,500 to 12,000 kg"
+    }
+},
+  {
     "id": "11",
     "name": "Tractor Head",
     "description": "A powerful truck designed for towing semi-trailers, providing efficient and reliable transport for heavy loads.",

@@ -1,0 +1,8 @@
+[
+    { "id": "1", "title": "news_1_title", "excerpt": "news_1_excerpt", "date": "2024-12-14", "image": "/mini-excavators.jpeg", "category": "category.product launch" },
+    { "id": "2", "title": "news_2_title", "excerpt": "news_2_excerpt", "date": "2024-11-12", "image": "/backhoe-loader.jpeg", "category": "category.product launch" },
+    { "id": "3", "title": "news_3_title", "excerpt": "news_3_excerpt", "date": "2024-10-09", "image": "/4-wheel-drive-forklift.jpeg", "category": "category.product launch" },
+    { "id": "4", "title": "news_4_title", "excerpt": "news_4_excerpt", "date": "2025-01-04", "image": "/edu-friend.jpg", "category": "category.events" },
+    { "id": "5", "title": "news_5_title", "excerpt": "news_5_excerpt", "date": "2024-08-17", "image": "/concrete-Cement-Mixer-Truck.jpeg", "category": "category.product launch" },
+    { "id": "6", "title": "news_6_title", "excerpt": "news_6_excerpt", "date": "2025-02-12", "image": "/concrete-mixer.jpg", "category": "category.industry news" }
+  ]
