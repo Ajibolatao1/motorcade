@@ -18,6 +18,11 @@ const Navbar = () => {
     { name: t("contact"), path: "/contact" },
   ];
 
+  // Scroll to top function
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -64,6 +69,7 @@ const Navbar = () => {
                   className={`relative font-medium transition-colors hover:text-primary ${
                     location.pathname === link.path ? "text-primary" : "text-muted-foreground"
                   }`}
+                  onClick={scrollToTop} // Scroll to top on link click
                 >
                   {link.name}
                 </Link>
@@ -124,7 +130,10 @@ const Navbar = () => {
                     className={`text-lg font-medium block w-full px-4 py-2 rounded-md transition-colors ${
                       location.pathname === link.path ? "bg-primary text-white" : "text-muted-foreground hover:bg-gray-100"
                     }`}
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={() => {
+                      setIsMenuOpen(false); // Close the mobile menu
+                      scrollToTop(); // Scroll to the top
+                    }}
                   >
                     {link.name}
                   </Link>

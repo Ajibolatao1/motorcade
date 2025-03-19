@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ProductCard from '@/components/ProductCard';
 import AnimatedSection from '@/components/AnimatedSection';
-import { Search, Tag, ArrowUpDown, ChevronLeft, ChevronRight } from 'lucide-react'; // Import icons for Next/Previous
+import { Search, Tag, ArrowUpDown, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const Products = () => {
   const { t } = useTranslation();
@@ -27,6 +27,12 @@ const Products = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(true);
   const itemsPerPage = 9;
+
+  // Scroll to top function
+  const scrollToTop = () => {
+    console.log("Scrolling to top"); // Debug log
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -170,7 +176,10 @@ const Products = () => {
               {paginatedProducts.length > 0 ? (
                 paginatedProducts.map((product) => (
                   <AnimatedSection key={product.id}>
-                    <ProductCard {...product} />
+                    <ProductCard
+                      {...product}
+                      onViewDetailsClick={scrollToTop} // Pass the scroll-to-top function
+                    />
                   </AnimatedSection>
                 ))
               ) : (
