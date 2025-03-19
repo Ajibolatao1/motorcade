@@ -102,44 +102,54 @@ const Navbar = () => {
 
       {/* Mobile Navigation Menu */}
       {isMenuOpen && (
-        <div ref={menuRef} className="absolute top-full right-6 mt-3 w-48 bg-white shadow-lg rounded-lg p-4">
-          <nav className="flex flex-col items-start">
-            <ul className="flex flex-col space-y-4">
-              {navLinks.map(link => (
-                <li key={link.path}>
-                  <Link 
-                    to={link.path} 
-                    className={`text-lg font-medium block ${
-                      location.pathname === link.path ? "text-primary" : "text-muted-foreground"
-                    }`}
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-
-            {/* Language Switcher (Mobile) */}
-            <select
-              className="mt-4 px-3 py-1 bg-gray-100 border border-gray-300 rounded-md text-sm focus:outline-none w-full"
-              onChange={(e) => changeLanguage(e.target.value)}
-              value={i18n.language}
+  <div
+    ref={menuRef}
+    className="fixed top-0 right-0 w-1/2 h-full bg-white shadow-lg p-6 flex flex-col items-start z-50 transition-transform duration-300 md:w-1/2 md:h-full"
+  >
+    <button
+      className="self-end text-gray-600"
+      onClick={() => setIsMenuOpen(false)}
+    >
+      <X size={24} />
+    </button>
+    <nav className="mt-6 w-full">
+      <ul className="flex flex-col space-y-4 w-full">
+        {navLinks.map(link => (
+          <li key={link.path}>
+            <Link 
+              to={link.path} 
+              className={`text-lg font-medium block w-full px-4 py-2 rounded-md transition-colors ${
+                location.pathname === link.path ? "bg-primary text-white" : "text-muted-foreground hover:bg-gray-100"
+              }`}
+              onClick={() => setIsMenuOpen(false)}
             >
-              <option value="en">English</option>
-              <option value="fr">Français</option>
-              <option value="es">Español</option>
-              <option value="de">Deutsch</option>
-              <option value="zh">中文</option>
-              <option value="ar">العربية</option>
-              <option value="hi">हिन्दी</option>
-              <option value="ru">Русский</option>
-              <option value="ja">日本語</option>
-              <option value="pt">Português</option>
-            </select>
-          </nav>
-        </div>
-      )}
+              {link.name}
+            </Link>
+          </li>
+        ))}
+      </ul>
+      
+      {/* Language Switcher (Mobile) */}
+      <select
+        className="mt-6 w-full px-3 py-2 bg-gray-100 border border-gray-300 rounded-md text-sm focus:outline-none"
+        onChange={(e) => changeLanguage(e.target.value)}
+        value={i18n.language}
+      >
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+        <option value="es">Español</option>
+        <option value="de">Deutsch</option>
+        <option value="zh">中文</option>
+        <option value="ar">العربية</option>
+        <option value="hi">हिन्दी</option>
+        <option value="ru">Русский</option>
+        <option value="ja">日本語</option>
+        <option value="pt">Português</option>
+      </select>
+    </nav>
+  </div>
+)}
+
     </header>
   );
 };
