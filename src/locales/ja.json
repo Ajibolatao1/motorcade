@@ -58,6 +58,11 @@
   "published_on": "公開日",
   "category": "カテゴリー",
   "latest_news": "最新ニュース",
+  "all": "すべて",
+    "product launch": "製品発売",
+    "industry news": "業界ニュース",
+    "company updates": "会社の更新",
+    "events": "イベント",
 
    "view_details": "詳細を見る",
     "latest_products": "最新の製品",

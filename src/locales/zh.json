@@ -58,6 +58,11 @@
   "published_on": "发布时间",
   "category": "类别",
   "latest_news": "最新消息",
+  "all": "所有",
+    "product launch": "产品发布",
+    "industry news": "行业新闻",
+    "company updates": "公司更新",
+    "events": "活动",
 
   "view_details": "查看详情",
     "latest_products": "最新产品",

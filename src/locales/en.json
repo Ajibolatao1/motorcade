@@ -55,6 +55,11 @@
   "published_on": "Published on",
   "category": "Category",
   "latest_news": "Latest News",
+  "all": "All",
+    "product launch": "Product Launch",
+    "industry news": "Industry News",
+    "company updates": "Company Updates",
+    "events": "Events",
 
   
   "view_details": "View details",

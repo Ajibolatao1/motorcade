@@ -58,6 +58,11 @@
   "published_on": "Publié le",
   "category": "Catégorie",
   "latest_news": "Dernières nouvelles",
+  "all": "Tout",
+    "product launch": "Lancement de produit",
+    "industry news": "Actualités de l'industrie",
+    "company updates": "Mises à jour de l'entreprise",
+    "events": "Événements",
 
   "view_details": "Voir les détails",
     "latest_products": "Derniers produits",

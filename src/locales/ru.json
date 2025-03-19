@@ -58,6 +58,11 @@
   "published_on": "Опубликовано",
   "category": "Категория",
   "latest_news": "Последние новости",
+  "all": "Все",
+    "product launch": "Запуск продукта",
+    "industry news": "Новости отрасли",
+    "company updates": "Обновления компании",
+    "events": "События",
 
   "view_details": "Подробнее",
     "latest_products": "Последние товары",

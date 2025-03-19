@@ -58,6 +58,11 @@
   "published_on": "تم النشر في",
   "category": "الفئة",
   "latest_news": "آخر الأخبار",
+  "all": "الكل",
+    "product launch": "إطلاق المنتج",
+    "industry news": "أخبار الصناعة",
+    "company updates": "تحديثات الشركة",
+    "events": "الفعاليات",
 
   "view_details": "عرض التفاصيل",
     "latest_products": "أحدث المنتجات",

@@ -9,6 +9,7 @@ import { useTranslation } from 'react-i18next';
 const News = () => {
   const { t } = useTranslation();
 
+  // Define categories with translations
   const categories = [
     t('category.all'),
     t('category.product launch'),
@@ -42,22 +43,33 @@ const News = () => {
     fetchNews();
   }, []);
 
+  // Reset selected category when language changes
   useEffect(() => {
     setSelectedCategory(categories[0]);
   }, [t]);
 
+  // Handle category change
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
     setCurrentPage(1);
   };
 
+  // Filter and sort news
   const filteredNews = allNews
     .filter((news) => {
-      const isAllCategory = selectedCategory === categories[0];
-      const isCategoryMatch = isAllCategory || news.category === selectedCategory;
+      const isAllCategory = selectedCategory.toLowerCase() === categories[0].toLowerCase();
+      const translatedCategory = t(`category.${news.category.toLowerCase()}`, { defaultValue: news.category });
+      const isCategoryMatch = isAllCategory || translatedCategory.toLowerCase() === selectedCategory.toLowerCase();
       const isSearchMatch =
         t(news.title).toLowerCase().includes(searchQuery.toLowerCase()) ||
         t(news.excerpt).toLowerCase().includes(searchQuery.toLowerCase());
+
+      // Debug logs
+      console.log('Selected Category:', selectedCategory);
+      console.log('News Category:', news.category);
+      console.log('Translated Category:', translatedCategory);
+      console.log('Is Category Match:', isCategoryMatch);
+
       return isCategoryMatch && isSearchMatch;
     })
     .sort((a, b) => {
@@ -66,6 +78,7 @@ const News = () => {
       return sortBy === 'newest' ? dateB - dateA : dateA - dateB;
     });
 
+  // Pagination logic
   const totalPages = Math.ceil(filteredNews.length / itemsPerPage);
   const currentNews = filteredNews.slice(
     (currentPage - 1) * itemsPerPage,
@@ -118,7 +131,7 @@ const News = () => {
                   <Tag size={16} className="mr-1" /> {t('category.label')}:
                 </span>
 
-                {/* Render the category buttons without icons */}
+                {/* Render the category buttons */}
                 {categories.map((category) => (
                   <button
                     key={category}
@@ -176,47 +189,53 @@ const News = () => {
           )}
 
           {/* Pagination Controls */}
-          {totalPages > 1 && (
-            <div className="flex justify-center mt-12 gap-2">
-              <button
-                onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
-                disabled={currentPage === 1}
-                className={`px-4 py-2 rounded-md ${
-                  currentPage === 1
-                    ? 'bg-secondary text-muted-foreground'
-                    : 'bg-primary text-primary-foreground'
-                }`}
-              >
-                <ChevronLeft size={16} /> {t('previous')}
-              </button>
+{totalPages > 1 && (
+  <div className="flex justify-center mt-12 gap-2">
+    {/* Previous Button */}
+    <button
+      onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
+      disabled={currentPage === 1}
+      className={`px-4 py-2 text-sm font-medium ${
+        currentPage === 1
+          ? 'bg-secondary text-muted-foreground cursor-not-allowed'
+          : 'bg-primary text-primary-foreground hover:bg-primary/90'
+      } rounded-md flex items-center gap-1`}
+    >
+      <ChevronLeft size={16} /> {t('previous')}
+    </button>
 
-              {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-                <button
-                  key={page}
-                  onClick={() => setCurrentPage(page)}
-                  className={`px-4 py-2 rounded-md ${
-                    currentPage === page
-                      ? 'bg-primary text-primary-foreground'
-                      : 'bg-secondary text-muted-foreground'
-                  }`}
-                >
-                  {page}
-                </button>
-              ))}
+    {/* Page Numbers */}
+    <nav className="inline-flex rounded-md shadow-sm">
+      {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+        <button
+          key={page}
+          onClick={() => setCurrentPage(page)}
+          className={`px-4 py-2 text-sm font-medium ${
+            currentPage === page
+              ? 'bg-primary text-primary-foreground'
+              : 'bg-secondary text-muted-foreground hover:bg-secondary/80'
+          } rounded-md mx-1`}
+        >
+          {page}
+        </button>
+      ))}
+    </nav>
 
-              <button
-                onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
-                disabled={currentPage === totalPages}
-                className={`px-4 py-2 rounded-md ${
-                  currentPage === totalPages
-                    ? 'bg-secondary text-muted-foreground'
-                    : 'bg-primary text-primary-foreground'
-                }`}
-              >
-                {t('next')} <ChevronRight size={16} />
-              </button>
-            </div>
-          )}
+    {/* Next Button */}
+    <button
+      onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
+      disabled={currentPage === totalPages}
+      className={`px-4 py-2 text-sm font-medium ${
+        currentPage === totalPages
+          ? 'bg-secondary text-muted-foreground cursor-not-allowed'
+          : 'bg-primary text-primary-foreground hover:bg-primary/90'
+      } rounded-md flex items-center gap-1`}
+    >
+      {t('next')} <ChevronRight size={16} />
+    </button>
+  </div>
+)}
+          
         </div>
       </section>
 
