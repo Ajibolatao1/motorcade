@@ -30,7 +30,7 @@ const News = () => {
   useEffect(() => {
     const fetchNews = async () => {
       try {
-        const response = await fetch('/src/news.json');
+        const response = await fetch('/news.json');
         const data = await response.json();
         setAllNews(data);
         setLoading(false);

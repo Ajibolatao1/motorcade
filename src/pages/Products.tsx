@@ -37,7 +37,7 @@ const Products = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch('/src/products.json');
+        const response = await fetch('/products.json');
         const data = await response.json();
         setProducts(data);
         setLoading(false);
