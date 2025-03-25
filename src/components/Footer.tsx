@@ -117,7 +117,7 @@ const Footer = () => {
             <h4 className="text-lg font-medium">{t("follow_us")}</h4>
             <div className="flex space-x-4">
               <a
-                href="https://www.facebook.com/profile.php?id=61571195877825"
+                href="https://www.facebook.com/share/1AEtTpZba1/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -126,7 +126,7 @@ const Footer = () => {
                 <Facebook size={20} />
               </a>
               <a
-                href="https://www.linkedin.com/in/your-linkedin-profile"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -135,7 +135,7 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="https://www.instagram.com/your-instagram-profile"
+                href="https://www.instagram.com/motorcade_llc?igsh=YmNlczYwNjZvMDBh"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -144,7 +144,7 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a
-                href="https://www.tiktok.com/@your-tiktok-username"
+                href="https://www.tiktok.com/@motorcadellc?_t=ZM-8uyPSIxZI7q&_r=1"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TikTok"
