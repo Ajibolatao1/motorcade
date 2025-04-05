@@ -11,61 +11,75 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: <MapPin className="h-6 w-6" />,
-      title: t('visit_us'),
+      title: t("visit_us"),
       details: [
-        'Unit 1207,',
-        'Building 1,',
-        'No. 288, Zhuhai East Road,',
-        'Jiaonan City, Qingdao'
-      ]
+        "Unit 1207,",
+        "Building 1,",
+        "No. 288, Zhuhai East Road,",
+        "Jiaonan City, Qingdao",
+        "Shandong Province, P. R. China",
+      ],
     },
     {
       icon: <Phone className="h-6 w-6" />,
-      title: t('call_us'),
+      title: t("call_us"),
       details: [
-        { text: '+8617864268032', link: 'tel:+8617864268032' },
-        { text: '+8617852160455', link: 'tel:+8617852160455' }
-      ]
+        { text: "+8617864268032", link: "tel:+8617864268032" },
+        { text: "+8617852160455", link: "tel:+8617852160455" },
+      ],
     },
     {
       icon: <MessageCircle className="h-6 w-6 text-green-500" />,
-      title: t('whatsapp'),
+      title: t("whatsapp"),
       details: [
-        { text: '+8617864268032 (' + t('chat_now') + ')', link: 'https://wa.me/8617864268032' },
-        { text: '+8617852160455 (' + t('chat_now') + ')', link: 'https://wa.me/8617852160455' }
-      ]
+        {
+          text: "+8617864268032 (" + t("chat_now") + ")",
+          link: "https://wa.me/8617864268032",
+        },
+        {
+          text: "+8617852160455 (" + t("chat_now") + ")",
+          link: "https://wa.me/8617852160455",
+        },
+      ],
     },
     {
       icon: <MessageCircle className="h-6 w-6 text-blue-500" />,
-      title: t('wechat'),
+      title: t("wechat"),
       details: [
         {
-          text: '+8617864268032 (' + t('scan_qr_to_chat') + ')',
-          link: '/wechat-qr-17864268032.jpg' // Image in public folder
+          text: "+8617864268032 (" + t("scan_qr_to_chat") + ")",
+          link: "/wechat-qr-17864268032.jpg", // Image in public folder
         },
         {
-          text: '+8617852160455 (' + t('scan_qr_to_chat') + ')',
-          link: '/wechat-qr-17852160455.jpg'
-        }
-      ]
+          text: "+8617852160455 (" + t("scan_qr_to_chat") + ")",
+          link: "/wechat-qr-17852160455.jpg",
+        },
+      ],
     },
-    
+
     {
       icon: <Mail className="h-6 w-6" />,
-      title: t('email_us'),
+      title: t("email_us"),
       details: [
-        { text: '13061287760@163.com', link: 'mailto:13061287760@163.com' }
-      ]
+        {
+          text: "fortune@automotorcade.com",
+          link: "mailto:fortune@automotorcade.com",
+        },
+        {
+          text: "sales01@automotorcade.com",
+          link: "mailto:sales01@automotorcade.com",
+        },
+      ],
     },
     {
       icon: <Clock className="h-6 w-6" />,
-      title: t('operating_hours'),
+      title: t("operating_hours"),
       details: [
-        t('monday_friday') + ': 9:00 AM - 6:00 PM CST',
-        t('saturday') + ': 10:00 AM - 4:00 PM CST',
-        t('sunday') + ': ' + t('closed')
-      ]
-    }
+        t("monday_friday") + ": 9:00 AM - 6:00 PM CST",
+        t("saturday") + ": 10:00 AM - 4:00 PM CST",
+        t("sunday") + ": " + t("closed"),
+      ],
+    },
   ];
 
   return (
